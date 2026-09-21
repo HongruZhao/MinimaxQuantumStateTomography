@@ -43,7 +43,7 @@ Thus it sends each Pauli string to another Pauli string, up to phase. Familiar C
 
 ### The periodic two-layer experiment
 
-Each layer partitions the qubit ring into $n/k$ disjoint blocks of $k$ qubits and applies an independent random Clifford gate to every block. The first layer uses blocks shifted by $k/2$ relative to the second layer; neighboring layers therefore overlap on half a block. The ring wraps around at its ends. Both layers are resampled independently for every measured copy. The two-layer description counts operations on whole $k$-qubit blocks; each block can contain several elementary gates.
+Each layer partitions the qubit ring into $n/k$ disjoint blocks of $k$ qubits and applies an independent random Clifford gate to every block. The first layer uses blocks shifted by $k/2$ relative to the second layer. When $k<n$, overlapping blocks in different layers share $k/2$ qubits. When $k=n$, both layers act on the entire system. The ring wraps around at its ends. Both layers are resampled independently for every measured copy. The two-layer description counts operations on whole $k$-qubit blocks; each block can contain several elementary gates.
 
 The upper bounds assume the paper's sufficient block condition
 
