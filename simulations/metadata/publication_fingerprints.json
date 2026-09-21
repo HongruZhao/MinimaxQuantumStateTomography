@@ -1,0 +1,10 @@
+{
+  "three_estimator_comparison_2026-09-11/selected_summary.json": "1a5045e8eda6fac8eeeeb72832f541a1793750b5e9b5b247b567dcb1797b515d",
+  "three_estimator_comparison_2026-09-11/vary_measurements_three.png": "8e59a2d2970f2f2bbe728a8f5d84400b31e76a5fac0d9bfa68de49312e70a1bf",
+  "three_estimator_comparison_2026-09-11/vary_dimension_three.png": "9353c2ce22785fcdbbf658db542fc1aba069c2267ae78ab7512ab73b92888781",
+  "estimator_revision_2026-09-20/reports/global_summary.json": "69115dd715d9b7b2c3f154a837166765efb46ce35a11f9d003e48908d7299fb7",
+  "estimator_revision_2026-09-20/reports/corrected_block_summary.json": "c93f0fbc14caffeddcfd411c46d8a3bc83f2c4aaa4062ec5d2ecd41e336df458",
+  "estimator_revision_2026-09-20/figures/vary_block_size_three_corrected.png": "77e8e5a691ce2c06adabd0fe8256b480e4b48ea2118fba2a07cc54bc4fdaaf44",
+  "estimator_review_fix_2026-09-20/reports/fresh_summary.csv": "7a5dc6e5826d457058c6be258518fbf4bd9868ba5fe4427b639f56fc320c82ba",
+  "estimator_review_fix_2026-09-20/reports/fresh_review_validation.json": "c0b56518970e752232d478d7c539816419e362c432979d34caf3d5a77cee2e46"
+}

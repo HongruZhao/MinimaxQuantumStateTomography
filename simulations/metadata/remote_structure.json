@@ -1,0 +1,2321 @@
+{
+  "utc": "2026-09-20T18:22:02.616851+00:00",
+  "root": "/projects/standard/galin/shared/hongru/Clifford_Minimax",
+  "folders": {
+    "fair_solver_comparison_100reps_2026-09-09": [
+      {
+        "name": "PROTOCOL.md",
+        "type": "file",
+        "bytes": 6859
+      },
+      {
+        "name": "README.md",
+        "type": "file",
+        "bytes": 844
+      },
+      {
+        "name": "STATUS.md",
+        "type": "file",
+        "bytes": 713
+      },
+      {
+        "name": "__pycache__",
+        "type": "directory",
+        "bytes": null
+      },
+      {
+        "name": "accelerated.py",
+        "type": "file",
+        "bytes": 1181
+      },
+      {
+        "name": "baseline.py",
+        "type": "file",
+        "bytes": 5472
+      },
+      {
+        "name": "benchmark.py",
+        "type": "file",
+        "bytes": 9621
+      },
+      {
+        "name": "check_solver.py",
+        "type": "file",
+        "bytes": 1225
+      },
+      {
+        "name": "clifford_representatives.npz",
+        "type": "file",
+        "bytes": 126955
+      },
+      {
+        "name": "data",
+        "type": "directory",
+        "bytes": null,
+        "children": [
+          {
+            "name": "rep_020",
+            "type": "directory",
+            "bytes": null
+          },
+          {
+            "name": "rep_021",
+            "type": "directory",
+            "bytes": null
+          },
+          {
+            "name": "rep_022",
+            "type": "directory",
+            "bytes": null
+          },
+          {
+            "name": "rep_023",
+            "type": "directory",
+            "bytes": null
+          },
+          {
+            "name": "rep_024",
+            "type": "directory",
+            "bytes": null
+          },
+          {
+            "name": "rep_025",
+            "type": "directory",
+            "bytes": null
+          },
+          {
+            "name": "rep_026",
+            "type": "directory",
+            "bytes": null
+          },
+          {
+            "name": "rep_027",
+            "type": "directory",
+            "bytes": null
+          },
+          {
+            "name": "rep_028",
+            "type": "directory",
+            "bytes": null
+          },
+          {
+            "name": "rep_029",
+            "type": "directory",
+            "bytes": null
+          },
+          {
+            "name": "rep_030",
+            "type": "directory",
+            "bytes": null
+          },
+          {
+            "name": "rep_031",
+            "type": "directory",
+            "bytes": null
+          },
+          {
+            "name": "rep_032",
+            "type": "directory",
+            "bytes": null
+          },
+          {
+            "name": "rep_033",
+            "type": "directory",
+            "bytes": null
+          },
+          {
+            "name": "rep_034",
+            "type": "directory",
+            "bytes": null
+          },
+          {
+            "name": "rep_035",
+            "type": "directory",
+            "bytes": null
+          },
+          {
+            "name": "rep_036",
+            "type": "directory",
+            "bytes": null
+          },
+          {
+            "name": "rep_037",
+            "type": "directory",
+            "bytes": null
+          },
+          {
+            "name": "rep_038",
+            "type": "directory",
+            "bytes": null
+          },
+          {
+            "name": "rep_039",
+            "type": "directory",
+            "bytes": null
+          },
+          {
+            "name": "rep_040",
+            "type": "directory",
+            "bytes": null
+          },
+          {
+            "name": "rep_041",
+            "type": "directory",
+            "bytes": null
+          },
+          {
+            "name": "rep_042",
+            "type": "directory",
+            "bytes": null
+          },
+          {
+            "name": "rep_043",
+            "type": "directory",
+            "bytes": null
+          },
+          {
+            "name": "rep_044",
+            "type": "directory",
+            "bytes": null
+          },
+          {
+            "name": "rep_045",
+            "type": "directory",
+            "bytes": null
+          },
+          {
+            "name": "rep_046",
+            "type": "directory",
+            "bytes": null
+          },
+          {
+            "name": "rep_047",
+            "type": "directory",
+            "bytes": null
+          },
+          {
+            "name": "rep_048",
+            "type": "directory",
+            "bytes": null
+          },
+          {
+            "name": "rep_049",
+            "type": "directory",
+            "bytes": null
+          }
+        ]
+      },
+      {
+        "name": "generate.slurm",
+        "type": "file",
+        "bytes": 777
+      },
+      {
+        "name": "generate_data.py",
+        "type": "file",
+        "bytes": 2080
+      },
+      {
+        "name": "large_simulation.py",
+        "type": "file",
+        "bytes": 3397
+      },
+      {
+        "name": "logs",
+        "type": "directory",
+        "bytes": null
+      },
+      {
+        "name": "memory",
+        "type": "directory",
+        "bytes": null
+      },
+      {
+        "name": "memory.slurm",
+        "type": "file",
+        "bytes": 713
+      },
+      {
+        "name": "memory_inputs",
+        "type": "directory",
+        "bytes": null
+      },
+      {
+        "name": "memory_run.py",
+        "type": "file",
+        "bytes": 988
+      },
+      {
+        "name": "memory_summary.json",
+        "type": "file",
+        "bytes": 1345
+      },
+      {
+        "name": "pilot.py",
+        "type": "file",
+        "bytes": 46
+      },
+      {
+        "name": "pilot.slurm",
+        "type": "file",
+        "bytes": 825
+      },
+      {
+        "name": "plot_results.py",
+        "type": "file",
+        "bytes": 9373
+      },
+      {
+        "name": "prepare.slurm",
+        "type": "file",
+        "bytes": 449
+      },
+      {
+        "name": "prepare_memory.py",
+        "type": "file",
+        "bytes": 280
+      },
+      {
+        "name": "projections.py",
+        "type": "file",
+        "bytes": 1394
+      },
+      {
+        "name": "render.slurm",
+        "type": "file",
+        "bytes": 491
+      },
+      {
+        "name": "results",
+        "type": "directory",
+        "bytes": null,
+        "children": [
+          {
+            "name": "case_00",
+            "type": "directory",
+            "bytes": null
+          },
+          {
+            "name": "case_01",
+            "type": "directory",
+            "bytes": null
+          },
+          {
+            "name": "case_02",
+            "type": "directory",
+            "bytes": null
+          },
+          {
+            "name": "case_03",
+            "type": "directory",
+            "bytes": null
+          },
+          {
+            "name": "case_04",
+            "type": "directory",
+            "bytes": null
+          },
+          {
+            "name": "case_05",
+            "type": "directory",
+            "bytes": null
+          },
+          {
+            "name": "case_06",
+            "type": "directory",
+            "bytes": null
+          },
+          {
+            "name": "case_07",
+            "type": "directory",
+            "bytes": null
+          },
+          {
+            "name": "case_08",
+            "type": "directory",
+            "bytes": null
+          },
+          {
+            "name": "case_09",
+            "type": "directory",
+            "bytes": null
+          }
+        ]
+      },
+      {
+        "name": "solver_source_manifest.json",
+        "type": "file",
+        "bytes": 1313
+      },
+      {
+        "name": "stabilizer_sampling.py",
+        "type": "file",
+        "bytes": 1931
+      },
+      {
+        "name": "submission.json",
+        "type": "file",
+        "bytes": 1628
+      },
+      {
+        "name": "summary.csv",
+        "type": "file",
+        "bytes": 4309
+      },
+      {
+        "name": "summary.json",
+        "type": "file",
+        "bytes": 15439
+      },
+      {
+        "name": "timeout_retry_739.json",
+        "type": "file",
+        "bytes": 261
+      },
+      {
+        "name": "timing.slurm",
+        "type": "file",
+        "bytes": 699
+      },
+      {
+        "name": "validate_sampler.py",
+        "type": "file",
+        "bytes": 1141
+      },
+      {
+        "name": "validation.json",
+        "type": "file",
+        "bytes": 275
+      },
+      {
+        "name": "vary_block_size.png",
+        "type": "file",
+        "bytes": 226670
+      },
+      {
+        "name": "vary_block_size.svg",
+        "type": "file",
+        "bytes": 88533
+      },
+      {
+        "name": "vary_dimension.png",
+        "type": "file",
+        "bytes": 229946
+      },
+      {
+        "name": "vary_dimension.svg",
+        "type": "file",
+        "bytes": 101464
+      },
+      {
+        "name": "vary_measurements.png",
+        "type": "file",
+        "bytes": 217898
+      },
+      {
+        "name": "vary_measurements.svg",
+        "type": "file",
+        "bytes": 92216
+      }
+    ],
+    "mw_pls_fw_benchmark_2026-09-10": [
+      {
+        "name": "PILOT_SUMMARY.md",
+        "type": "file",
+        "bytes": 1967
+      },
+      {
+        "name": "PROTOCOL.md",
+        "type": "file",
+        "bytes": 4247
+      },
+      {
+        "name": "STATUS.md",
+        "type": "file",
+        "bytes": 4480
+      },
+      {
+        "name": "__pycache__",
+        "type": "directory",
+        "bytes": null
+      },
+      {
+        "name": "accelerated.py",
+        "type": "file",
+        "bytes": 1181
+      },
+      {
+        "name": "audit_artifacts.py",
+        "type": "file",
+        "bytes": 3587
+      },
+      {
+        "name": "baseline.py",
+        "type": "file",
+        "bytes": 5472
+      },
+      {
+        "name": "benchmark_mw.py",
+        "type": "file",
+        "bytes": 7247
+      },
+      {
+        "name": "check_local.py",
+        "type": "file",
+        "bytes": 1077
+      },
+      {
+        "name": "deliverables",
+        "type": "directory",
+        "bytes": null
+      },
+      {
+        "name": "existing.py",
+        "type": "file",
+        "bytes": 9695
+      },
+      {
+        "name": "logs",
+        "type": "directory",
+        "bytes": null
+      },
+      {
+        "name": "main_100_phase_a",
+        "type": "directory",
+        "bytes": null
+      },
+      {
+        "name": "main_100_phase_a.json",
+        "type": "file",
+        "bytes": 2175
+      },
+      {
+        "name": "main_100_phase_a.slurm",
+        "type": "file",
+        "bytes": 699
+      },
+      {
+        "name": "main_100_phase_a_memory",
+        "type": "directory",
+        "bytes": null
+      },
+      {
+        "name": "main_100_phase_b",
+        "type": "directory",
+        "bytes": null
+      },
+      {
+        "name": "main_100_phase_b.json",
+        "type": "file",
+        "bytes": 2120
+      },
+      {
+        "name": "main_100_phase_b.slurm",
+        "type": "file",
+        "bytes": 699
+      },
+      {
+        "name": "memory.slurm",
+        "type": "file",
+        "bytes": 730
+      },
+      {
+        "name": "memory_mw.py",
+        "type": "file",
+        "bytes": 2078
+      },
+      {
+        "name": "monitoring",
+        "type": "directory",
+        "bytes": null
+      },
+      {
+        "name": "omd_tolerance.py",
+        "type": "file",
+        "bytes": 1201
+      },
+      {
+        "name": "pilot.py",
+        "type": "file",
+        "bytes": 4996
+      },
+      {
+        "name": "pilot.slurm",
+        "type": "file",
+        "bytes": 667
+      },
+      {
+        "name": "pilot_T_stat.py",
+        "type": "file",
+        "bytes": 4973
+      },
+      {
+        "name": "pilot_T_stat.slurm",
+        "type": "file",
+        "bytes": 680
+      },
+      {
+        "name": "pilot_results",
+        "type": "directory",
+        "bytes": null
+      },
+      {
+        "name": "pilot_summary.json",
+        "type": "file",
+        "bytes": 27632
+      },
+      {
+        "name": "projections.py",
+        "type": "file",
+        "bytes": 1394
+      },
+      {
+        "name": "render.slurm",
+        "type": "file",
+        "bytes": 549
+      },
+      {
+        "name": "reports",
+        "type": "directory",
+        "bytes": null,
+        "children": [
+          {
+            "name": "dimension_errors.png",
+            "type": "file",
+            "bytes": 516210
+          },
+          {
+            "name": "dimension_errors.svg",
+            "type": "file",
+            "bytes": 159669
+          },
+          {
+            "name": "fw_work.png",
+            "type": "file",
+            "bytes": 280495
+          },
+          {
+            "name": "fw_work.svg",
+            "type": "file",
+            "bytes": 97705
+          },
+          {
+            "name": "objective_gap.png",
+            "type": "file",
+            "bytes": 316644
+          },
+          {
+            "name": "objective_gap.svg",
+            "type": "file",
+            "bytes": 111741
+          },
+          {
+            "name": "summary.csv",
+            "type": "file",
+            "bytes": 39207
+          },
+          {
+            "name": "summary.json",
+            "type": "file",
+            "bytes": 161001
+          },
+          {
+            "name": "validation.json",
+            "type": "file",
+            "bytes": 15483
+          },
+          {
+            "name": "vary_block_size.png",
+            "type": "file",
+            "bytes": 477123
+          },
+          {
+            "name": "vary_block_size.svg",
+            "type": "file",
+            "bytes": 151900
+          },
+          {
+            "name": "vary_dimension.png",
+            "type": "file",
+            "bytes": 309973
+          },
+          {
+            "name": "vary_dimension.svg",
+            "type": "file",
+            "bytes": 117990
+          },
+          {
+            "name": "vary_measurements.png",
+            "type": "file",
+            "bytes": 542709
+          },
+          {
+            "name": "vary_measurements.svg",
+            "type": "file",
+            "bytes": 159972
+          }
+        ]
+      },
+      {
+        "name": "reports_final_2026-09-11",
+        "type": "directory",
+        "bytes": null
+      },
+      {
+        "name": "reports_snapshot_2026-09-10_1835",
+        "type": "directory",
+        "bytes": null
+      },
+      {
+        "name": "reports_snapshot_2026-09-10_1935",
+        "type": "directory",
+        "bytes": null
+      },
+      {
+        "name": "reports_snapshot_2026-09-10_2037",
+        "type": "directory",
+        "bytes": null
+      },
+      {
+        "name": "reports_snapshot_2026-09-10_2139",
+        "type": "directory",
+        "bytes": null
+      },
+      {
+        "name": "reports_snapshot_2026-09-11_0228",
+        "type": "directory",
+        "bytes": null
+      },
+      {
+        "name": "reports_snapshot_2026-09-11_0329",
+        "type": "directory",
+        "bytes": null
+      },
+      {
+        "name": "reports_snapshot_2026-09-11_0433",
+        "type": "directory",
+        "bytes": null
+      },
+      {
+        "name": "solvers.py",
+        "type": "file",
+        "bytes": 5710
+      },
+      {
+        "name": "source_snapshots",
+        "type": "directory",
+        "bytes": null
+      },
+      {
+        "name": "submission.json",
+        "type": "file",
+        "bytes": 1392
+      },
+      {
+        "name": "summarize.py",
+        "type": "file",
+        "bytes": 17613
+      },
+      {
+        "name": "timed_pilot",
+        "type": "directory",
+        "bytes": null
+      },
+      {
+        "name": "timed_pilot.json",
+        "type": "file",
+        "bytes": 1348
+      },
+      {
+        "name": "timed_pilot.slurm",
+        "type": "file",
+        "bytes": 697
+      },
+      {
+        "name": "verify_final.slurm",
+        "type": "file",
+        "bytes": 588
+      }
+    ],
+    "three_estimator_comparison_2026-09-11": [
+      {
+        "name": "MANIFEST.json",
+        "type": "file",
+        "bytes": 2332
+      },
+      {
+        "name": "README.md",
+        "type": "file",
+        "bytes": 4713
+      },
+      {
+        "name": "SHA256SUMS",
+        "type": "file",
+        "bytes": 1513
+      },
+      {
+        "name": "combined_validation.json",
+        "type": "file",
+        "bytes": 10372
+      },
+      {
+        "name": "msi_source_verification.json",
+        "type": "file",
+        "bytes": 352
+      },
+      {
+        "name": "plot_combined.py",
+        "type": "file",
+        "bytes": 6528
+      },
+      {
+        "name": "plot_selected.py",
+        "type": "file",
+        "bytes": 10983
+      },
+      {
+        "name": "selected_summary.csv",
+        "type": "file",
+        "bytes": 15753
+      },
+      {
+        "name": "selected_summary.json",
+        "type": "file",
+        "bytes": 43674
+      },
+      {
+        "name": "three_comparisons_combined.png",
+        "type": "file",
+        "bytes": 692312
+      },
+      {
+        "name": "three_comparisons_combined.svg",
+        "type": "file",
+        "bytes": 155553
+      },
+      {
+        "name": "validation.json",
+        "type": "file",
+        "bytes": 801
+      },
+      {
+        "name": "vary_block_size_three.png",
+        "type": "file",
+        "bytes": 278727
+      },
+      {
+        "name": "vary_block_size_three.svg",
+        "type": "file",
+        "bytes": 58180
+      },
+      {
+        "name": "vary_dimension_three.png",
+        "type": "file",
+        "bytes": 299296
+      },
+      {
+        "name": "vary_dimension_three.svg",
+        "type": "file",
+        "bytes": 67088
+      },
+      {
+        "name": "vary_measurements_three.png",
+        "type": "file",
+        "bytes": 284277
+      },
+      {
+        "name": "vary_measurements_three.svg",
+        "type": "file",
+        "bytes": 64929
+      }
+    ],
+    "estimator_revision_2026-09-20": [
+      {
+        "name": "PROTOCOL.md",
+        "type": "file",
+        "bytes": 4507
+      },
+      {
+        "name": "README.md",
+        "type": "file",
+        "bytes": 6047
+      },
+      {
+        "name": "WORK_STATUS.md",
+        "type": "file",
+        "bytes": 2539
+      },
+      {
+        "name": "analysis",
+        "type": "directory",
+        "bytes": null,
+        "children": [
+          {
+            "name": "check_n8_channel.py",
+            "type": "file",
+            "bytes": 1943
+          },
+          {
+            "name": "correct_block_figure.py",
+            "type": "file",
+            "bytes": 3310
+          },
+          {
+            "name": "make_report.py",
+            "type": "file",
+            "bytes": 11215
+          },
+          {
+            "name": "package_delivery.py",
+            "type": "file",
+            "bytes": 3982
+          },
+          {
+            "name": "summarize_results.py",
+            "type": "file",
+            "bytes": 12847
+          }
+        ]
+      },
+      {
+        "name": "assets",
+        "type": "directory",
+        "bytes": null
+      },
+      {
+        "name": "configs",
+        "type": "directory",
+        "bytes": null,
+        "children": [
+          {
+            "name": "convergence_n4.json",
+            "type": "file",
+            "bytes": 1395
+          },
+          {
+            "name": "convergence_n8.json",
+            "type": "file",
+            "bytes": 276
+          },
+          {
+            "name": "pilot.json",
+            "type": "file",
+            "bytes": 675
+          }
+        ]
+      },
+      {
+        "name": "figures",
+        "type": "directory",
+        "bytes": null,
+        "children": [
+          {
+            "name": "convergence_n4_linear.pdf",
+            "type": "file",
+            "bytes": 26502
+          },
+          {
+            "name": "convergence_n4_linear.png",
+            "type": "file",
+            "bytes": 349378
+          },
+          {
+            "name": "convergence_n4_log.pdf",
+            "type": "file",
+            "bytes": 26835
+          },
+          {
+            "name": "convergence_n4_log.png",
+            "type": "file",
+            "bytes": 294403
+          },
+          {
+            "name": "convergence_n8.pdf",
+            "type": "file",
+            "bytes": 17262
+          },
+          {
+            "name": "convergence_n8.png",
+            "type": "file",
+            "bytes": 182353
+          },
+          {
+            "name": "global_corrected.pdf",
+            "type": "file",
+            "bytes": 18089
+          },
+          {
+            "name": "global_corrected.png",
+            "type": "file",
+            "bytes": 80573
+          },
+          {
+            "name": "stopping_checks.pdf",
+            "type": "file",
+            "bytes": 16034
+          },
+          {
+            "name": "stopping_checks.png",
+            "type": "file",
+            "bytes": 128638
+          },
+          {
+            "name": "vary_block_size_three_corrected.pdf",
+            "type": "file",
+            "bytes": 15754
+          },
+          {
+            "name": "vary_block_size_three_corrected.png",
+            "type": "file",
+            "bytes": 204105
+          },
+          {
+            "name": "vary_block_size_three_corrected.svg",
+            "type": "file",
+            "bytes": 52176
+          }
+        ]
+      },
+      {
+        "name": "jobs",
+        "type": "directory",
+        "bytes": null,
+        "children": [
+          {
+            "name": "audit.slurm",
+            "type": "file",
+            "bytes": 686
+          },
+          {
+            "name": "convergence_n4.slurm",
+            "type": "file",
+            "bytes": 709
+          },
+          {
+            "name": "convergence_n8.slurm",
+            "type": "file",
+            "bytes": 709
+          },
+          {
+            "name": "global.slurm",
+            "type": "file",
+            "bytes": 678
+          },
+          {
+            "name": "pilot.slurm",
+            "type": "file",
+            "bytes": 691
+          }
+        ]
+      },
+      {
+        "name": "logs",
+        "type": "directory",
+        "bytes": null
+      },
+      {
+        "name": "output",
+        "type": "directory",
+        "bytes": null,
+        "children": [
+          {
+            "name": "MSI_ESTIMATORS_CODE_AND_RESULTS_SUMMARY.zip",
+            "type": "file",
+            "bytes": 7568454
+          },
+          {
+            "name": "pdf",
+            "type": "directory",
+            "bytes": null
+          }
+        ]
+      },
+      {
+        "name": "reports",
+        "type": "directory",
+        "bytes": null,
+        "children": [
+          {
+            "name": "FIXED_DIMENSION_CONSISTENCY.md",
+            "type": "file",
+            "bytes": 2679
+          },
+          {
+            "name": "active_revision.json",
+            "type": "file",
+            "bytes": 577
+          },
+          {
+            "name": "convergence_n4_summary.csv",
+            "type": "file",
+            "bytes": 27134
+          },
+          {
+            "name": "convergence_n4_summary.json",
+            "type": "file",
+            "bytes": 75265
+          },
+          {
+            "name": "convergence_n8_summary.csv",
+            "type": "file",
+            "bytes": 3922
+          },
+          {
+            "name": "convergence_n8_summary.json",
+            "type": "file",
+            "bytes": 10967
+          },
+          {
+            "name": "corrected_block_summary.json",
+            "type": "file",
+            "bytes": 3775
+          },
+          {
+            "name": "delivery_sync_verification.json",
+            "type": "file",
+            "bytes": 483
+          },
+          {
+            "name": "deployed_source_sha256.json",
+            "type": "file",
+            "bytes": 2168
+          },
+          {
+            "name": "final_summary.log",
+            "type": "file",
+            "bytes": 1298
+          },
+          {
+            "name": "final_verification.json",
+            "type": "file",
+            "bytes": 748
+          },
+          {
+            "name": "global_original_input_validation.json",
+            "type": "file",
+            "bytes": 164
+          },
+          {
+            "name": "global_summary.json",
+            "type": "file",
+            "bytes": 1154
+          },
+          {
+            "name": "global_summary.log",
+            "type": "file",
+            "bytes": 1154
+          },
+          {
+            "name": "latex_main.log",
+            "type": "file",
+            "bytes": 17583
+          },
+          {
+            "name": "latex_supplement.log",
+            "type": "file",
+            "bytes": 33095
+          },
+          {
+            "name": "local_download_verification.json",
+            "type": "file",
+            "bytes": 222
+          },
+          {
+            "name": "local_solver_audit.json",
+            "type": "file",
+            "bytes": 456488
+          },
+          {
+            "name": "local_solver_audit.log",
+            "type": "file",
+            "bytes": 110424
+          },
+          {
+            "name": "local_solver_audit_retry.log",
+            "type": "file",
+            "bytes": 3659
+          },
+          {
+            "name": "msi_solver_audit.json",
+            "type": "file",
+            "bytes": 465271
+          },
+          {
+            "name": "n8_channel_audit.json",
+            "type": "file",
+            "bytes": 1185
+          },
+          {
+            "name": "n8_channel_audit.log",
+            "type": "file",
+            "bytes": 1185
+          },
+          {
+            "name": "package_verification.json",
+            "type": "file",
+            "bytes": 412
+          },
+          {
+            "name": "paper_update_manifest.json",
+            "type": "file",
+            "bytes": 1341
+          },
+          {
+            "name": "pdf_qa",
+            "type": "directory",
+            "bytes": null
+          },
+          {
+            "name": "python_review_export",
+            "type": "directory",
+            "bytes": null
+          },
+          {
+            "name": "raw_results_manifest.json",
+            "type": "file",
+            "bytes": 296977
+          },
+          {
+            "name": "report_extracted_text.txt",
+            "type": "file",
+            "bytes": 5779
+          },
+          {
+            "name": "root_readme_before.md",
+            "type": "file",
+            "bytes": 3731
+          }
+        ]
+      },
+      {
+        "name": "requirements-analysis.txt",
+        "type": "file",
+        "bytes": 68
+      },
+      {
+        "name": "requirements-simulation.txt",
+        "type": "file",
+        "bytes": 124
+      },
+      {
+        "name": "results",
+        "type": "directory",
+        "bytes": null,
+        "children": [
+          {
+            "name": "convergence_n4",
+            "type": "directory",
+            "bytes": null
+          },
+          {
+            "name": "convergence_n8",
+            "type": "directory",
+            "bytes": null
+          },
+          {
+            "name": "global_rebenchmark",
+            "type": "directory",
+            "bytes": null
+          },
+          {
+            "name": "pilot",
+            "type": "directory",
+            "bytes": null
+          }
+        ]
+      },
+      {
+        "name": "src",
+        "type": "directory",
+        "bytes": null,
+        "children": [
+          {
+            "name": "__pycache__",
+            "type": "directory",
+            "bytes": null
+          },
+          {
+            "name": "accelerated.py",
+            "type": "file",
+            "bytes": 1181
+          },
+          {
+            "name": "audit_solvers.py",
+            "type": "file",
+            "bytes": 8437
+          },
+          {
+            "name": "baseline.py",
+            "type": "file",
+            "bytes": 5472
+          },
+          {
+            "name": "channel.py",
+            "type": "file",
+            "bytes": 574
+          },
+          {
+            "name": "clifford_representatives.npz",
+            "type": "file",
+            "bytes": 126955
+          },
+          {
+            "name": "estimators.py",
+            "type": "file",
+            "bytes": 5462
+          },
+          {
+            "name": "existing.py",
+            "type": "file",
+            "bytes": 9695
+          },
+          {
+            "name": "global_solution.py",
+            "type": "file",
+            "bytes": 785
+          },
+          {
+            "name": "large_simulation.py",
+            "type": "file",
+            "bytes": 3397
+          },
+          {
+            "name": "omd_tolerance.py",
+            "type": "file",
+            "bytes": 1298
+          },
+          {
+            "name": "projections.py",
+            "type": "file",
+            "bytes": 1394
+          },
+          {
+            "name": "run_convergence.py",
+            "type": "file",
+            "bytes": 4034
+          },
+          {
+            "name": "run_global_benchmark.py",
+            "type": "file",
+            "bytes": 3092
+          },
+          {
+            "name": "sampling.py",
+            "type": "file",
+            "bytes": 5372
+          },
+          {
+            "name": "solvers.py",
+            "type": "file",
+            "bytes": 5813
+          }
+        ]
+      }
+    ],
+    "estimator_review_fix_2026-09-20": [
+      {
+        "name": "DEPLOYMENT.json",
+        "type": "file",
+        "bytes": 257
+      },
+      {
+        "name": "README.md",
+        "type": "file",
+        "bytes": 6341
+      },
+      {
+        "name": "REVIEW_CLAIMS.md",
+        "type": "file",
+        "bytes": 1135
+      },
+      {
+        "name": "SOURCE_SHA256.json",
+        "type": "file",
+        "bytes": 1589
+      },
+      {
+        "name": "WORK_STATUS.md",
+        "type": "file",
+        "bytes": 1501
+      },
+      {
+        "name": "analysis",
+        "type": "directory",
+        "bytes": null,
+        "children": [
+          {
+            "name": "check_n8_channel.py",
+            "type": "file",
+            "bytes": 1943
+          },
+          {
+            "name": "correct_block_figure.py",
+            "type": "file",
+            "bytes": 3310
+          },
+          {
+            "name": "make_report.py",
+            "type": "file",
+            "bytes": 11215
+          },
+          {
+            "name": "make_review_report.py",
+            "type": "file",
+            "bytes": 6632
+          },
+          {
+            "name": "package_delivery.py",
+            "type": "file",
+            "bytes": 3982
+          },
+          {
+            "name": "refine_failed_accuracy.py",
+            "type": "file",
+            "bytes": 3043
+          },
+          {
+            "name": "revalidate_legacy.py",
+            "type": "file",
+            "bytes": 4074
+          },
+          {
+            "name": "run_review_simulation.py",
+            "type": "file",
+            "bytes": 4216
+          },
+          {
+            "name": "summarize_results.py",
+            "type": "file",
+            "bytes": 12847
+          },
+          {
+            "name": "summarize_review.py",
+            "type": "file",
+            "bytes": 10425
+          }
+        ]
+      },
+      {
+        "name": "configs",
+        "type": "directory",
+        "bytes": null,
+        "children": [
+          {
+            "name": "convergence_n4.json",
+            "type": "file",
+            "bytes": 1395
+          },
+          {
+            "name": "convergence_n8.json",
+            "type": "file",
+            "bytes": 276
+          },
+          {
+            "name": "pilot.json",
+            "type": "file",
+            "bytes": 675
+          },
+          {
+            "name": "review_fresh.json",
+            "type": "file",
+            "bytes": 636
+          }
+        ]
+      },
+      {
+        "name": "figures",
+        "type": "directory",
+        "bytes": null,
+        "children": [
+          {
+            "name": "fresh_convergence.pdf",
+            "type": "file",
+            "bytes": 27148
+          },
+          {
+            "name": "fresh_convergence.png",
+            "type": "file",
+            "bytes": 218346
+          }
+        ]
+      },
+      {
+        "name": "fixtures",
+        "type": "directory",
+        "bytes": null
+      },
+      {
+        "name": "jobs",
+        "type": "directory",
+        "bytes": null,
+        "children": [
+          {
+            "name": "audit.slurm",
+            "type": "file",
+            "bytes": 688
+          },
+          {
+            "name": "convergence_n4.slurm",
+            "type": "file",
+            "bytes": 711
+          },
+          {
+            "name": "convergence_n8.slurm",
+            "type": "file",
+            "bytes": 711
+          },
+          {
+            "name": "global.slurm",
+            "type": "file",
+            "bytes": 680
+          },
+          {
+            "name": "pilot.slurm",
+            "type": "file",
+            "bytes": 693
+          },
+          {
+            "name": "review_accuracy_extension.slurm",
+            "type": "file",
+            "bytes": 667
+          },
+          {
+            "name": "review_fresh.slurm",
+            "type": "file",
+            "bytes": 716
+          }
+        ]
+      },
+      {
+        "name": "logs",
+        "type": "directory",
+        "bytes": null
+      },
+      {
+        "name": "original",
+        "type": "directory",
+        "bytes": null
+      },
+      {
+        "name": "output",
+        "type": "directory",
+        "bytes": null,
+        "children": [
+          {
+            "name": "pdf",
+            "type": "directory",
+            "bytes": null
+          }
+        ]
+      },
+      {
+        "name": "reports",
+        "type": "directory",
+        "bytes": null,
+        "children": [
+          {
+            "name": "after_tight_omd.json",
+            "type": "file",
+            "bytes": 5226
+          },
+          {
+            "name": "after_tight_omd.npz",
+            "type": "file",
+            "bytes": 5125
+          },
+          {
+            "name": "before_review_reproduction.json",
+            "type": "file",
+            "bytes": 58249
+          },
+          {
+            "name": "before_tight_omd.npz",
+            "type": "file",
+            "bytes": 5111
+          },
+          {
+            "name": "code_correction.diff",
+            "type": "file",
+            "bytes": 29676
+          },
+          {
+            "name": "fresh_extraction_regressions.log",
+            "type": "file",
+            "bytes": 730
+          },
+          {
+            "name": "fresh_review_validation.json",
+            "type": "file",
+            "bytes": 368170
+          },
+          {
+            "name": "fresh_summary.csv",
+            "type": "file",
+            "bytes": 6788
+          },
+          {
+            "name": "fresh_summary.log",
+            "type": "file",
+            "bytes": 4606
+          },
+          {
+            "name": "latex_main_final.log",
+            "type": "file",
+            "bytes": 17582
+          },
+          {
+            "name": "latex_main_initial.log",
+            "type": "file",
+            "bytes": 34945
+          },
+          {
+            "name": "latex_supplement_final.log",
+            "type": "file",
+            "bytes": 39586
+          },
+          {
+            "name": "latex_supplement_initial.log",
+            "type": "file",
+            "bytes": 33466
+          },
+          {
+            "name": "legacy_revalidation.json",
+            "type": "file",
+            "bytes": 4098859
+          },
+          {
+            "name": "legacy_revalidation.log",
+            "type": "file",
+            "bytes": 521
+          },
+          {
+            "name": "manuscript_correction.diff",
+            "type": "file",
+            "bytes": 169292
+          },
+          {
+            "name": "manuscript_final_verification.json",
+            "type": "file",
+            "bytes": 637
+          },
+          {
+            "name": "manuscript_pdf_checks.json",
+            "type": "file",
+            "bytes": 229
+          },
+          {
+            "name": "msi_deployment.json",
+            "type": "file",
+            "bytes": 257
+          },
+          {
+            "name": "msi_logs",
+            "type": "directory",
+            "bytes": null
+          },
+          {
+            "name": "msi_scheduler_final.txt",
+            "type": "file",
+            "bytes": 2880
+          },
+          {
+            "name": "msi_scheduler_status.txt",
+            "type": "file",
+            "bytes": 3066
+          },
+          {
+            "name": "msi_source_before_run.json",
+            "type": "file",
+            "bytes": 1892
+          },
+          {
+            "name": "package_verification.json",
+            "type": "file",
+            "bytes": 408
+          },
+          {
+            "name": "packaging.log",
+            "type": "file",
+            "bytes": 408
+          },
+          {
+            "name": "paper_before_review.json",
+            "type": "file",
+            "bytes": 349
+          },
+          {
+            "name": "portable_regressions.log",
+            "type": "file",
+            "bytes": 730
+          },
+          {
+            "name": "reproduce_before.log",
+            "type": "file",
+            "bytes": 541
+          },
+          {
+            "name": "review_accuracy_extension_job_id.txt",
+            "type": "file",
+            "bytes": 8
+          },
+          {
+            "name": "review_fresh_job_id.txt",
+            "type": "file",
+            "bytes": 8
+          }
+        ]
+      },
+      {
+        "name": "requirements-analysis.txt",
+        "type": "file",
+        "bytes": 68
+      },
+      {
+        "name": "requirements-simulation.txt",
+        "type": "file",
+        "bytes": 124
+      },
+      {
+        "name": "results",
+        "type": "directory",
+        "bytes": null,
+        "children": [
+          {
+            "name": "review_accuracy_extension",
+            "type": "directory",
+            "bytes": null
+          },
+          {
+            "name": "review_fresh",
+            "type": "directory",
+            "bytes": null
+          }
+        ]
+      },
+      {
+        "name": "src",
+        "type": "directory",
+        "bytes": null,
+        "children": [
+          {
+            "name": "__pycache__",
+            "type": "directory",
+            "bytes": null
+          },
+          {
+            "name": "accelerated.py",
+            "type": "file",
+            "bytes": 1181
+          },
+          {
+            "name": "audit_solvers.py",
+            "type": "file",
+            "bytes": 8474
+          },
+          {
+            "name": "baseline.py",
+            "type": "file",
+            "bytes": 5472
+          },
+          {
+            "name": "channel.py",
+            "type": "file",
+            "bytes": 574
+          },
+          {
+            "name": "clifford_representatives.npz",
+            "type": "file",
+            "bytes": 126955
+          },
+          {
+            "name": "estimators.py",
+            "type": "file",
+            "bytes": 10301
+          },
+          {
+            "name": "existing.py",
+            "type": "file",
+            "bytes": 9695
+          },
+          {
+            "name": "global_solution.py",
+            "type": "file",
+            "bytes": 785
+          },
+          {
+            "name": "large_simulation.py",
+            "type": "file",
+            "bytes": 3397
+          },
+          {
+            "name": "omd_tolerance.py",
+            "type": "file",
+            "bytes": 2112
+          },
+          {
+            "name": "projections.py",
+            "type": "file",
+            "bytes": 1394
+          },
+          {
+            "name": "run_convergence.py",
+            "type": "file",
+            "bytes": 5222
+          },
+          {
+            "name": "run_global_benchmark.py",
+            "type": "file",
+            "bytes": 3736
+          },
+          {
+            "name": "run_identity.py",
+            "type": "file",
+            "bytes": 3947
+          },
+          {
+            "name": "runtime_io.py",
+            "type": "file",
+            "bytes": 936
+          },
+          {
+            "name": "sampling.py",
+            "type": "file",
+            "bytes": 5372
+          },
+          {
+            "name": "solvers.py",
+            "type": "file",
+            "bytes": 5813
+          }
+        ]
+      },
+      {
+        "name": "tests",
+        "type": "directory",
+        "bytes": null
+      }
+    ],
+    "T_sweep_n8_k2_2026-09-09": [
+      {
+        "name": "README.md",
+        "type": "file",
+        "bytes": 2937
+      },
+      {
+        "name": "T_sweep_comparison.png",
+        "type": "file",
+        "bytes": 234066
+      },
+      {
+        "name": "T_sweep_comparison.svg",
+        "type": "file",
+        "bytes": 94770
+      },
+      {
+        "name": "__pycache__",
+        "type": "directory",
+        "bytes": null
+      },
+      {
+        "name": "accelerated.py",
+        "type": "file",
+        "bytes": 1220
+      },
+      {
+        "name": "baseline.py",
+        "type": "file",
+        "bytes": 5472
+      },
+      {
+        "name": "clifford_representatives.npz",
+        "type": "file",
+        "bytes": 126955
+      },
+      {
+        "name": "large_simulation.py",
+        "type": "file",
+        "bytes": 3397
+      },
+      {
+        "name": "logs",
+        "type": "directory",
+        "bytes": null
+      },
+      {
+        "name": "plot_results.py",
+        "type": "file",
+        "bytes": 5354
+      },
+      {
+        "name": "plot_summary.log",
+        "type": "file",
+        "bytes": 3997
+      },
+      {
+        "name": "projections.py",
+        "type": "file",
+        "bytes": 1394
+      },
+      {
+        "name": "replicate_results.csv",
+        "type": "file",
+        "bytes": 14092
+      },
+      {
+        "name": "results",
+        "type": "directory",
+        "bytes": null,
+        "children": [
+          {
+            "name": "rep_00",
+            "type": "directory",
+            "bytes": null
+          },
+          {
+            "name": "rep_01",
+            "type": "directory",
+            "bytes": null
+          },
+          {
+            "name": "rep_02",
+            "type": "directory",
+            "bytes": null
+          },
+          {
+            "name": "rep_03",
+            "type": "directory",
+            "bytes": null
+          },
+          {
+            "name": "rep_04",
+            "type": "directory",
+            "bytes": null
+          },
+          {
+            "name": "rep_05",
+            "type": "directory",
+            "bytes": null
+          },
+          {
+            "name": "rep_06",
+            "type": "directory",
+            "bytes": null
+          },
+          {
+            "name": "rep_07",
+            "type": "directory",
+            "bytes": null
+          },
+          {
+            "name": "rep_08",
+            "type": "directory",
+            "bytes": null
+          },
+          {
+            "name": "rep_09",
+            "type": "directory",
+            "bytes": null
+          },
+          {
+            "name": "rep_10",
+            "type": "directory",
+            "bytes": null
+          },
+          {
+            "name": "rep_11",
+            "type": "directory",
+            "bytes": null
+          },
+          {
+            "name": "rep_12",
+            "type": "directory",
+            "bytes": null
+          },
+          {
+            "name": "rep_13",
+            "type": "directory",
+            "bytes": null
+          },
+          {
+            "name": "rep_14",
+            "type": "directory",
+            "bytes": null
+          },
+          {
+            "name": "rep_15",
+            "type": "directory",
+            "bytes": null
+          },
+          {
+            "name": "rep_16",
+            "type": "directory",
+            "bytes": null
+          },
+          {
+            "name": "rep_17",
+            "type": "directory",
+            "bytes": null
+          },
+          {
+            "name": "rep_18",
+            "type": "directory",
+            "bytes": null
+          },
+          {
+            "name": "rep_19",
+            "type": "directory",
+            "bytes": null
+          }
+        ]
+      },
+      {
+        "name": "run.py",
+        "type": "file",
+        "bytes": 3756
+      },
+      {
+        "name": "summaries.tar.gz",
+        "type": "file",
+        "bytes": 53080
+      },
+      {
+        "name": "summary.csv",
+        "type": "file",
+        "bytes": 1848
+      },
+      {
+        "name": "summary.json",
+        "type": "file",
+        "bytes": 3996
+      },
+      {
+        "name": "sweep.slurm",
+        "type": "file",
+        "bytes": 587
+      }
+    ],
+    "controlled_studies_2026-09-09": [
+      {
+        "name": "README.md",
+        "type": "file",
+        "bytes": 3753
+      },
+      {
+        "name": "STATUS.md",
+        "type": "file",
+        "bytes": 816
+      },
+      {
+        "name": "__pycache__",
+        "type": "directory",
+        "bytes": null
+      },
+      {
+        "name": "accelerated.py",
+        "type": "file",
+        "bytes": 1220
+      },
+      {
+        "name": "baseline.py",
+        "type": "file",
+        "bytes": 5472
+      },
+      {
+        "name": "block_size_comparison.png",
+        "type": "file",
+        "bytes": 198377
+      },
+      {
+        "name": "block_size_comparison.svg",
+        "type": "file",
+        "bytes": 85311
+      },
+      {
+        "name": "clifford_representatives.npz",
+        "type": "file",
+        "bytes": 126955
+      },
+      {
+        "name": "controlled_plot_summary.log",
+        "type": "file",
+        "bytes": 5516
+      },
+      {
+        "name": "controlled_summary.csv",
+        "type": "file",
+        "bytes": 2232
+      },
+      {
+        "name": "controlled_summary.json",
+        "type": "file",
+        "bytes": 5515
+      },
+      {
+        "name": "controlled_summary_small.csv",
+        "type": "file",
+        "bytes": 1932
+      },
+      {
+        "name": "dimension_scaling.png",
+        "type": "file",
+        "bytes": 240805
+      },
+      {
+        "name": "dimension_scaling.svg",
+        "type": "file",
+        "bytes": 97967
+      },
+      {
+        "name": "dimension_scaling_small.png",
+        "type": "file",
+        "bytes": 209311
+      },
+      {
+        "name": "dimension_scaling_small.svg",
+        "type": "file",
+        "bytes": 102057
+      },
+      {
+        "name": "large_simulation.py",
+        "type": "file",
+        "bytes": 3397
+      },
+      {
+        "name": "logs",
+        "type": "directory",
+        "bytes": null
+      },
+      {
+        "name": "memory",
+        "type": "directory",
+        "bytes": null
+      },
+      {
+        "name": "memory.slurm",
+        "type": "file",
+        "bytes": 670
+      },
+      {
+        "name": "memory_inputs",
+        "type": "directory",
+        "bytes": null
+      },
+      {
+        "name": "memory_run.py",
+        "type": "file",
+        "bytes": 1249
+      },
+      {
+        "name": "plot_studies.py",
+        "type": "file",
+        "bytes": 6797
+      },
+      {
+        "name": "prepare_memory_input.py",
+        "type": "file",
+        "bytes": 444
+      },
+      {
+        "name": "projections.py",
+        "type": "file",
+        "bytes": 1394
+      },
+      {
+        "name": "render.slurm",
+        "type": "file",
+        "bytes": 746
+      },
+      {
+        "name": "results",
+        "type": "directory",
+        "bytes": null,
+        "children": [
+          {
+            "name": "rep_00",
+            "type": "directory",
+            "bytes": null
+          },
+          {
+            "name": "rep_01",
+            "type": "directory",
+            "bytes": null
+          },
+          {
+            "name": "rep_02",
+            "type": "directory",
+            "bytes": null
+          },
+          {
+            "name": "rep_03",
+            "type": "directory",
+            "bytes": null
+          },
+          {
+            "name": "rep_04",
+            "type": "directory",
+            "bytes": null
+          },
+          {
+            "name": "rep_05",
+            "type": "directory",
+            "bytes": null
+          },
+          {
+            "name": "rep_06",
+            "type": "directory",
+            "bytes": null
+          },
+          {
+            "name": "rep_07",
+            "type": "directory",
+            "bytes": null
+          },
+          {
+            "name": "rep_08",
+            "type": "directory",
+            "bytes": null
+          },
+          {
+            "name": "rep_09",
+            "type": "directory",
+            "bytes": null
+          },
+          {
+            "name": "rep_10",
+            "type": "directory",
+            "bytes": null
+          },
+          {
+            "name": "rep_11",
+            "type": "directory",
+            "bytes": null
+          },
+          {
+            "name": "rep_12",
+            "type": "directory",
+            "bytes": null
+          },
+          {
+            "name": "rep_13",
+            "type": "directory",
+            "bytes": null
+          },
+          {
+            "name": "rep_14",
+            "type": "directory",
+            "bytes": null
+          },
+          {
+            "name": "rep_15",
+            "type": "directory",
+            "bytes": null
+          },
+          {
+            "name": "rep_16",
+            "type": "directory",
+            "bytes": null
+          },
+          {
+            "name": "rep_17",
+            "type": "directory",
+            "bytes": null
+          },
+          {
+            "name": "rep_18",
+            "type": "directory",
+            "bytes": null
+          },
+          {
+            "name": "rep_19",
+            "type": "directory",
+            "bytes": null
+          }
+        ]
+      },
+      {
+        "name": "run.py",
+        "type": "file",
+        "bytes": 2816
+      },
+      {
+        "name": "stabilizer_sampling.py",
+        "type": "file",
+        "bytes": 1931
+      },
+      {
+        "name": "studies.slurm",
+        "type": "file",
+        "bytes": 699
+      },
+      {
+        "name": "submission.txt",
+        "type": "file",
+        "bytes": 613
+      },
+      {
+        "name": "summaries.tar.gz",
+        "type": "file",
+        "bytes": 29151
+      },
+      {
+        "name": "validate_sampler.py",
+        "type": "file",
+        "bytes": 1141
+      }
+    ],
+    "code": [
+      {
+        "name": "benchmark",
+        "type": "directory",
+        "bytes": null
+      },
+      {
+        "name": "estimators",
+        "type": "directory",
+        "bytes": null
+      },
+      {
+        "name": "plotting",
+        "type": "directory",
+        "bytes": null
+      },
+      {
+        "name": "sampling",
+        "type": "directory",
+        "bytes": null
+      },
+      {
+        "name": "solvers",
+        "type": "directory",
+        "bytes": null
+      },
+      {
+        "name": "validation",
+        "type": "directory",
+        "bytes": null
+      }
+    ],
+    "docs": [
+      {
+        "name": "PROTOCOL.md",
+        "type": "file",
+        "bytes": 6859
+      },
+      {
+        "name": "organization_manifest.json",
+        "type": "file",
+        "bytes": 3018
+      },
+      {
+        "name": "solver_source_manifest.json",
+        "type": "file",
+        "bytes": 1313
+      },
+      {
+        "name": "submission.json",
+        "type": "file",
+        "bytes": 1628
+      }
+    ]
+  }
+}

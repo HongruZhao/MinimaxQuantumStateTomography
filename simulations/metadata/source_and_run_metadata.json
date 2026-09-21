@@ -1,0 +1,50 @@
+{
+  "checked_at_utc": "2026-09-20T18:26:53.608772+00:00",
+  "read_only": true,
+  "new_jobs_submitted": false,
+  "configuration_and_sampling_pool_sha256": {
+    "estimator_review_fix_2026-09-20/src/clifford_representatives.npz": "a10f9e2a396924b9582be6ce1e72d5868f5368cb0b272593c9fe7637b6675631",
+    "estimator_review_fix_2026-09-20/configs/convergence_n4.json": "47a9a49fe83b211bd6580601805f57a388e7455472992dedf702a254d589e6cb",
+    "estimator_review_fix_2026-09-20/configs/convergence_n8.json": "d3a415e83da23181d1128fdd8e10d3cd5c752668cdeb7a82fc90a6074fd0f103",
+    "estimator_review_fix_2026-09-20/configs/pilot.json": "81af006f4d3bdae3cb9cdf2e8f4cf6aacb2b084668e8d15b43916f2356a5a5d2",
+    "estimator_review_fix_2026-09-20/configs/review_fresh.json": "3184763a6eb77ac6d3793e5b710003d75d8d6895a7d927afe4953050220fdad2"
+  },
+  "supplement_study": {
+    "records": 15,
+    "statuses": {
+      "complete": 14,
+      "incomplete_methods": 1
+    },
+    "all_current_source_hashes_match": true,
+    "paper_tolerance_fits": 180,
+    "paper_tolerance_accepted": 180
+  },
+  "supplement_accuracy_extension": {
+    "records": 1,
+    "statuses": {
+      "complete": 1
+    },
+    "all_current_source_hashes_match": true,
+    "paper_tolerance_fits": 0,
+    "paper_tolerance_accepted": 0
+  },
+  "global_rerun": {
+    "records": 100,
+    "statuses": {
+      "complete": 100
+    },
+    "maximum_pairwise_output_difference": 0.0
+  },
+  "original_timing": {
+    "paired_records": 1000,
+    "selected_methods": [
+      "PLS",
+      "OMD_stat",
+      "MW_line_search_identity"
+    ],
+    "complete_method_records": 3000,
+    "selected_warmups": 3000,
+    "selected_timed_solves": 9000
+  },
+  "original_memory_profiles": 1200
+}

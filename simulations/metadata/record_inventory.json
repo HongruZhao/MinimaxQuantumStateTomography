@@ -1,0 +1,41 @@
+{
+  "original_timing": {
+    "files": 1000,
+    "bytes": 75890463,
+    "first": [
+      "mw_pls_fw_benchmark_2026-09-10/main_100_phase_a/case_02/rep_00/summary.json",
+      "mw_pls_fw_benchmark_2026-09-10/main_100_phase_a/case_02/rep_01/summary.json"
+    ]
+  },
+  "original_memory": {
+    "files": 2800,
+    "bytes": 12771895,
+    "first": [
+      "mw_pls_fw_benchmark_2026-09-10/main_100_phase_a_memory/n10_MW_deterministic_identity_rep000.json",
+      "mw_pls_fw_benchmark_2026-09-10/main_100_phase_a_memory/n10_MW_deterministic_identity_rep001.json"
+    ]
+  },
+  "global_rerun": {
+    "files": 100,
+    "bytes": 1867908,
+    "first": [
+      "estimator_revision_2026-09-20/results/global_rebenchmark/rep000/summary.json",
+      "estimator_revision_2026-09-20/results/global_rebenchmark/rep001/summary.json"
+    ]
+  },
+  "supplement_fresh": {
+    "files": 30,
+    "bytes": 2584419,
+    "first": [
+      "estimator_review_fix_2026-09-20/results/review_fresh/n4_k2_polynomial_rotated_rep000/sampling.json",
+      "estimator_review_fix_2026-09-20/results/review_fresh/n4_k2_polynomial_rotated_rep000/summary.json"
+    ]
+  },
+  "supplement_extension": {
+    "files": 1,
+    "bytes": 237975,
+    "first": [
+      "estimator_review_fix_2026-09-20/results/review_accuracy_extension/summary.json"
+    ]
+  }
+}

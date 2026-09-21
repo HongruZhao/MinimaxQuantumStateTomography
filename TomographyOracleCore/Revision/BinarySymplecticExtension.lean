@@ -1,0 +1,181 @@
+import TomographyOracleCore.BinaryCliffordPauliTwoMixing
+
+/-!
+# Elementary extension by binary symplectic transvections
+
+This strengthens the existing one-vector stabilizer lemma to an arbitrary
+subspace. It uses extension of a linear functional and nondegeneracy, and
+constructs the required group element using at most two transvections.
+This is the extension step needed to classify fourth-copy Pauli orbits.
+-/
+
+namespace TomographyOracleCore.Revision.BinarySymplecticExtension
+
+noncomputable section
+
+/-- An intermediate vector with two prescribed pairings, while retaining
+every prescribed pairing on a fixed subspace. -/
+theorem exists_common_pair_one_preserving_subspace
+    (K : ℕ) (W : Submodule (ZMod 2) (PauliLabel K))
+    {q r : PauliLabel K} (hq : q ∉ W) (hr : r ∉ W)
+    (hqr : pauliSymplecticForm K q r = 0) :
+    ∃ a : PauliLabel K,
+      (∀ w ∈ W, pauliSymplecticForm K w a = pauliSymplecticForm K w q) ∧
+      pauliSymplecticForm K q a = 1 ∧ pauliSymplecticForm K r a = 1 := by
+  let fW : W →ₗ[ZMod 2] ZMod 2 :=
+    ((pauliSymplecticForm K) q).comp W.subtype
+  obtain ⟨f, hfW, hfq⟩ := LinearMap.exists_extend_of_notMem fW hq 1
+  let Wq := W ⊔ Submodule.span (ZMod 2) ({q} : Set (PauliLabel K))
+  have hfW_apply (w : PauliLabel K) (hw : w ∈ W) :
+      f w = pauliSymplecticForm K w q := by
+    have h := LinearMap.congr_fun hfW (⟨w, hw⟩ : W)
+    change f w = pauliSymplecticForm K q w at h
+    rw [pauliSymplecticForm_symm] at h
+    exact h
+  have hex : ∃ f' : PauliLabel K →ₗ[ZMod 2] ZMod 2,
+      (∀ w ∈ W, f' w = pauliSymplecticForm K w q) ∧
+      f' q = 1 ∧ f' r = 1 := by
+    by_cases hrq : r ∈ Wq
+    · obtain ⟨w, hw, z, hz, hsum⟩ := Submodule.mem_sup.mp hrq
+      obtain ⟨c, rfl⟩ := Submodule.mem_span_singleton.mp hz
+      rcases zmodTwo_eq_zero_or_one c with rfl | rfl
+      · simp only [zero_smul, add_zero] at hsum
+        exact (hr (hsum ▸ hw)).elim
+      · simp only [one_smul] at hsum
+        have hwq : pauliSymplecticForm K w q = 0 := by
+          have h := congrArg (fun v => pauliSymplecticForm K v q) hsum
+          rw [map_add, LinearMap.add_apply, pauliSymplecticForm_self, add_zero,
+            pauliSymplecticForm_symm K r q, hqr] at h
+          exact h
+        refine ⟨f, hfW_apply, hfq, ?_⟩
+        rw [← hsum, map_add, hfW_apply w hw, hwq, hfq, zero_add]
+    · obtain ⟨f', hf', hfr⟩ :=
+        LinearMap.exists_extend_of_notMem (f.comp Wq.subtype) hrq 1
+      have heq (v : PauliLabel K) (hv : v ∈ Wq) : f' v = f v :=
+        LinearMap.congr_fun hf' (⟨v, hv⟩ : Wq)
+      refine ⟨f', ?_, ?_, hfr⟩
+      · intro w hw
+        rw [heq w (Submodule.mem_sup_left hw), hfW_apply w hw]
+      · rw [heq q (Submodule.mem_sup_right
+          (Submodule.subset_span (Set.mem_singleton q))), hfq]
+  obtain ⟨f', hf'W, hf'q, hf'r⟩ := hex
+  let a := ((pauliSymplecticForm K).toDual
+    (pauliSymplecticForm_nondegenerate K)).symm f'
+  have hpair (v : PauliLabel K) : pauliSymplecticForm K v a = f' v := by
+    rw [pauliSymplecticForm_symm]
+    exact LinearMap.BilinForm.apply_toDual_symm_apply f' v
+  refine ⟨a, ?_, ?_, ?_⟩
+  · intro w hw
+    rw [hpair, hf'W w hw]
+  · rw [hpair, hf'q]
+  · rw [hpair, hf'r]
+
+/-- Binary Witt extension for one new vector, with a pointwise fixed
+subspace. This is proved for the concrete transvection-generated group. -/
+theorem exists_fix_subspace_and_map
+    (K : ℕ) (W : Submodule (ZMod 2) (PauliLabel K))
+    {q r : PauliLabel K} (hq : q ∉ W) (hr : r ∉ W)
+    (hform : ∀ w ∈ W,
+      pauliSymplecticForm K w q = pauliSymplecticForm K w r) :
+    ∃ g : binaryTransvectionGroup K,
+      (∀ w ∈ W, g.1.1 w = w) ∧ g.1.1 q = r := by
+  rcases zmodTwo_eq_zero_or_one (pauliSymplecticForm K q r) with hqr | hqr
+  · obtain ⟨a, hWa, hqa, hra⟩ :=
+      exists_common_pair_one_preserving_subspace K W hq hr hqr
+    refine ⟨binaryTransvectionGenerator K (a + r) *
+      binaryTransvectionGenerator K (q + a), ?_, ?_⟩
+    · intro w hw
+      change pauliTransvection K (a + r)
+        (pauliTransvection K (q + a) w) = w
+      have hwqa : pauliSymplecticForm K w (q + a) = 0 := by
+        rw [map_add, hWa w hw]
+        exact CharTwo.add_self_eq_zero _
+      have hwar : pauliSymplecticForm K w (a + r) = 0 := by
+        rw [map_add, hWa w hw, hform w hw]
+        exact CharTwo.add_self_eq_zero _
+      rw [pauliTransvection_fix_of_pair_zero K hwqa,
+        pauliTransvection_fix_of_pair_zero K hwar]
+    · change pauliTransvection K (a + r)
+        (pauliTransvection K (q + a) q) = r
+      rw [pauliTransvection_add_map_of_pair_one K hqa,
+        pauliTransvection_add_map_of_pair_one K
+          ((pauliSymplecticForm_symm K a r).trans hra)]
+  · refine ⟨binaryTransvectionGenerator K (q + r), ?_, ?_⟩
+    · intro w hw
+      apply pauliTransvection_fix_of_pair_zero
+      rw [map_add, hform w hw]
+      exact CharTwo.add_self_eq_zero _
+    · exact pauliTransvection_add_map_of_pair_one K hqr
+
+/-- Extend an isometric embedding on any finite selection from a subspace.
+The construction stays inside the group generated by transvections. -/
+theorem exists_extension_on_finset
+    (K : ℕ) (W : Submodule (ZMod 2) (PauliLabel K))
+    (f : W →ₗ[ZMod 2] PauliLabel K) (hf : Function.Injective f)
+    (hform : ∀ x y : W,
+      pauliSymplecticForm K (f x) (f y) = pauliSymplecticForm K x.val y.val)
+    (s : Finset W) :
+    ∃ g : binaryTransvectionGroup K, ∀ w ∈ s, g.1.1 w.val = f w := by
+  classical
+  induction s using Finset.induction_on with
+  | empty => exact ⟨1, by simp⟩
+  | @insert x s hxs ih =>
+    obtain ⟨g, hg⟩ := ih
+    let S : Submodule (ZMod 2) W := Submodule.span (ZMod 2) (s : Set W)
+    let e : W →ₗ[ZMod 2] PauliLabel K := g.1.1.toLinearMap.comp W.subtype
+    have hspan (w : W) (hw : w ∈ S) : g.1.1 w.val = f w :=
+      LinearMap.eqOn_span (f := e) (g := f) hg hw
+    by_cases hx : x ∈ S
+    · refine ⟨g, ?_⟩
+      intro w hw
+      rcases Finset.mem_insert.mp hw with rfl | hw
+      · exact hspan _ hx
+      · exact hg w hw
+    · let V := S.map f
+      have hgx : g.1.1 x.val ∉ V := by
+        intro h
+        obtain ⟨w, hw, heq⟩ := Submodule.mem_map.mp h
+        have hwx : w = x := by
+          apply Subtype.ext
+          apply g.1.1.injective
+          exact (hspan w hw).trans heq
+        exact hx (hwx ▸ hw)
+      have hfx : f x ∉ V := by
+        intro h
+        obtain ⟨w, hw, heq⟩ := Submodule.mem_map.mp h
+        exact hx (hf heq ▸ hw)
+      have hpair (v : PauliLabel K) (hv : v ∈ V) :
+          pauliSymplecticForm K v (g.1.1 x.val) =
+            pauliSymplecticForm K v (f x) := by
+        obtain ⟨w, hw, rfl⟩ := Submodule.mem_map.mp hv
+        calc
+          _ = pauliSymplecticForm K (g.1.1 w.val) (g.1.1 x.val) := by
+            rw [hspan w hw]
+          _ = pauliSymplecticForm K w.val x.val := g.1.2 w.val x.val
+          _ = pauliSymplecticForm K (f w) (f x) := (hform w x).symm
+      obtain ⟨h, hfix, hmap⟩ := exists_fix_subspace_and_map K V hgx hfx hpair
+      refine ⟨h * g, ?_⟩
+      intro w hw
+      change h.1.1 (g.1.1 w.val) = f w
+      rcases Finset.mem_insert.mp hw with rfl | hw
+      · exact hmap
+      · rw [hg w hw]
+        apply hfix
+        exact Submodule.mem_map.mpr
+          ⟨w, Submodule.subset_span hw, rfl⟩
+
+/-- Witt extension for the concrete binary symplectic space, proved from
+linear-functional extension and explicit transvections. -/
+theorem exists_extension_of_injective_form_preserving
+    (K : ℕ) (W : Submodule (ZMod 2) (PauliLabel K))
+    (f : W →ₗ[ZMod 2] PauliLabel K) (hf : Function.Injective f)
+    (hform : ∀ x y : W,
+      pauliSymplecticForm K (f x) (f y) = pauliSymplecticForm K x.val y.val) :
+    ∃ g : binaryTransvectionGroup K, ∀ w : W, g.1.1 w.val = f w := by
+  letI : Fintype W := Fintype.ofFinite _
+  obtain ⟨g, hg⟩ := exists_extension_on_finset K W f hf hform Finset.univ
+  exact ⟨g, fun w => hg w (Finset.mem_univ w)⟩
+
+end
+
+end TomographyOracleCore.Revision.BinarySymplecticExtension

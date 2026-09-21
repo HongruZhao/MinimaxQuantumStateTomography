@@ -1,0 +1,58 @@
+[
+  {
+    "remote_file": "three_estimator_comparison_2026-09-11/selected_summary.json",
+    "local_file": "msi_estimator_audit_2026-09-20/original/msi_snapshot/three_estimator_comparison_2026-09-11/selected_summary.json",
+    "remote_sha256": "1a5045e8eda6fac8eeeeb72832f541a1793750b5e9b5b247b567dcb1797b515d",
+    "local_sha256": "1a5045e8eda6fac8eeeeb72832f541a1793750b5e9b5b247b567dcb1797b515d",
+    "sha256_match": true
+  },
+  {
+    "remote_file": "three_estimator_comparison_2026-09-11/vary_measurements_three.png",
+    "local_file": "supplement_revision_2026-09-18/IEEE_LaTeX/figures/msi/vary_measurements_three.png",
+    "remote_sha256": "8e59a2d2970f2f2bbe728a8f5d84400b31e76a5fac0d9bfa68de49312e70a1bf",
+    "local_sha256": "b0caed28ca9aebb93e1c12adf9991e8cb49a0673e0f1e14f4469f00f8779b96d",
+    "sha256_match": false
+  },
+  {
+    "remote_file": "three_estimator_comparison_2026-09-11/vary_dimension_three.png",
+    "local_file": "supplement_revision_2026-09-18/IEEE_LaTeX/figures/msi/vary_dimension_three.png",
+    "remote_sha256": "9353c2ce22785fcdbbf658db542fc1aba069c2267ae78ab7512ab73b92888781",
+    "local_sha256": "542d6e79f7104bd53f77ab82c9d609ba3d702d630565d22b00597debef834d92",
+    "sha256_match": false
+  },
+  {
+    "remote_file": "estimator_revision_2026-09-20/reports/global_summary.json",
+    "local_file": "msi_estimator_audit_2026-09-20/reports/global_summary.json",
+    "remote_sha256": "69115dd715d9b7b2c3f154a837166765efb46ce35a11f9d003e48908d7299fb7",
+    "local_sha256": "69115dd715d9b7b2c3f154a837166765efb46ce35a11f9d003e48908d7299fb7",
+    "sha256_match": true
+  },
+  {
+    "remote_file": "estimator_revision_2026-09-20/reports/corrected_block_summary.json",
+    "local_file": "msi_estimator_audit_2026-09-20/reports/corrected_block_summary.json",
+    "remote_sha256": "c93f0fbc14caffeddcfd411c46d8a3bc83f2c4aaa4062ec5d2ecd41e336df458",
+    "local_sha256": "c93f0fbc14caffeddcfd411c46d8a3bc83f2c4aaa4062ec5d2ecd41e336df458",
+    "sha256_match": true
+  },
+  {
+    "remote_file": "estimator_revision_2026-09-20/figures/vary_block_size_three_corrected.png",
+    "local_file": "supplement_revision_2026-09-18/IEEE_LaTeX/figures/msi/vary_block_size_three.png",
+    "remote_sha256": "77e8e5a691ce2c06adabd0fe8256b480e4b48ea2118fba2a07cc54bc4fdaaf44",
+    "local_sha256": "77e8e5a691ce2c06adabd0fe8256b480e4b48ea2118fba2a07cc54bc4fdaaf44",
+    "sha256_match": true
+  },
+  {
+    "remote_file": "estimator_review_fix_2026-09-20/reports/fresh_summary.csv",
+    "local_file": "msi_estimator_review_fix_2026-09-20/reports/fresh_summary.csv",
+    "remote_sha256": "7a5dc6e5826d457058c6be258518fbf4bd9868ba5fe4427b639f56fc320c82ba",
+    "local_sha256": "7a5dc6e5826d457058c6be258518fbf4bd9868ba5fe4427b639f56fc320c82ba",
+    "sha256_match": true
+  },
+  {
+    "remote_file": "estimator_review_fix_2026-09-20/reports/fresh_review_validation.json",
+    "local_file": "msi_estimator_review_fix_2026-09-20/reports/fresh_review_validation.json",
+    "remote_sha256": "c0b56518970e752232d478d7c539816419e362c432979d34caf3d5a77cee2e46",
+    "local_sha256": "c0b56518970e752232d478d7c539816419e362c432979d34caf3d5a77cee2e46",
+    "sha256_match": true
+  }
+]

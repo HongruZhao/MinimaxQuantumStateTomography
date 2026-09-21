@@ -1,0 +1,14 @@
+{
+  "sampling": "Exact global-Clifford Born projector law, aggregated multinomial counts",
+  "number_of_reference_projectors": 36720,
+  "vector_sha256": "7b197c97800ffcc27d0b3416868b642bea989771d2367940fe00f1b1aa7fae74",
+  "seed": [
+    20260920,
+    4,
+    4,
+    1,
+    1004
+  ],
+  "nested_prefixes": true,
+  "seconds": 0.6092940660892054
+}

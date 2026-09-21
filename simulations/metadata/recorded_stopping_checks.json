@@ -1,0 +1,11 @@
+{
+  "checked_at_utc": "2026-09-20T18:40:11.663296+00:00",
+  "scope": "Recorded solver fields only; no saved-array recomputation or new solve",
+  "counts": {
+    "warmup_checks": 3000,
+    "timed_checks": 9000,
+    "memory_checks": 1200
+  },
+  "failures": [],
+  "passed": true
+}

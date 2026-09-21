@@ -1,0 +1,17 @@
+n2_k2_polynomial_rotated_rep000 16 PLS START
+n2_k2_polynomial_rotated_rep000 16 PLS DONE {"accepted": true, "trace_norm_error": 1.269736903156868, "mw_gap": 0.0}
+n2_k2_polynomial_rotated_rep000 16 OMD START
+n2_k2_polynomial_rotated_rep000 16 OMD DONE {"accepted": true, "trace_norm_error": 1.269736903156868, "mw_gap": 0.0}
+n2_k2_polynomial_rotated_rep000 16 MW-PLS START
+n2_k2_polynomial_rotated_rep000 16 MW-PLS DONE {"accepted": true, "trace_norm_error": 1.269736903156868, "mw_gap": 0.0}
+{
+  "status": "passed",
+  "checks": 36,
+  "tight_omd": {
+    "eta": 1.25e-09,
+    "iterations": 200,
+    "gap": 1.5773282879827377e-07,
+    "original_objective": 0.26958230311496933,
+    "old_original_objective": 0.26958271619622276
+  }
+}

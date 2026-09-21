@@ -1,0 +1,1687 @@
+{
+  "status": "complete",
+  "case": {
+    "n": 4,
+    "k": 4,
+    "family": "rank8_rotated"
+  },
+  "rep": 0,
+  "data_rep": 1000,
+  "hardware": {
+    "host": "acn37",
+    "python": "3.10.9",
+    "numpy": "1.23.5",
+    "scipy": "1.10.0",
+    "threadpools": [
+      {
+        "filepath": "/common/software/install/migrated/anaconda/python3-2023.03-libmamba/lib/libmkl_rt.so.1",
+        "prefix": "libmkl_rt",
+        "user_api": "blas",
+        "internal_api": "mkl",
+        "version": "2021.4-Product",
+        "num_threads": 4,
+        "threading_layer": "intel"
+      },
+      {
+        "filepath": "/common/software/install/migrated/anaconda/python3-2023.03-libmamba/lib/libiomp5.so",
+        "prefix": "libiomp",
+        "user_api": "openmp",
+        "internal_api": "openmp",
+        "version": null,
+        "num_threads": 4
+      }
+    ],
+    "slurm_job_id": "1439042",
+    "slurm_array_task_id": "10"
+  },
+  "sampling": {
+    "sampling": "Exact global-Clifford Born projector law, aggregated multinomial counts",
+    "number_of_reference_projectors": 36720,
+    "vector_sha256": "7b197c97800ffcc27d0b3416868b642bea989771d2367940fe00f1b1aa7fae74",
+    "seed": [
+      20260920,
+      4,
+      4,
+      1,
+      1000
+    ],
+    "nested_prefixes": true,
+    "seconds": 0.7491344519658014
+  },
+  "source_sha256": {
+    "accelerated.py": "b4d1fb2a44464b389e487de6dc62eed4b2cfc6b7d443bdf1669afbf194fd8c3d",
+    "audit_solvers.py": "38a9bc11a75a72b2825e7b32e0e139942690f72708833595ec4670ed73aa2827",
+    "baseline.py": "c45d10efe23ae2dbf9afaa2768be85399143fd8c52f8e559d1c3241aafdab597",
+    "channel.py": "9b0347264a1b9b8480b7db34acf9bd265809a7010a68f2176b9931a48daf7981",
+    "estimators.py": "5a3cf374360c630917c8b88a342cbacfc353e330f985de2c4824dbd80bca33e0",
+    "existing.py": "74bd98c2e9202570773328b97d72af0194764e67bb203937ba14ae1b36b761ab",
+    "global_solution.py": "c6db0f316d771d88af78a777d131a76304ca42ce23a99734e98d181847203e00",
+    "large_simulation.py": "3f047fd703fda3fc14e92afa728023f1edcc6637cb1bf68112ded56d299f67e0",
+    "omd_tolerance.py": "8ba920d56dc5be17a5ff13c2a86f38fca662c45c5e6d719f3c8400e88fb0982c",
+    "projections.py": "7b4b855890455ab66747c8b277c6b57fb3d933901c771868e1196c4416b3a222",
+    "run_convergence.py": "0a737b5bc765704693030cfb8086a6c6d52125b8c661f378bc902cf45173c50f",
+    "run_global_benchmark.py": "6b321aaba47e37d2f92d2749f43f5a04f8a04c686f4cb66660e9763d26a4f40d",
+    "run_identity.py": "f4dceb32eba5aa91d821194cc6b715b4065c380197c973467ee8dd9ec8316d12",
+    "runtime_io.py": "02834f4e72ab45d6e4c19541fbccd6b2e579787e705dca553e45ccf31b4aad2a",
+    "sampling.py": "755edf09731e44bb4553db57ba2773ba7e3ac3baa17e12a4b942d0b6bb07520c",
+    "solvers.py": "05076a16fee5a3fdfa75d809dee9e847a92f38bc5fb8cb56ba9cdfb56afc2a3e",
+    "clifford_representatives.npz": "a10f9e2a396924b9582be6ce1e72d5868f5368cb0b272593c9fe7637b6675631"
+  },
+  "cache_identity": {
+    "schema": 2,
+    "source_sha256": {
+      "accelerated.py": "b4d1fb2a44464b389e487de6dc62eed4b2cfc6b7d443bdf1669afbf194fd8c3d",
+      "audit_solvers.py": "38a9bc11a75a72b2825e7b32e0e139942690f72708833595ec4670ed73aa2827",
+      "baseline.py": "c45d10efe23ae2dbf9afaa2768be85399143fd8c52f8e559d1c3241aafdab597",
+      "channel.py": "9b0347264a1b9b8480b7db34acf9bd265809a7010a68f2176b9931a48daf7981",
+      "estimators.py": "5a3cf374360c630917c8b88a342cbacfc353e330f985de2c4824dbd80bca33e0",
+      "existing.py": "74bd98c2e9202570773328b97d72af0194764e67bb203937ba14ae1b36b761ab",
+      "global_solution.py": "c6db0f316d771d88af78a777d131a76304ca42ce23a99734e98d181847203e00",
+      "large_simulation.py": "3f047fd703fda3fc14e92afa728023f1edcc6637cb1bf68112ded56d299f67e0",
+      "omd_tolerance.py": "8ba920d56dc5be17a5ff13c2a86f38fca662c45c5e6d719f3c8400e88fb0982c",
+      "projections.py": "7b4b855890455ab66747c8b277c6b57fb3d933901c771868e1196c4416b3a222",
+      "run_convergence.py": "0a737b5bc765704693030cfb8086a6c6d52125b8c661f378bc902cf45173c50f",
+      "run_global_benchmark.py": "6b321aaba47e37d2f92d2749f43f5a04f8a04c686f4cb66660e9763d26a4f40d",
+      "run_identity.py": "f4dceb32eba5aa91d821194cc6b715b4065c380197c973467ee8dd9ec8316d12",
+      "runtime_io.py": "02834f4e72ab45d6e4c19541fbccd6b2e579787e705dca553e45ccf31b4aad2a",
+      "sampling.py": "755edf09731e44bb4553db57ba2773ba7e3ac3baa17e12a4b942d0b6bb07520c",
+      "solvers.py": "05076a16fee5a3fdfa75d809dee9e847a92f38bc5fb8cb56ba9cdfb56afc2a3e",
+      "clifford_representatives.npz": "a10f9e2a396924b9582be6ce1e72d5868f5368cb0b272593c9fe7637b6675631"
+    },
+    "configuration": {
+      "config": {
+        "name": "review_fresh",
+        "repetitions": 5,
+        "seed_offset": 1000,
+        "sizes": [
+          256,
+          4096,
+          65536,
+          1048576
+        ],
+        "cases": [
+          {
+            "n": 4,
+            "k": 2,
+            "family": "rank8_rotated"
+          },
+          {
+            "n": 4,
+            "k": 2,
+            "family": "polynomial_rotated"
+          },
+          {
+            "n": 4,
+            "k": 4,
+            "family": "rank8_rotated"
+          }
+        ],
+        "profiles": [
+          {
+            "label": "PLS",
+            "method": "PLS",
+            "tol_factor": 1.0
+          },
+          {
+            "label": "OMD",
+            "method": "OMD",
+            "tol_factor": 1.0
+          },
+          {
+            "label": "MW_PLS",
+            "method": "MW-PLS",
+            "tol_factor": 1.0
+          },
+          {
+            "label": "OMD_tight",
+            "method": "OMD",
+            "tol_factor": 1e-06
+          }
+        ],
+        "solver_options": {
+          "omd_maxiter": 20000,
+          "maxiter": 300000,
+          "max_seconds": 1200.0
+        }
+      },
+      "task": 10,
+      "driver_sha256": "9b15cf926bb13c9faa20b2cfaebff7dcdc77a6cb7c696d1a372382129b4530d1"
+    },
+    "inputs": {
+      "data.npz": "48119475bc0277e486c4d1791560bcbca172cd50e2784887e7968a7f2e560430"
+    },
+    "fingerprint": "407dd8e73f8dda417a024be18ac05fb18678a51a117b0903da692c346425f2ac"
+  },
+  "records": [
+    {
+      "T": 256,
+      "profile": "PLS",
+      "method": "PLS",
+      "tol_factor": 1.0,
+      "stats": {
+        "solver": "shared_global_spectral",
+        "converged": true,
+        "status": "converged",
+        "iterations": 0,
+        "eta": 0.0,
+        "gap": 0.0,
+        "epsilon_Q": 0.0625,
+        "certificate": "Analytic common spectral minimizer; numerical gaps independently checked.",
+        "pls_projection": {
+          "expansions": 0,
+          "active_rank": 6,
+          "projection_calls": 1
+        },
+        "wall_seconds": 0.000879768980666995,
+        "problem": {
+          "n": 4,
+          "k": 4,
+          "d": 16,
+          "T": 256,
+          "method": "PLS",
+          "empirical_mean_sha256": "06b63b5fba95c0cad54cfdde63d9cb88d605563a5f971c56bb36f29c014beaa4"
+        },
+        "requested_accuracy": {
+          "tol_factor": 1.0,
+          "paper_omd_limit": 0.25,
+          "paper_mw_limit": 0.0625,
+          "original_gap_tolerance": 0.25,
+          "regularized_gap_tolerance": 0.25,
+          "epsilon_Q": 0.0625,
+          "eta": 0.00125
+        },
+        "solver_configuration": {
+          "tol_factor": 1.0,
+          "maxiter": 300000,
+          "max_seconds": 1200.0,
+          "omd_maxiter": 20000
+        },
+        "solver_configuration_sha256": "29cc6c261083e40b97961dcfa164385a958ac667cec1faaa6a0ff00d0de2afce",
+        "source_sha256": {
+          "accelerated.py": "b4d1fb2a44464b389e487de6dc62eed4b2cfc6b7d443bdf1669afbf194fd8c3d",
+          "audit_solvers.py": "38a9bc11a75a72b2825e7b32e0e139942690f72708833595ec4670ed73aa2827",
+          "baseline.py": "c45d10efe23ae2dbf9afaa2768be85399143fd8c52f8e559d1c3241aafdab597",
+          "channel.py": "9b0347264a1b9b8480b7db34acf9bd265809a7010a68f2176b9931a48daf7981",
+          "estimators.py": "5a3cf374360c630917c8b88a342cbacfc353e330f985de2c4824dbd80bca33e0",
+          "existing.py": "74bd98c2e9202570773328b97d72af0194764e67bb203937ba14ae1b36b761ab",
+          "global_solution.py": "c6db0f316d771d88af78a777d131a76304ca42ce23a99734e98d181847203e00",
+          "large_simulation.py": "3f047fd703fda3fc14e92afa728023f1edcc6637cb1bf68112ded56d299f67e0",
+          "omd_tolerance.py": "8ba920d56dc5be17a5ff13c2a86f38fca662c45c5e6d719f3c8400e88fb0982c",
+          "projections.py": "7b4b855890455ab66747c8b277c6b57fb3d933901c771868e1196c4416b3a222",
+          "run_convergence.py": "0a737b5bc765704693030cfb8086a6c6d52125b8c661f378bc902cf45173c50f",
+          "run_global_benchmark.py": "6b321aaba47e37d2f92d2749f43f5a04f8a04c686f4cb66660e9763d26a4f40d",
+          "run_identity.py": "f4dceb32eba5aa91d821194cc6b715b4065c380197c973467ee8dd9ec8316d12",
+          "runtime_io.py": "02834f4e72ab45d6e4c19541fbccd6b2e579787e705dca553e45ccf31b4aad2a",
+          "sampling.py": "755edf09731e44bb4553db57ba2773ba7e3ac3baa17e12a4b942d0b6bb07520c",
+          "solvers.py": "05076a16fee5a3fdfa75d809dee9e847a92f38bc5fb8cb56ba9cdfb56afc2a3e",
+          "clifford_representatives.npz": "a10f9e2a396924b9582be6ce1e72d5868f5368cb0b272593c9fe7637b6675631"
+        },
+        "estimate_sha256": "b07993cdeb2c2025c3ab6fa4941d524fd786de32974373983a3ff0455a788f7f",
+        "original_gap_tolerance": 0.25,
+        "regularized_gap_tolerance": 0.25
+      },
+      "validation": {
+        "feasible": true,
+        "trace_error": 0.0,
+        "hermitian_error": 0.0,
+        "min_eigenvalue": -6.58190406258997e-17,
+        "mw_gap": 1.0269562977782698e-15,
+        "raw_mw_gap": 1.0269562977782698e-15,
+        "mw_objective": -0.3313979573073493,
+        "omd_objective": 0.396741472199428,
+        "independent_accuracy": {
+          "tol_factor": 1.0,
+          "paper_omd_limit": 0.25,
+          "paper_mw_limit": 0.0625,
+          "original_gap_tolerance": 0.25,
+          "regularized_gap_tolerance": 0.25,
+          "epsilon_Q": 0.0625,
+          "eta": 0.00125
+        },
+        "global_omd_optimum": 0.3967414721994281,
+        "omd_gap": 0.0,
+        "global_full_projection_difference": 2.577187730903007e-15,
+        "trace_norm_error": 1.4642907533861766,
+        "frobenius_error": 0.507411580527938,
+        "mathematical_checks_passed": true,
+        "metadata_errors": [],
+        "accepted": true
+      }
+    },
+    {
+      "T": 256,
+      "profile": "OMD",
+      "method": "OMD",
+      "tol_factor": 1.0,
+      "stats": {
+        "solver": "shared_global_spectral",
+        "converged": true,
+        "status": "converged",
+        "iterations": 0,
+        "eta": 0.0,
+        "gap": 0.0,
+        "epsilon_Q": 0.0625,
+        "certificate": "Analytic common spectral minimizer; numerical gaps independently checked.",
+        "pls_projection": {
+          "expansions": 0,
+          "active_rank": 6,
+          "projection_calls": 1
+        },
+        "wall_seconds": 0.0005185820627957582,
+        "problem": {
+          "n": 4,
+          "k": 4,
+          "d": 16,
+          "T": 256,
+          "method": "OMD",
+          "empirical_mean_sha256": "06b63b5fba95c0cad54cfdde63d9cb88d605563a5f971c56bb36f29c014beaa4"
+        },
+        "requested_accuracy": {
+          "tol_factor": 1.0,
+          "paper_omd_limit": 0.25,
+          "paper_mw_limit": 0.0625,
+          "original_gap_tolerance": 0.25,
+          "regularized_gap_tolerance": 0.25,
+          "epsilon_Q": 0.0625,
+          "eta": 0.00125
+        },
+        "solver_configuration": {
+          "tol_factor": 1.0,
+          "maxiter": 300000,
+          "max_seconds": 1200.0,
+          "omd_maxiter": 20000
+        },
+        "solver_configuration_sha256": "29cc6c261083e40b97961dcfa164385a958ac667cec1faaa6a0ff00d0de2afce",
+        "source_sha256": {
+          "accelerated.py": "b4d1fb2a44464b389e487de6dc62eed4b2cfc6b7d443bdf1669afbf194fd8c3d",
+          "audit_solvers.py": "38a9bc11a75a72b2825e7b32e0e139942690f72708833595ec4670ed73aa2827",
+          "baseline.py": "c45d10efe23ae2dbf9afaa2768be85399143fd8c52f8e559d1c3241aafdab597",
+          "channel.py": "9b0347264a1b9b8480b7db34acf9bd265809a7010a68f2176b9931a48daf7981",
+          "estimators.py": "5a3cf374360c630917c8b88a342cbacfc353e330f985de2c4824dbd80bca33e0",
+          "existing.py": "74bd98c2e9202570773328b97d72af0194764e67bb203937ba14ae1b36b761ab",
+          "global_solution.py": "c6db0f316d771d88af78a777d131a76304ca42ce23a99734e98d181847203e00",
+          "large_simulation.py": "3f047fd703fda3fc14e92afa728023f1edcc6637cb1bf68112ded56d299f67e0",
+          "omd_tolerance.py": "8ba920d56dc5be17a5ff13c2a86f38fca662c45c5e6d719f3c8400e88fb0982c",
+          "projections.py": "7b4b855890455ab66747c8b277c6b57fb3d933901c771868e1196c4416b3a222",
+          "run_convergence.py": "0a737b5bc765704693030cfb8086a6c6d52125b8c661f378bc902cf45173c50f",
+          "run_global_benchmark.py": "6b321aaba47e37d2f92d2749f43f5a04f8a04c686f4cb66660e9763d26a4f40d",
+          "run_identity.py": "f4dceb32eba5aa91d821194cc6b715b4065c380197c973467ee8dd9ec8316d12",
+          "runtime_io.py": "02834f4e72ab45d6e4c19541fbccd6b2e579787e705dca553e45ccf31b4aad2a",
+          "sampling.py": "755edf09731e44bb4553db57ba2773ba7e3ac3baa17e12a4b942d0b6bb07520c",
+          "solvers.py": "05076a16fee5a3fdfa75d809dee9e847a92f38bc5fb8cb56ba9cdfb56afc2a3e",
+          "clifford_representatives.npz": "a10f9e2a396924b9582be6ce1e72d5868f5368cb0b272593c9fe7637b6675631"
+        },
+        "estimate_sha256": "b07993cdeb2c2025c3ab6fa4941d524fd786de32974373983a3ff0455a788f7f",
+        "original_gap_tolerance": 0.25,
+        "regularized_gap_tolerance": 0.25
+      },
+      "validation": {
+        "feasible": true,
+        "trace_error": 0.0,
+        "hermitian_error": 0.0,
+        "min_eigenvalue": -6.58190406258997e-17,
+        "mw_gap": 1.0269562977782698e-15,
+        "raw_mw_gap": 1.0269562977782698e-15,
+        "mw_objective": -0.3313979573073493,
+        "omd_objective": 0.396741472199428,
+        "independent_accuracy": {
+          "tol_factor": 1.0,
+          "paper_omd_limit": 0.25,
+          "paper_mw_limit": 0.0625,
+          "original_gap_tolerance": 0.25,
+          "regularized_gap_tolerance": 0.25,
+          "epsilon_Q": 0.0625,
+          "eta": 0.00125
+        },
+        "global_omd_optimum": 0.3967414721994281,
+        "omd_gap": 0.0,
+        "global_full_projection_difference": 2.577187730903007e-15,
+        "trace_norm_error": 1.4642907533861766,
+        "frobenius_error": 0.507411580527938,
+        "mathematical_checks_passed": true,
+        "metadata_errors": [],
+        "accepted": true
+      }
+    },
+    {
+      "T": 256,
+      "profile": "MW_PLS",
+      "method": "MW-PLS",
+      "tol_factor": 1.0,
+      "stats": {
+        "solver": "shared_global_spectral",
+        "converged": true,
+        "status": "converged",
+        "iterations": 0,
+        "eta": 0.0,
+        "gap": 0.0,
+        "epsilon_Q": 0.0625,
+        "certificate": "Analytic common spectral minimizer; numerical gaps independently checked.",
+        "pls_projection": {
+          "expansions": 0,
+          "active_rank": 6,
+          "projection_calls": 1
+        },
+        "wall_seconds": 0.0005340409697964787,
+        "problem": {
+          "n": 4,
+          "k": 4,
+          "d": 16,
+          "T": 256,
+          "method": "MW-PLS",
+          "empirical_mean_sha256": "06b63b5fba95c0cad54cfdde63d9cb88d605563a5f971c56bb36f29c014beaa4"
+        },
+        "requested_accuracy": {
+          "tol_factor": 1.0,
+          "paper_omd_limit": 0.25,
+          "paper_mw_limit": 0.0625,
+          "original_gap_tolerance": 0.25,
+          "regularized_gap_tolerance": 0.25,
+          "epsilon_Q": 0.0625,
+          "eta": 0.00125
+        },
+        "solver_configuration": {
+          "tol_factor": 1.0,
+          "maxiter": 300000,
+          "max_seconds": 1200.0,
+          "omd_maxiter": 20000
+        },
+        "solver_configuration_sha256": "29cc6c261083e40b97961dcfa164385a958ac667cec1faaa6a0ff00d0de2afce",
+        "source_sha256": {
+          "accelerated.py": "b4d1fb2a44464b389e487de6dc62eed4b2cfc6b7d443bdf1669afbf194fd8c3d",
+          "audit_solvers.py": "38a9bc11a75a72b2825e7b32e0e139942690f72708833595ec4670ed73aa2827",
+          "baseline.py": "c45d10efe23ae2dbf9afaa2768be85399143fd8c52f8e559d1c3241aafdab597",
+          "channel.py": "9b0347264a1b9b8480b7db34acf9bd265809a7010a68f2176b9931a48daf7981",
+          "estimators.py": "5a3cf374360c630917c8b88a342cbacfc353e330f985de2c4824dbd80bca33e0",
+          "existing.py": "74bd98c2e9202570773328b97d72af0194764e67bb203937ba14ae1b36b761ab",
+          "global_solution.py": "c6db0f316d771d88af78a777d131a76304ca42ce23a99734e98d181847203e00",
+          "large_simulation.py": "3f047fd703fda3fc14e92afa728023f1edcc6637cb1bf68112ded56d299f67e0",
+          "omd_tolerance.py": "8ba920d56dc5be17a5ff13c2a86f38fca662c45c5e6d719f3c8400e88fb0982c",
+          "projections.py": "7b4b855890455ab66747c8b277c6b57fb3d933901c771868e1196c4416b3a222",
+          "run_convergence.py": "0a737b5bc765704693030cfb8086a6c6d52125b8c661f378bc902cf45173c50f",
+          "run_global_benchmark.py": "6b321aaba47e37d2f92d2749f43f5a04f8a04c686f4cb66660e9763d26a4f40d",
+          "run_identity.py": "f4dceb32eba5aa91d821194cc6b715b4065c380197c973467ee8dd9ec8316d12",
+          "runtime_io.py": "02834f4e72ab45d6e4c19541fbccd6b2e579787e705dca553e45ccf31b4aad2a",
+          "sampling.py": "755edf09731e44bb4553db57ba2773ba7e3ac3baa17e12a4b942d0b6bb07520c",
+          "solvers.py": "05076a16fee5a3fdfa75d809dee9e847a92f38bc5fb8cb56ba9cdfb56afc2a3e",
+          "clifford_representatives.npz": "a10f9e2a396924b9582be6ce1e72d5868f5368cb0b272593c9fe7637b6675631"
+        },
+        "estimate_sha256": "b07993cdeb2c2025c3ab6fa4941d524fd786de32974373983a3ff0455a788f7f",
+        "original_gap_tolerance": 0.25,
+        "regularized_gap_tolerance": 0.25
+      },
+      "validation": {
+        "feasible": true,
+        "trace_error": 0.0,
+        "hermitian_error": 0.0,
+        "min_eigenvalue": -6.58190406258997e-17,
+        "mw_gap": 1.0269562977782698e-15,
+        "raw_mw_gap": 1.0269562977782698e-15,
+        "mw_objective": -0.3313979573073493,
+        "omd_objective": 0.396741472199428,
+        "independent_accuracy": {
+          "tol_factor": 1.0,
+          "paper_omd_limit": 0.25,
+          "paper_mw_limit": 0.0625,
+          "original_gap_tolerance": 0.25,
+          "regularized_gap_tolerance": 0.25,
+          "epsilon_Q": 0.0625,
+          "eta": 0.00125
+        },
+        "global_omd_optimum": 0.3967414721994281,
+        "omd_gap": 0.0,
+        "global_full_projection_difference": 2.577187730903007e-15,
+        "trace_norm_error": 1.4642907533861766,
+        "frobenius_error": 0.507411580527938,
+        "mathematical_checks_passed": true,
+        "metadata_errors": [],
+        "accepted": true
+      }
+    },
+    {
+      "T": 256,
+      "profile": "OMD_tight",
+      "method": "OMD",
+      "tol_factor": 1e-06,
+      "stats": {
+        "solver": "shared_global_spectral",
+        "converged": true,
+        "status": "converged",
+        "iterations": 0,
+        "eta": 0.0,
+        "gap": 0.0,
+        "epsilon_Q": 6.25e-08,
+        "certificate": "Analytic common spectral minimizer; numerical gaps independently checked.",
+        "pls_projection": {
+          "expansions": 0,
+          "active_rank": 6,
+          "projection_calls": 1
+        },
+        "wall_seconds": 0.0005053470376878977,
+        "problem": {
+          "n": 4,
+          "k": 4,
+          "d": 16,
+          "T": 256,
+          "method": "OMD",
+          "empirical_mean_sha256": "06b63b5fba95c0cad54cfdde63d9cb88d605563a5f971c56bb36f29c014beaa4"
+        },
+        "requested_accuracy": {
+          "tol_factor": 1e-06,
+          "paper_omd_limit": 0.25,
+          "paper_mw_limit": 0.0625,
+          "original_gap_tolerance": 2.5e-07,
+          "regularized_gap_tolerance": 2.5e-07,
+          "epsilon_Q": 6.25e-08,
+          "eta": 1.25e-09
+        },
+        "solver_configuration": {
+          "tol_factor": 1e-06,
+          "maxiter": 300000,
+          "max_seconds": 1200.0,
+          "omd_maxiter": 20000
+        },
+        "solver_configuration_sha256": "4d9d8356a4d038fdacb3e1e8f1b1fc21824fb4359cb31e0b9d5b16d5b7688ec8",
+        "source_sha256": {
+          "accelerated.py": "b4d1fb2a44464b389e487de6dc62eed4b2cfc6b7d443bdf1669afbf194fd8c3d",
+          "audit_solvers.py": "38a9bc11a75a72b2825e7b32e0e139942690f72708833595ec4670ed73aa2827",
+          "baseline.py": "c45d10efe23ae2dbf9afaa2768be85399143fd8c52f8e559d1c3241aafdab597",
+          "channel.py": "9b0347264a1b9b8480b7db34acf9bd265809a7010a68f2176b9931a48daf7981",
+          "estimators.py": "5a3cf374360c630917c8b88a342cbacfc353e330f985de2c4824dbd80bca33e0",
+          "existing.py": "74bd98c2e9202570773328b97d72af0194764e67bb203937ba14ae1b36b761ab",
+          "global_solution.py": "c6db0f316d771d88af78a777d131a76304ca42ce23a99734e98d181847203e00",
+          "large_simulation.py": "3f047fd703fda3fc14e92afa728023f1edcc6637cb1bf68112ded56d299f67e0",
+          "omd_tolerance.py": "8ba920d56dc5be17a5ff13c2a86f38fca662c45c5e6d719f3c8400e88fb0982c",
+          "projections.py": "7b4b855890455ab66747c8b277c6b57fb3d933901c771868e1196c4416b3a222",
+          "run_convergence.py": "0a737b5bc765704693030cfb8086a6c6d52125b8c661f378bc902cf45173c50f",
+          "run_global_benchmark.py": "6b321aaba47e37d2f92d2749f43f5a04f8a04c686f4cb66660e9763d26a4f40d",
+          "run_identity.py": "f4dceb32eba5aa91d821194cc6b715b4065c380197c973467ee8dd9ec8316d12",
+          "runtime_io.py": "02834f4e72ab45d6e4c19541fbccd6b2e579787e705dca553e45ccf31b4aad2a",
+          "sampling.py": "755edf09731e44bb4553db57ba2773ba7e3ac3baa17e12a4b942d0b6bb07520c",
+          "solvers.py": "05076a16fee5a3fdfa75d809dee9e847a92f38bc5fb8cb56ba9cdfb56afc2a3e",
+          "clifford_representatives.npz": "a10f9e2a396924b9582be6ce1e72d5868f5368cb0b272593c9fe7637b6675631"
+        },
+        "estimate_sha256": "b07993cdeb2c2025c3ab6fa4941d524fd786de32974373983a3ff0455a788f7f",
+        "original_gap_tolerance": 2.5e-07,
+        "regularized_gap_tolerance": 2.5e-07
+      },
+      "validation": {
+        "feasible": true,
+        "trace_error": 0.0,
+        "hermitian_error": 0.0,
+        "min_eigenvalue": -6.58190406258997e-17,
+        "mw_gap": 1.0269562977782698e-15,
+        "raw_mw_gap": 1.0269562977782698e-15,
+        "mw_objective": -0.3313979573073493,
+        "omd_objective": 0.396741472199428,
+        "independent_accuracy": {
+          "tol_factor": 1e-06,
+          "paper_omd_limit": 0.25,
+          "paper_mw_limit": 0.0625,
+          "original_gap_tolerance": 2.5e-07,
+          "regularized_gap_tolerance": 2.5e-07,
+          "epsilon_Q": 6.25e-08,
+          "eta": 1.25e-09
+        },
+        "global_omd_optimum": 0.3967414721994281,
+        "omd_gap": 0.0,
+        "global_full_projection_difference": 2.577187730903007e-15,
+        "trace_norm_error": 1.4642907533861766,
+        "frobenius_error": 0.507411580527938,
+        "mathematical_checks_passed": true,
+        "metadata_errors": [],
+        "accepted": true
+      }
+    },
+    {
+      "T": 4096,
+      "profile": "PLS",
+      "method": "PLS",
+      "tol_factor": 1.0,
+      "stats": {
+        "solver": "shared_global_spectral",
+        "converged": true,
+        "status": "converged",
+        "iterations": 0,
+        "eta": 0.0,
+        "gap": 0.0,
+        "epsilon_Q": 0.00390625,
+        "certificate": "Analytic common spectral minimizer; numerical gaps independently checked.",
+        "pls_projection": {
+          "expansions": 0,
+          "active_rank": 10,
+          "projection_calls": 1
+        },
+        "wall_seconds": 0.0006057349964976311,
+        "problem": {
+          "n": 4,
+          "k": 4,
+          "d": 16,
+          "T": 4096,
+          "method": "PLS",
+          "empirical_mean_sha256": "70b8c083c0dd69bd33533020fb133f15d9f3175d5094dc6cb468c128b4c523f3"
+        },
+        "requested_accuracy": {
+          "tol_factor": 1.0,
+          "paper_omd_limit": 0.0625,
+          "paper_mw_limit": 0.00390625,
+          "original_gap_tolerance": 0.0625,
+          "regularized_gap_tolerance": 0.0625,
+          "epsilon_Q": 0.00390625,
+          "eta": 0.0003125
+        },
+        "solver_configuration": {
+          "tol_factor": 1.0,
+          "maxiter": 300000,
+          "max_seconds": 1200.0,
+          "omd_maxiter": 20000
+        },
+        "solver_configuration_sha256": "29cc6c261083e40b97961dcfa164385a958ac667cec1faaa6a0ff00d0de2afce",
+        "source_sha256": {
+          "accelerated.py": "b4d1fb2a44464b389e487de6dc62eed4b2cfc6b7d443bdf1669afbf194fd8c3d",
+          "audit_solvers.py": "38a9bc11a75a72b2825e7b32e0e139942690f72708833595ec4670ed73aa2827",
+          "baseline.py": "c45d10efe23ae2dbf9afaa2768be85399143fd8c52f8e559d1c3241aafdab597",
+          "channel.py": "9b0347264a1b9b8480b7db34acf9bd265809a7010a68f2176b9931a48daf7981",
+          "estimators.py": "5a3cf374360c630917c8b88a342cbacfc353e330f985de2c4824dbd80bca33e0",
+          "existing.py": "74bd98c2e9202570773328b97d72af0194764e67bb203937ba14ae1b36b761ab",
+          "global_solution.py": "c6db0f316d771d88af78a777d131a76304ca42ce23a99734e98d181847203e00",
+          "large_simulation.py": "3f047fd703fda3fc14e92afa728023f1edcc6637cb1bf68112ded56d299f67e0",
+          "omd_tolerance.py": "8ba920d56dc5be17a5ff13c2a86f38fca662c45c5e6d719f3c8400e88fb0982c",
+          "projections.py": "7b4b855890455ab66747c8b277c6b57fb3d933901c771868e1196c4416b3a222",
+          "run_convergence.py": "0a737b5bc765704693030cfb8086a6c6d52125b8c661f378bc902cf45173c50f",
+          "run_global_benchmark.py": "6b321aaba47e37d2f92d2749f43f5a04f8a04c686f4cb66660e9763d26a4f40d",
+          "run_identity.py": "f4dceb32eba5aa91d821194cc6b715b4065c380197c973467ee8dd9ec8316d12",
+          "runtime_io.py": "02834f4e72ab45d6e4c19541fbccd6b2e579787e705dca553e45ccf31b4aad2a",
+          "sampling.py": "755edf09731e44bb4553db57ba2773ba7e3ac3baa17e12a4b942d0b6bb07520c",
+          "solvers.py": "05076a16fee5a3fdfa75d809dee9e847a92f38bc5fb8cb56ba9cdfb56afc2a3e",
+          "clifford_representatives.npz": "a10f9e2a396924b9582be6ce1e72d5868f5368cb0b272593c9fe7637b6675631"
+        },
+        "estimate_sha256": "6b7ba553184b9d96bc6a905c5a0556b712758f1ea799a969b875ca0a301a69a7",
+        "original_gap_tolerance": 0.0625,
+        "regularized_gap_tolerance": 0.0625
+      },
+      "validation": {
+        "feasible": true,
+        "trace_error": 1.1102230246251565e-16,
+        "hermitian_error": 0.0,
+        "min_eigenvalue": -1.453686913260847e-17,
+        "mw_gap": 2.5673907444456745e-16,
+        "raw_mw_gap": 2.5673907444456745e-16,
+        "mw_objective": -0.09104460121271915,
+        "omd_objective": 0.09669872046960469,
+        "independent_accuracy": {
+          "tol_factor": 1.0,
+          "paper_omd_limit": 0.0625,
+          "paper_mw_limit": 0.00390625,
+          "original_gap_tolerance": 0.0625,
+          "regularized_gap_tolerance": 0.0625,
+          "epsilon_Q": 0.00390625,
+          "eta": 0.0003125
+        },
+        "global_omd_optimum": 0.09669872046960463,
+        "omd_gap": 5.551115123125783e-17,
+        "global_full_projection_difference": 1.1356604639780736e-15,
+        "trace_norm_error": 0.702682017097761,
+        "frobenius_error": 0.21742493697940365,
+        "mathematical_checks_passed": true,
+        "metadata_errors": [],
+        "accepted": true
+      }
+    },
+    {
+      "T": 4096,
+      "profile": "OMD",
+      "method": "OMD",
+      "tol_factor": 1.0,
+      "stats": {
+        "solver": "shared_global_spectral",
+        "converged": true,
+        "status": "converged",
+        "iterations": 0,
+        "eta": 0.0,
+        "gap": 0.0,
+        "epsilon_Q": 0.00390625,
+        "certificate": "Analytic common spectral minimizer; numerical gaps independently checked.",
+        "pls_projection": {
+          "expansions": 0,
+          "active_rank": 10,
+          "projection_calls": 1
+        },
+        "wall_seconds": 0.0004933649906888604,
+        "problem": {
+          "n": 4,
+          "k": 4,
+          "d": 16,
+          "T": 4096,
+          "method": "OMD",
+          "empirical_mean_sha256": "70b8c083c0dd69bd33533020fb133f15d9f3175d5094dc6cb468c128b4c523f3"
+        },
+        "requested_accuracy": {
+          "tol_factor": 1.0,
+          "paper_omd_limit": 0.0625,
+          "paper_mw_limit": 0.00390625,
+          "original_gap_tolerance": 0.0625,
+          "regularized_gap_tolerance": 0.0625,
+          "epsilon_Q": 0.00390625,
+          "eta": 0.0003125
+        },
+        "solver_configuration": {
+          "tol_factor": 1.0,
+          "maxiter": 300000,
+          "max_seconds": 1200.0,
+          "omd_maxiter": 20000
+        },
+        "solver_configuration_sha256": "29cc6c261083e40b97961dcfa164385a958ac667cec1faaa6a0ff00d0de2afce",
+        "source_sha256": {
+          "accelerated.py": "b4d1fb2a44464b389e487de6dc62eed4b2cfc6b7d443bdf1669afbf194fd8c3d",
+          "audit_solvers.py": "38a9bc11a75a72b2825e7b32e0e139942690f72708833595ec4670ed73aa2827",
+          "baseline.py": "c45d10efe23ae2dbf9afaa2768be85399143fd8c52f8e559d1c3241aafdab597",
+          "channel.py": "9b0347264a1b9b8480b7db34acf9bd265809a7010a68f2176b9931a48daf7981",
+          "estimators.py": "5a3cf374360c630917c8b88a342cbacfc353e330f985de2c4824dbd80bca33e0",
+          "existing.py": "74bd98c2e9202570773328b97d72af0194764e67bb203937ba14ae1b36b761ab",
+          "global_solution.py": "c6db0f316d771d88af78a777d131a76304ca42ce23a99734e98d181847203e00",
+          "large_simulation.py": "3f047fd703fda3fc14e92afa728023f1edcc6637cb1bf68112ded56d299f67e0",
+          "omd_tolerance.py": "8ba920d56dc5be17a5ff13c2a86f38fca662c45c5e6d719f3c8400e88fb0982c",
+          "projections.py": "7b4b855890455ab66747c8b277c6b57fb3d933901c771868e1196c4416b3a222",
+          "run_convergence.py": "0a737b5bc765704693030cfb8086a6c6d52125b8c661f378bc902cf45173c50f",
+          "run_global_benchmark.py": "6b321aaba47e37d2f92d2749f43f5a04f8a04c686f4cb66660e9763d26a4f40d",
+          "run_identity.py": "f4dceb32eba5aa91d821194cc6b715b4065c380197c973467ee8dd9ec8316d12",
+          "runtime_io.py": "02834f4e72ab45d6e4c19541fbccd6b2e579787e705dca553e45ccf31b4aad2a",
+          "sampling.py": "755edf09731e44bb4553db57ba2773ba7e3ac3baa17e12a4b942d0b6bb07520c",
+          "solvers.py": "05076a16fee5a3fdfa75d809dee9e847a92f38bc5fb8cb56ba9cdfb56afc2a3e",
+          "clifford_representatives.npz": "a10f9e2a396924b9582be6ce1e72d5868f5368cb0b272593c9fe7637b6675631"
+        },
+        "estimate_sha256": "6b7ba553184b9d96bc6a905c5a0556b712758f1ea799a969b875ca0a301a69a7",
+        "original_gap_tolerance": 0.0625,
+        "regularized_gap_tolerance": 0.0625
+      },
+      "validation": {
+        "feasible": true,
+        "trace_error": 1.1102230246251565e-16,
+        "hermitian_error": 0.0,
+        "min_eigenvalue": -1.453686913260847e-17,
+        "mw_gap": 2.5673907444456745e-16,
+        "raw_mw_gap": 2.5673907444456745e-16,
+        "mw_objective": -0.09104460121271915,
+        "omd_objective": 0.09669872046960469,
+        "independent_accuracy": {
+          "tol_factor": 1.0,
+          "paper_omd_limit": 0.0625,
+          "paper_mw_limit": 0.00390625,
+          "original_gap_tolerance": 0.0625,
+          "regularized_gap_tolerance": 0.0625,
+          "epsilon_Q": 0.00390625,
+          "eta": 0.0003125
+        },
+        "global_omd_optimum": 0.09669872046960463,
+        "omd_gap": 5.551115123125783e-17,
+        "global_full_projection_difference": 1.1356604639780736e-15,
+        "trace_norm_error": 0.702682017097761,
+        "frobenius_error": 0.21742493697940365,
+        "mathematical_checks_passed": true,
+        "metadata_errors": [],
+        "accepted": true
+      }
+    },
+    {
+      "T": 4096,
+      "profile": "MW_PLS",
+      "method": "MW-PLS",
+      "tol_factor": 1.0,
+      "stats": {
+        "solver": "shared_global_spectral",
+        "converged": true,
+        "status": "converged",
+        "iterations": 0,
+        "eta": 0.0,
+        "gap": 0.0,
+        "epsilon_Q": 0.00390625,
+        "certificate": "Analytic common spectral minimizer; numerical gaps independently checked.",
+        "pls_projection": {
+          "expansions": 0,
+          "active_rank": 10,
+          "projection_calls": 1
+        },
+        "wall_seconds": 0.0004885359667241573,
+        "problem": {
+          "n": 4,
+          "k": 4,
+          "d": 16,
+          "T": 4096,
+          "method": "MW-PLS",
+          "empirical_mean_sha256": "70b8c083c0dd69bd33533020fb133f15d9f3175d5094dc6cb468c128b4c523f3"
+        },
+        "requested_accuracy": {
+          "tol_factor": 1.0,
+          "paper_omd_limit": 0.0625,
+          "paper_mw_limit": 0.00390625,
+          "original_gap_tolerance": 0.0625,
+          "regularized_gap_tolerance": 0.0625,
+          "epsilon_Q": 0.00390625,
+          "eta": 0.0003125
+        },
+        "solver_configuration": {
+          "tol_factor": 1.0,
+          "maxiter": 300000,
+          "max_seconds": 1200.0,
+          "omd_maxiter": 20000
+        },
+        "solver_configuration_sha256": "29cc6c261083e40b97961dcfa164385a958ac667cec1faaa6a0ff00d0de2afce",
+        "source_sha256": {
+          "accelerated.py": "b4d1fb2a44464b389e487de6dc62eed4b2cfc6b7d443bdf1669afbf194fd8c3d",
+          "audit_solvers.py": "38a9bc11a75a72b2825e7b32e0e139942690f72708833595ec4670ed73aa2827",
+          "baseline.py": "c45d10efe23ae2dbf9afaa2768be85399143fd8c52f8e559d1c3241aafdab597",
+          "channel.py": "9b0347264a1b9b8480b7db34acf9bd265809a7010a68f2176b9931a48daf7981",
+          "estimators.py": "5a3cf374360c630917c8b88a342cbacfc353e330f985de2c4824dbd80bca33e0",
+          "existing.py": "74bd98c2e9202570773328b97d72af0194764e67bb203937ba14ae1b36b761ab",
+          "global_solution.py": "c6db0f316d771d88af78a777d131a76304ca42ce23a99734e98d181847203e00",
+          "large_simulation.py": "3f047fd703fda3fc14e92afa728023f1edcc6637cb1bf68112ded56d299f67e0",
+          "omd_tolerance.py": "8ba920d56dc5be17a5ff13c2a86f38fca662c45c5e6d719f3c8400e88fb0982c",
+          "projections.py": "7b4b855890455ab66747c8b277c6b57fb3d933901c771868e1196c4416b3a222",
+          "run_convergence.py": "0a737b5bc765704693030cfb8086a6c6d52125b8c661f378bc902cf45173c50f",
+          "run_global_benchmark.py": "6b321aaba47e37d2f92d2749f43f5a04f8a04c686f4cb66660e9763d26a4f40d",
+          "run_identity.py": "f4dceb32eba5aa91d821194cc6b715b4065c380197c973467ee8dd9ec8316d12",
+          "runtime_io.py": "02834f4e72ab45d6e4c19541fbccd6b2e579787e705dca553e45ccf31b4aad2a",
+          "sampling.py": "755edf09731e44bb4553db57ba2773ba7e3ac3baa17e12a4b942d0b6bb07520c",
+          "solvers.py": "05076a16fee5a3fdfa75d809dee9e847a92f38bc5fb8cb56ba9cdfb56afc2a3e",
+          "clifford_representatives.npz": "a10f9e2a396924b9582be6ce1e72d5868f5368cb0b272593c9fe7637b6675631"
+        },
+        "estimate_sha256": "6b7ba553184b9d96bc6a905c5a0556b712758f1ea799a969b875ca0a301a69a7",
+        "original_gap_tolerance": 0.0625,
+        "regularized_gap_tolerance": 0.0625
+      },
+      "validation": {
+        "feasible": true,
+        "trace_error": 1.1102230246251565e-16,
+        "hermitian_error": 0.0,
+        "min_eigenvalue": -1.453686913260847e-17,
+        "mw_gap": 2.5673907444456745e-16,
+        "raw_mw_gap": 2.5673907444456745e-16,
+        "mw_objective": -0.09104460121271915,
+        "omd_objective": 0.09669872046960469,
+        "independent_accuracy": {
+          "tol_factor": 1.0,
+          "paper_omd_limit": 0.0625,
+          "paper_mw_limit": 0.00390625,
+          "original_gap_tolerance": 0.0625,
+          "regularized_gap_tolerance": 0.0625,
+          "epsilon_Q": 0.00390625,
+          "eta": 0.0003125
+        },
+        "global_omd_optimum": 0.09669872046960463,
+        "omd_gap": 5.551115123125783e-17,
+        "global_full_projection_difference": 1.1356604639780736e-15,
+        "trace_norm_error": 0.702682017097761,
+        "frobenius_error": 0.21742493697940365,
+        "mathematical_checks_passed": true,
+        "metadata_errors": [],
+        "accepted": true
+      }
+    },
+    {
+      "T": 4096,
+      "profile": "OMD_tight",
+      "method": "OMD",
+      "tol_factor": 1e-06,
+      "stats": {
+        "solver": "shared_global_spectral",
+        "converged": true,
+        "status": "converged",
+        "iterations": 0,
+        "eta": 0.0,
+        "gap": 0.0,
+        "epsilon_Q": 3.90625e-09,
+        "certificate": "Analytic common spectral minimizer; numerical gaps independently checked.",
+        "pls_projection": {
+          "expansions": 0,
+          "active_rank": 10,
+          "projection_calls": 1
+        },
+        "wall_seconds": 0.0006171369459480047,
+        "problem": {
+          "n": 4,
+          "k": 4,
+          "d": 16,
+          "T": 4096,
+          "method": "OMD",
+          "empirical_mean_sha256": "70b8c083c0dd69bd33533020fb133f15d9f3175d5094dc6cb468c128b4c523f3"
+        },
+        "requested_accuracy": {
+          "tol_factor": 1e-06,
+          "paper_omd_limit": 0.0625,
+          "paper_mw_limit": 0.00390625,
+          "original_gap_tolerance": 6.25e-08,
+          "regularized_gap_tolerance": 6.25e-08,
+          "epsilon_Q": 3.90625e-09,
+          "eta": 3.125e-10
+        },
+        "solver_configuration": {
+          "tol_factor": 1e-06,
+          "maxiter": 300000,
+          "max_seconds": 1200.0,
+          "omd_maxiter": 20000
+        },
+        "solver_configuration_sha256": "4d9d8356a4d038fdacb3e1e8f1b1fc21824fb4359cb31e0b9d5b16d5b7688ec8",
+        "source_sha256": {
+          "accelerated.py": "b4d1fb2a44464b389e487de6dc62eed4b2cfc6b7d443bdf1669afbf194fd8c3d",
+          "audit_solvers.py": "38a9bc11a75a72b2825e7b32e0e139942690f72708833595ec4670ed73aa2827",
+          "baseline.py": "c45d10efe23ae2dbf9afaa2768be85399143fd8c52f8e559d1c3241aafdab597",
+          "channel.py": "9b0347264a1b9b8480b7db34acf9bd265809a7010a68f2176b9931a48daf7981",
+          "estimators.py": "5a3cf374360c630917c8b88a342cbacfc353e330f985de2c4824dbd80bca33e0",
+          "existing.py": "74bd98c2e9202570773328b97d72af0194764e67bb203937ba14ae1b36b761ab",
+          "global_solution.py": "c6db0f316d771d88af78a777d131a76304ca42ce23a99734e98d181847203e00",
+          "large_simulation.py": "3f047fd703fda3fc14e92afa728023f1edcc6637cb1bf68112ded56d299f67e0",
+          "omd_tolerance.py": "8ba920d56dc5be17a5ff13c2a86f38fca662c45c5e6d719f3c8400e88fb0982c",
+          "projections.py": "7b4b855890455ab66747c8b277c6b57fb3d933901c771868e1196c4416b3a222",
+          "run_convergence.py": "0a737b5bc765704693030cfb8086a6c6d52125b8c661f378bc902cf45173c50f",
+          "run_global_benchmark.py": "6b321aaba47e37d2f92d2749f43f5a04f8a04c686f4cb66660e9763d26a4f40d",
+          "run_identity.py": "f4dceb32eba5aa91d821194cc6b715b4065c380197c973467ee8dd9ec8316d12",
+          "runtime_io.py": "02834f4e72ab45d6e4c19541fbccd6b2e579787e705dca553e45ccf31b4aad2a",
+          "sampling.py": "755edf09731e44bb4553db57ba2773ba7e3ac3baa17e12a4b942d0b6bb07520c",
+          "solvers.py": "05076a16fee5a3fdfa75d809dee9e847a92f38bc5fb8cb56ba9cdfb56afc2a3e",
+          "clifford_representatives.npz": "a10f9e2a396924b9582be6ce1e72d5868f5368cb0b272593c9fe7637b6675631"
+        },
+        "estimate_sha256": "6b7ba553184b9d96bc6a905c5a0556b712758f1ea799a969b875ca0a301a69a7",
+        "original_gap_tolerance": 6.25e-08,
+        "regularized_gap_tolerance": 6.25e-08
+      },
+      "validation": {
+        "feasible": true,
+        "trace_error": 1.1102230246251565e-16,
+        "hermitian_error": 0.0,
+        "min_eigenvalue": -1.453686913260847e-17,
+        "mw_gap": 2.5673907444456745e-16,
+        "raw_mw_gap": 2.5673907444456745e-16,
+        "mw_objective": -0.09104460121271915,
+        "omd_objective": 0.09669872046960469,
+        "independent_accuracy": {
+          "tol_factor": 1e-06,
+          "paper_omd_limit": 0.0625,
+          "paper_mw_limit": 0.00390625,
+          "original_gap_tolerance": 6.25e-08,
+          "regularized_gap_tolerance": 6.25e-08,
+          "epsilon_Q": 3.90625e-09,
+          "eta": 3.125e-10
+        },
+        "global_omd_optimum": 0.09669872046960463,
+        "omd_gap": 5.551115123125783e-17,
+        "global_full_projection_difference": 1.1356604639780736e-15,
+        "trace_norm_error": 0.702682017097761,
+        "frobenius_error": 0.21742493697940365,
+        "mathematical_checks_passed": true,
+        "metadata_errors": [],
+        "accepted": true
+      }
+    },
+    {
+      "T": 65536,
+      "profile": "PLS",
+      "method": "PLS",
+      "tol_factor": 1.0,
+      "stats": {
+        "solver": "shared_global_spectral",
+        "converged": true,
+        "status": "converged",
+        "iterations": 0,
+        "eta": 0.0,
+        "gap": 0.0,
+        "epsilon_Q": 0.000244140625,
+        "certificate": "Analytic common spectral minimizer; numerical gaps independently checked.",
+        "pls_projection": {
+          "expansions": 0,
+          "active_rank": 11,
+          "projection_calls": 1
+        },
+        "wall_seconds": 0.0005426279967650771,
+        "problem": {
+          "n": 4,
+          "k": 4,
+          "d": 16,
+          "T": 65536,
+          "method": "PLS",
+          "empirical_mean_sha256": "fb6bad4bcadf63b0720b0f9f7d37c7dd5c47e573a960d2120d38f8eb535c95ca"
+        },
+        "requested_accuracy": {
+          "tol_factor": 1.0,
+          "paper_omd_limit": 0.015625,
+          "paper_mw_limit": 0.000244140625,
+          "original_gap_tolerance": 0.015625,
+          "regularized_gap_tolerance": 0.015625,
+          "epsilon_Q": 0.000244140625,
+          "eta": 7.8125e-05
+        },
+        "solver_configuration": {
+          "tol_factor": 1.0,
+          "maxiter": 300000,
+          "max_seconds": 1200.0,
+          "omd_maxiter": 20000
+        },
+        "solver_configuration_sha256": "29cc6c261083e40b97961dcfa164385a958ac667cec1faaa6a0ff00d0de2afce",
+        "source_sha256": {
+          "accelerated.py": "b4d1fb2a44464b389e487de6dc62eed4b2cfc6b7d443bdf1669afbf194fd8c3d",
+          "audit_solvers.py": "38a9bc11a75a72b2825e7b32e0e139942690f72708833595ec4670ed73aa2827",
+          "baseline.py": "c45d10efe23ae2dbf9afaa2768be85399143fd8c52f8e559d1c3241aafdab597",
+          "channel.py": "9b0347264a1b9b8480b7db34acf9bd265809a7010a68f2176b9931a48daf7981",
+          "estimators.py": "5a3cf374360c630917c8b88a342cbacfc353e330f985de2c4824dbd80bca33e0",
+          "existing.py": "74bd98c2e9202570773328b97d72af0194764e67bb203937ba14ae1b36b761ab",
+          "global_solution.py": "c6db0f316d771d88af78a777d131a76304ca42ce23a99734e98d181847203e00",
+          "large_simulation.py": "3f047fd703fda3fc14e92afa728023f1edcc6637cb1bf68112ded56d299f67e0",
+          "omd_tolerance.py": "8ba920d56dc5be17a5ff13c2a86f38fca662c45c5e6d719f3c8400e88fb0982c",
+          "projections.py": "7b4b855890455ab66747c8b277c6b57fb3d933901c771868e1196c4416b3a222",
+          "run_convergence.py": "0a737b5bc765704693030cfb8086a6c6d52125b8c661f378bc902cf45173c50f",
+          "run_global_benchmark.py": "6b321aaba47e37d2f92d2749f43f5a04f8a04c686f4cb66660e9763d26a4f40d",
+          "run_identity.py": "f4dceb32eba5aa91d821194cc6b715b4065c380197c973467ee8dd9ec8316d12",
+          "runtime_io.py": "02834f4e72ab45d6e4c19541fbccd6b2e579787e705dca553e45ccf31b4aad2a",
+          "sampling.py": "755edf09731e44bb4553db57ba2773ba7e3ac3baa17e12a4b942d0b6bb07520c",
+          "solvers.py": "05076a16fee5a3fdfa75d809dee9e847a92f38bc5fb8cb56ba9cdfb56afc2a3e",
+          "clifford_representatives.npz": "a10f9e2a396924b9582be6ce1e72d5868f5368cb0b272593c9fe7637b6675631"
+        },
+        "estimate_sha256": "cca572b5eda9d75da61aae8e35295e380a79a13865fd0ded4f4a7eb04b4bf355",
+        "original_gap_tolerance": 0.015625,
+        "regularized_gap_tolerance": 0.015625
+      },
+      "validation": {
+        "feasible": true,
+        "trace_error": 2.220446049250313e-16,
+        "hermitian_error": 0.0,
+        "min_eigenvalue": -3.5009492536315846e-17,
+        "mw_gap": 8.001412032943023e-16,
+        "raw_mw_gap": 8.001412032943023e-16,
+        "mw_objective": -0.06438082385994896,
+        "omd_objective": 0.01499793997859386,
+        "independent_accuracy": {
+          "tol_factor": 1.0,
+          "paper_omd_limit": 0.015625,
+          "paper_mw_limit": 0.000244140625,
+          "original_gap_tolerance": 0.015625,
+          "regularized_gap_tolerance": 0.015625,
+          "epsilon_Q": 0.000244140625,
+          "eta": 7.8125e-05
+        },
+        "global_omd_optimum": 0.014997939978593864,
+        "omd_gap": 0.0,
+        "global_full_projection_difference": 1.3420515531751013e-15,
+        "trace_norm_error": 0.1823890760157731,
+        "frobenius_error": 0.05460204444774171,
+        "mathematical_checks_passed": true,
+        "metadata_errors": [],
+        "accepted": true
+      }
+    },
+    {
+      "T": 65536,
+      "profile": "OMD",
+      "method": "OMD",
+      "tol_factor": 1.0,
+      "stats": {
+        "solver": "shared_global_spectral",
+        "converged": true,
+        "status": "converged",
+        "iterations": 0,
+        "eta": 0.0,
+        "gap": 0.0,
+        "epsilon_Q": 0.000244140625,
+        "certificate": "Analytic common spectral minimizer; numerical gaps independently checked.",
+        "pls_projection": {
+          "expansions": 0,
+          "active_rank": 11,
+          "projection_calls": 1
+        },
+        "wall_seconds": 0.0005529359914362431,
+        "problem": {
+          "n": 4,
+          "k": 4,
+          "d": 16,
+          "T": 65536,
+          "method": "OMD",
+          "empirical_mean_sha256": "fb6bad4bcadf63b0720b0f9f7d37c7dd5c47e573a960d2120d38f8eb535c95ca"
+        },
+        "requested_accuracy": {
+          "tol_factor": 1.0,
+          "paper_omd_limit": 0.015625,
+          "paper_mw_limit": 0.000244140625,
+          "original_gap_tolerance": 0.015625,
+          "regularized_gap_tolerance": 0.015625,
+          "epsilon_Q": 0.000244140625,
+          "eta": 7.8125e-05
+        },
+        "solver_configuration": {
+          "tol_factor": 1.0,
+          "maxiter": 300000,
+          "max_seconds": 1200.0,
+          "omd_maxiter": 20000
+        },
+        "solver_configuration_sha256": "29cc6c261083e40b97961dcfa164385a958ac667cec1faaa6a0ff00d0de2afce",
+        "source_sha256": {
+          "accelerated.py": "b4d1fb2a44464b389e487de6dc62eed4b2cfc6b7d443bdf1669afbf194fd8c3d",
+          "audit_solvers.py": "38a9bc11a75a72b2825e7b32e0e139942690f72708833595ec4670ed73aa2827",
+          "baseline.py": "c45d10efe23ae2dbf9afaa2768be85399143fd8c52f8e559d1c3241aafdab597",
+          "channel.py": "9b0347264a1b9b8480b7db34acf9bd265809a7010a68f2176b9931a48daf7981",
+          "estimators.py": "5a3cf374360c630917c8b88a342cbacfc353e330f985de2c4824dbd80bca33e0",
+          "existing.py": "74bd98c2e9202570773328b97d72af0194764e67bb203937ba14ae1b36b761ab",
+          "global_solution.py": "c6db0f316d771d88af78a777d131a76304ca42ce23a99734e98d181847203e00",
+          "large_simulation.py": "3f047fd703fda3fc14e92afa728023f1edcc6637cb1bf68112ded56d299f67e0",
+          "omd_tolerance.py": "8ba920d56dc5be17a5ff13c2a86f38fca662c45c5e6d719f3c8400e88fb0982c",
+          "projections.py": "7b4b855890455ab66747c8b277c6b57fb3d933901c771868e1196c4416b3a222",
+          "run_convergence.py": "0a737b5bc765704693030cfb8086a6c6d52125b8c661f378bc902cf45173c50f",
+          "run_global_benchmark.py": "6b321aaba47e37d2f92d2749f43f5a04f8a04c686f4cb66660e9763d26a4f40d",
+          "run_identity.py": "f4dceb32eba5aa91d821194cc6b715b4065c380197c973467ee8dd9ec8316d12",
+          "runtime_io.py": "02834f4e72ab45d6e4c19541fbccd6b2e579787e705dca553e45ccf31b4aad2a",
+          "sampling.py": "755edf09731e44bb4553db57ba2773ba7e3ac3baa17e12a4b942d0b6bb07520c",
+          "solvers.py": "05076a16fee5a3fdfa75d809dee9e847a92f38bc5fb8cb56ba9cdfb56afc2a3e",
+          "clifford_representatives.npz": "a10f9e2a396924b9582be6ce1e72d5868f5368cb0b272593c9fe7637b6675631"
+        },
+        "estimate_sha256": "cca572b5eda9d75da61aae8e35295e380a79a13865fd0ded4f4a7eb04b4bf355",
+        "original_gap_tolerance": 0.015625,
+        "regularized_gap_tolerance": 0.015625
+      },
+      "validation": {
+        "feasible": true,
+        "trace_error": 2.220446049250313e-16,
+        "hermitian_error": 0.0,
+        "min_eigenvalue": -3.5009492536315846e-17,
+        "mw_gap": 8.001412032943023e-16,
+        "raw_mw_gap": 8.001412032943023e-16,
+        "mw_objective": -0.06438082385994896,
+        "omd_objective": 0.01499793997859386,
+        "independent_accuracy": {
+          "tol_factor": 1.0,
+          "paper_omd_limit": 0.015625,
+          "paper_mw_limit": 0.000244140625,
+          "original_gap_tolerance": 0.015625,
+          "regularized_gap_tolerance": 0.015625,
+          "epsilon_Q": 0.000244140625,
+          "eta": 7.8125e-05
+        },
+        "global_omd_optimum": 0.014997939978593864,
+        "omd_gap": 0.0,
+        "global_full_projection_difference": 1.3420515531751013e-15,
+        "trace_norm_error": 0.1823890760157731,
+        "frobenius_error": 0.05460204444774171,
+        "mathematical_checks_passed": true,
+        "metadata_errors": [],
+        "accepted": true
+      }
+    },
+    {
+      "T": 65536,
+      "profile": "MW_PLS",
+      "method": "MW-PLS",
+      "tol_factor": 1.0,
+      "stats": {
+        "solver": "shared_global_spectral",
+        "converged": true,
+        "status": "converged",
+        "iterations": 0,
+        "eta": 0.0,
+        "gap": 0.0,
+        "epsilon_Q": 0.000244140625,
+        "certificate": "Analytic common spectral minimizer; numerical gaps independently checked.",
+        "pls_projection": {
+          "expansions": 0,
+          "active_rank": 11,
+          "projection_calls": 1
+        },
+        "wall_seconds": 0.0006151830311864614,
+        "problem": {
+          "n": 4,
+          "k": 4,
+          "d": 16,
+          "T": 65536,
+          "method": "MW-PLS",
+          "empirical_mean_sha256": "fb6bad4bcadf63b0720b0f9f7d37c7dd5c47e573a960d2120d38f8eb535c95ca"
+        },
+        "requested_accuracy": {
+          "tol_factor": 1.0,
+          "paper_omd_limit": 0.015625,
+          "paper_mw_limit": 0.000244140625,
+          "original_gap_tolerance": 0.015625,
+          "regularized_gap_tolerance": 0.015625,
+          "epsilon_Q": 0.000244140625,
+          "eta": 7.8125e-05
+        },
+        "solver_configuration": {
+          "tol_factor": 1.0,
+          "maxiter": 300000,
+          "max_seconds": 1200.0,
+          "omd_maxiter": 20000
+        },
+        "solver_configuration_sha256": "29cc6c261083e40b97961dcfa164385a958ac667cec1faaa6a0ff00d0de2afce",
+        "source_sha256": {
+          "accelerated.py": "b4d1fb2a44464b389e487de6dc62eed4b2cfc6b7d443bdf1669afbf194fd8c3d",
+          "audit_solvers.py": "38a9bc11a75a72b2825e7b32e0e139942690f72708833595ec4670ed73aa2827",
+          "baseline.py": "c45d10efe23ae2dbf9afaa2768be85399143fd8c52f8e559d1c3241aafdab597",
+          "channel.py": "9b0347264a1b9b8480b7db34acf9bd265809a7010a68f2176b9931a48daf7981",
+          "estimators.py": "5a3cf374360c630917c8b88a342cbacfc353e330f985de2c4824dbd80bca33e0",
+          "existing.py": "74bd98c2e9202570773328b97d72af0194764e67bb203937ba14ae1b36b761ab",
+          "global_solution.py": "c6db0f316d771d88af78a777d131a76304ca42ce23a99734e98d181847203e00",
+          "large_simulation.py": "3f047fd703fda3fc14e92afa728023f1edcc6637cb1bf68112ded56d299f67e0",
+          "omd_tolerance.py": "8ba920d56dc5be17a5ff13c2a86f38fca662c45c5e6d719f3c8400e88fb0982c",
+          "projections.py": "7b4b855890455ab66747c8b277c6b57fb3d933901c771868e1196c4416b3a222",
+          "run_convergence.py": "0a737b5bc765704693030cfb8086a6c6d52125b8c661f378bc902cf45173c50f",
+          "run_global_benchmark.py": "6b321aaba47e37d2f92d2749f43f5a04f8a04c686f4cb66660e9763d26a4f40d",
+          "run_identity.py": "f4dceb32eba5aa91d821194cc6b715b4065c380197c973467ee8dd9ec8316d12",
+          "runtime_io.py": "02834f4e72ab45d6e4c19541fbccd6b2e579787e705dca553e45ccf31b4aad2a",
+          "sampling.py": "755edf09731e44bb4553db57ba2773ba7e3ac3baa17e12a4b942d0b6bb07520c",
+          "solvers.py": "05076a16fee5a3fdfa75d809dee9e847a92f38bc5fb8cb56ba9cdfb56afc2a3e",
+          "clifford_representatives.npz": "a10f9e2a396924b9582be6ce1e72d5868f5368cb0b272593c9fe7637b6675631"
+        },
+        "estimate_sha256": "cca572b5eda9d75da61aae8e35295e380a79a13865fd0ded4f4a7eb04b4bf355",
+        "original_gap_tolerance": 0.015625,
+        "regularized_gap_tolerance": 0.015625
+      },
+      "validation": {
+        "feasible": true,
+        "trace_error": 2.220446049250313e-16,
+        "hermitian_error": 0.0,
+        "min_eigenvalue": -3.5009492536315846e-17,
+        "mw_gap": 8.001412032943023e-16,
+        "raw_mw_gap": 8.001412032943023e-16,
+        "mw_objective": -0.06438082385994896,
+        "omd_objective": 0.01499793997859386,
+        "independent_accuracy": {
+          "tol_factor": 1.0,
+          "paper_omd_limit": 0.015625,
+          "paper_mw_limit": 0.000244140625,
+          "original_gap_tolerance": 0.015625,
+          "regularized_gap_tolerance": 0.015625,
+          "epsilon_Q": 0.000244140625,
+          "eta": 7.8125e-05
+        },
+        "global_omd_optimum": 0.014997939978593864,
+        "omd_gap": 0.0,
+        "global_full_projection_difference": 1.3420515531751013e-15,
+        "trace_norm_error": 0.1823890760157731,
+        "frobenius_error": 0.05460204444774171,
+        "mathematical_checks_passed": true,
+        "metadata_errors": [],
+        "accepted": true
+      }
+    },
+    {
+      "T": 65536,
+      "profile": "OMD_tight",
+      "method": "OMD",
+      "tol_factor": 1e-06,
+      "stats": {
+        "solver": "shared_global_spectral",
+        "converged": true,
+        "status": "converged",
+        "iterations": 0,
+        "eta": 0.0,
+        "gap": 0.0,
+        "epsilon_Q": 2.44140625e-10,
+        "certificate": "Analytic common spectral minimizer; numerical gaps independently checked.",
+        "pls_projection": {
+          "expansions": 0,
+          "active_rank": 11,
+          "projection_calls": 1
+        },
+        "wall_seconds": 0.0005308249965310097,
+        "problem": {
+          "n": 4,
+          "k": 4,
+          "d": 16,
+          "T": 65536,
+          "method": "OMD",
+          "empirical_mean_sha256": "fb6bad4bcadf63b0720b0f9f7d37c7dd5c47e573a960d2120d38f8eb535c95ca"
+        },
+        "requested_accuracy": {
+          "tol_factor": 1e-06,
+          "paper_omd_limit": 0.015625,
+          "paper_mw_limit": 0.000244140625,
+          "original_gap_tolerance": 1.5625e-08,
+          "regularized_gap_tolerance": 1.5625e-08,
+          "epsilon_Q": 2.44140625e-10,
+          "eta": 7.8125e-11
+        },
+        "solver_configuration": {
+          "tol_factor": 1e-06,
+          "maxiter": 300000,
+          "max_seconds": 1200.0,
+          "omd_maxiter": 20000
+        },
+        "solver_configuration_sha256": "4d9d8356a4d038fdacb3e1e8f1b1fc21824fb4359cb31e0b9d5b16d5b7688ec8",
+        "source_sha256": {
+          "accelerated.py": "b4d1fb2a44464b389e487de6dc62eed4b2cfc6b7d443bdf1669afbf194fd8c3d",
+          "audit_solvers.py": "38a9bc11a75a72b2825e7b32e0e139942690f72708833595ec4670ed73aa2827",
+          "baseline.py": "c45d10efe23ae2dbf9afaa2768be85399143fd8c52f8e559d1c3241aafdab597",
+          "channel.py": "9b0347264a1b9b8480b7db34acf9bd265809a7010a68f2176b9931a48daf7981",
+          "estimators.py": "5a3cf374360c630917c8b88a342cbacfc353e330f985de2c4824dbd80bca33e0",
+          "existing.py": "74bd98c2e9202570773328b97d72af0194764e67bb203937ba14ae1b36b761ab",
+          "global_solution.py": "c6db0f316d771d88af78a777d131a76304ca42ce23a99734e98d181847203e00",
+          "large_simulation.py": "3f047fd703fda3fc14e92afa728023f1edcc6637cb1bf68112ded56d299f67e0",
+          "omd_tolerance.py": "8ba920d56dc5be17a5ff13c2a86f38fca662c45c5e6d719f3c8400e88fb0982c",
+          "projections.py": "7b4b855890455ab66747c8b277c6b57fb3d933901c771868e1196c4416b3a222",
+          "run_convergence.py": "0a737b5bc765704693030cfb8086a6c6d52125b8c661f378bc902cf45173c50f",
+          "run_global_benchmark.py": "6b321aaba47e37d2f92d2749f43f5a04f8a04c686f4cb66660e9763d26a4f40d",
+          "run_identity.py": "f4dceb32eba5aa91d821194cc6b715b4065c380197c973467ee8dd9ec8316d12",
+          "runtime_io.py": "02834f4e72ab45d6e4c19541fbccd6b2e579787e705dca553e45ccf31b4aad2a",
+          "sampling.py": "755edf09731e44bb4553db57ba2773ba7e3ac3baa17e12a4b942d0b6bb07520c",
+          "solvers.py": "05076a16fee5a3fdfa75d809dee9e847a92f38bc5fb8cb56ba9cdfb56afc2a3e",
+          "clifford_representatives.npz": "a10f9e2a396924b9582be6ce1e72d5868f5368cb0b272593c9fe7637b6675631"
+        },
+        "estimate_sha256": "cca572b5eda9d75da61aae8e35295e380a79a13865fd0ded4f4a7eb04b4bf355",
+        "original_gap_tolerance": 1.5625e-08,
+        "regularized_gap_tolerance": 1.5625e-08
+      },
+      "validation": {
+        "feasible": true,
+        "trace_error": 2.220446049250313e-16,
+        "hermitian_error": 0.0,
+        "min_eigenvalue": -3.5009492536315846e-17,
+        "mw_gap": 8.001412032943023e-16,
+        "raw_mw_gap": 8.001412032943023e-16,
+        "mw_objective": -0.06438082385994896,
+        "omd_objective": 0.01499793997859386,
+        "independent_accuracy": {
+          "tol_factor": 1e-06,
+          "paper_omd_limit": 0.015625,
+          "paper_mw_limit": 0.000244140625,
+          "original_gap_tolerance": 1.5625e-08,
+          "regularized_gap_tolerance": 1.5625e-08,
+          "epsilon_Q": 2.44140625e-10,
+          "eta": 7.8125e-11
+        },
+        "global_omd_optimum": 0.014997939978593864,
+        "omd_gap": 0.0,
+        "global_full_projection_difference": 1.3420515531751013e-15,
+        "trace_norm_error": 0.1823890760157731,
+        "frobenius_error": 0.05460204444774171,
+        "mathematical_checks_passed": true,
+        "metadata_errors": [],
+        "accepted": true
+      }
+    },
+    {
+      "T": 1048576,
+      "profile": "PLS",
+      "method": "PLS",
+      "tol_factor": 1.0,
+      "stats": {
+        "solver": "shared_global_spectral",
+        "converged": true,
+        "status": "converged",
+        "iterations": 0,
+        "eta": 0.0,
+        "gap": 0.0,
+        "epsilon_Q": 1.52587890625e-05,
+        "certificate": "Analytic common spectral minimizer; numerical gaps independently checked.",
+        "pls_projection": {
+          "expansions": 0,
+          "active_rank": 12,
+          "projection_calls": 1
+        },
+        "wall_seconds": 0.0008662429172545671,
+        "problem": {
+          "n": 4,
+          "k": 4,
+          "d": 16,
+          "T": 1048576,
+          "method": "PLS",
+          "empirical_mean_sha256": "08bd047f21145e4ee001c74a1d016af09d5218afa4a79266560d0008db5e0dee"
+        },
+        "requested_accuracy": {
+          "tol_factor": 1.0,
+          "paper_omd_limit": 0.00390625,
+          "paper_mw_limit": 1.52587890625e-05,
+          "original_gap_tolerance": 0.00390625,
+          "regularized_gap_tolerance": 0.00390625,
+          "epsilon_Q": 1.52587890625e-05,
+          "eta": 1.953125e-05
+        },
+        "solver_configuration": {
+          "tol_factor": 1.0,
+          "maxiter": 300000,
+          "max_seconds": 1200.0,
+          "omd_maxiter": 20000
+        },
+        "solver_configuration_sha256": "29cc6c261083e40b97961dcfa164385a958ac667cec1faaa6a0ff00d0de2afce",
+        "source_sha256": {
+          "accelerated.py": "b4d1fb2a44464b389e487de6dc62eed4b2cfc6b7d443bdf1669afbf194fd8c3d",
+          "audit_solvers.py": "38a9bc11a75a72b2825e7b32e0e139942690f72708833595ec4670ed73aa2827",
+          "baseline.py": "c45d10efe23ae2dbf9afaa2768be85399143fd8c52f8e559d1c3241aafdab597",
+          "channel.py": "9b0347264a1b9b8480b7db34acf9bd265809a7010a68f2176b9931a48daf7981",
+          "estimators.py": "5a3cf374360c630917c8b88a342cbacfc353e330f985de2c4824dbd80bca33e0",
+          "existing.py": "74bd98c2e9202570773328b97d72af0194764e67bb203937ba14ae1b36b761ab",
+          "global_solution.py": "c6db0f316d771d88af78a777d131a76304ca42ce23a99734e98d181847203e00",
+          "large_simulation.py": "3f047fd703fda3fc14e92afa728023f1edcc6637cb1bf68112ded56d299f67e0",
+          "omd_tolerance.py": "8ba920d56dc5be17a5ff13c2a86f38fca662c45c5e6d719f3c8400e88fb0982c",
+          "projections.py": "7b4b855890455ab66747c8b277c6b57fb3d933901c771868e1196c4416b3a222",
+          "run_convergence.py": "0a737b5bc765704693030cfb8086a6c6d52125b8c661f378bc902cf45173c50f",
+          "run_global_benchmark.py": "6b321aaba47e37d2f92d2749f43f5a04f8a04c686f4cb66660e9763d26a4f40d",
+          "run_identity.py": "f4dceb32eba5aa91d821194cc6b715b4065c380197c973467ee8dd9ec8316d12",
+          "runtime_io.py": "02834f4e72ab45d6e4c19541fbccd6b2e579787e705dca553e45ccf31b4aad2a",
+          "sampling.py": "755edf09731e44bb4553db57ba2773ba7e3ac3baa17e12a4b942d0b6bb07520c",
+          "solvers.py": "05076a16fee5a3fdfa75d809dee9e847a92f38bc5fb8cb56ba9cdfb56afc2a3e",
+          "clifford_representatives.npz": "a10f9e2a396924b9582be6ce1e72d5868f5368cb0b272593c9fe7637b6675631"
+        },
+        "estimate_sha256": "c70f3320eee73389412c28bc1952d21482183ccddf314d195e082bc3e90f4c86",
+        "original_gap_tolerance": 0.00390625,
+        "regularized_gap_tolerance": 0.00390625
+      },
+      "validation": {
+        "feasible": true,
+        "trace_error": 2.220446049250313e-16,
+        "hermitian_error": 0.0,
+        "min_eigenvalue": -2.858493769618787e-17,
+        "mw_gap": 2.981555974335137e-16,
+        "raw_mw_gap": 2.981555974335137e-16,
+        "mw_objective": -0.06231116781182531,
+        "omd_objective": 0.003975469841489124,
+        "independent_accuracy": {
+          "tol_factor": 1.0,
+          "paper_omd_limit": 0.00390625,
+          "paper_mw_limit": 1.52587890625e-05,
+          "original_gap_tolerance": 0.00390625,
+          "regularized_gap_tolerance": 0.00390625,
+          "epsilon_Q": 1.52587890625e-05,
+          "eta": 1.953125e-05
+        },
+        "global_omd_optimum": 0.003975469841489103,
+        "omd_gap": 2.0816681711721685e-17,
+        "global_full_projection_difference": 7.889000257343091e-16,
+        "trace_norm_error": 0.049151608823172786,
+        "frobenius_error": 0.014746044476102258,
+        "mathematical_checks_passed": true,
+        "metadata_errors": [],
+        "accepted": true
+      }
+    },
+    {
+      "T": 1048576,
+      "profile": "OMD",
+      "method": "OMD",
+      "tol_factor": 1.0,
+      "stats": {
+        "solver": "shared_global_spectral",
+        "converged": true,
+        "status": "converged",
+        "iterations": 0,
+        "eta": 0.0,
+        "gap": 0.0,
+        "epsilon_Q": 1.52587890625e-05,
+        "certificate": "Analytic common spectral minimizer; numerical gaps independently checked.",
+        "pls_projection": {
+          "expansions": 0,
+          "active_rank": 12,
+          "projection_calls": 1
+        },
+        "wall_seconds": 0.000749284983612597,
+        "problem": {
+          "n": 4,
+          "k": 4,
+          "d": 16,
+          "T": 1048576,
+          "method": "OMD",
+          "empirical_mean_sha256": "08bd047f21145e4ee001c74a1d016af09d5218afa4a79266560d0008db5e0dee"
+        },
+        "requested_accuracy": {
+          "tol_factor": 1.0,
+          "paper_omd_limit": 0.00390625,
+          "paper_mw_limit": 1.52587890625e-05,
+          "original_gap_tolerance": 0.00390625,
+          "regularized_gap_tolerance": 0.00390625,
+          "epsilon_Q": 1.52587890625e-05,
+          "eta": 1.953125e-05
+        },
+        "solver_configuration": {
+          "tol_factor": 1.0,
+          "maxiter": 300000,
+          "max_seconds": 1200.0,
+          "omd_maxiter": 20000
+        },
+        "solver_configuration_sha256": "29cc6c261083e40b97961dcfa164385a958ac667cec1faaa6a0ff00d0de2afce",
+        "source_sha256": {
+          "accelerated.py": "b4d1fb2a44464b389e487de6dc62eed4b2cfc6b7d443bdf1669afbf194fd8c3d",
+          "audit_solvers.py": "38a9bc11a75a72b2825e7b32e0e139942690f72708833595ec4670ed73aa2827",
+          "baseline.py": "c45d10efe23ae2dbf9afaa2768be85399143fd8c52f8e559d1c3241aafdab597",
+          "channel.py": "9b0347264a1b9b8480b7db34acf9bd265809a7010a68f2176b9931a48daf7981",
+          "estimators.py": "5a3cf374360c630917c8b88a342cbacfc353e330f985de2c4824dbd80bca33e0",
+          "existing.py": "74bd98c2e9202570773328b97d72af0194764e67bb203937ba14ae1b36b761ab",
+          "global_solution.py": "c6db0f316d771d88af78a777d131a76304ca42ce23a99734e98d181847203e00",
+          "large_simulation.py": "3f047fd703fda3fc14e92afa728023f1edcc6637cb1bf68112ded56d299f67e0",
+          "omd_tolerance.py": "8ba920d56dc5be17a5ff13c2a86f38fca662c45c5e6d719f3c8400e88fb0982c",
+          "projections.py": "7b4b855890455ab66747c8b277c6b57fb3d933901c771868e1196c4416b3a222",
+          "run_convergence.py": "0a737b5bc765704693030cfb8086a6c6d52125b8c661f378bc902cf45173c50f",
+          "run_global_benchmark.py": "6b321aaba47e37d2f92d2749f43f5a04f8a04c686f4cb66660e9763d26a4f40d",
+          "run_identity.py": "f4dceb32eba5aa91d821194cc6b715b4065c380197c973467ee8dd9ec8316d12",
+          "runtime_io.py": "02834f4e72ab45d6e4c19541fbccd6b2e579787e705dca553e45ccf31b4aad2a",
+          "sampling.py": "755edf09731e44bb4553db57ba2773ba7e3ac3baa17e12a4b942d0b6bb07520c",
+          "solvers.py": "05076a16fee5a3fdfa75d809dee9e847a92f38bc5fb8cb56ba9cdfb56afc2a3e",
+          "clifford_representatives.npz": "a10f9e2a396924b9582be6ce1e72d5868f5368cb0b272593c9fe7637b6675631"
+        },
+        "estimate_sha256": "c70f3320eee73389412c28bc1952d21482183ccddf314d195e082bc3e90f4c86",
+        "original_gap_tolerance": 0.00390625,
+        "regularized_gap_tolerance": 0.00390625
+      },
+      "validation": {
+        "feasible": true,
+        "trace_error": 2.220446049250313e-16,
+        "hermitian_error": 0.0,
+        "min_eigenvalue": -2.858493769618787e-17,
+        "mw_gap": 2.981555974335137e-16,
+        "raw_mw_gap": 2.981555974335137e-16,
+        "mw_objective": -0.06231116781182531,
+        "omd_objective": 0.003975469841489124,
+        "independent_accuracy": {
+          "tol_factor": 1.0,
+          "paper_omd_limit": 0.00390625,
+          "paper_mw_limit": 1.52587890625e-05,
+          "original_gap_tolerance": 0.00390625,
+          "regularized_gap_tolerance": 0.00390625,
+          "epsilon_Q": 1.52587890625e-05,
+          "eta": 1.953125e-05
+        },
+        "global_omd_optimum": 0.003975469841489103,
+        "omd_gap": 2.0816681711721685e-17,
+        "global_full_projection_difference": 7.889000257343091e-16,
+        "trace_norm_error": 0.049151608823172786,
+        "frobenius_error": 0.014746044476102258,
+        "mathematical_checks_passed": true,
+        "metadata_errors": [],
+        "accepted": true
+      }
+    },
+    {
+      "T": 1048576,
+      "profile": "MW_PLS",
+      "method": "MW-PLS",
+      "tol_factor": 1.0,
+      "stats": {
+        "solver": "shared_global_spectral",
+        "converged": true,
+        "status": "converged",
+        "iterations": 0,
+        "eta": 0.0,
+        "gap": 0.0,
+        "epsilon_Q": 1.52587890625e-05,
+        "certificate": "Analytic common spectral minimizer; numerical gaps independently checked.",
+        "pls_projection": {
+          "expansions": 0,
+          "active_rank": 12,
+          "projection_calls": 1
+        },
+        "wall_seconds": 0.0005140840075910091,
+        "problem": {
+          "n": 4,
+          "k": 4,
+          "d": 16,
+          "T": 1048576,
+          "method": "MW-PLS",
+          "empirical_mean_sha256": "08bd047f21145e4ee001c74a1d016af09d5218afa4a79266560d0008db5e0dee"
+        },
+        "requested_accuracy": {
+          "tol_factor": 1.0,
+          "paper_omd_limit": 0.00390625,
+          "paper_mw_limit": 1.52587890625e-05,
+          "original_gap_tolerance": 0.00390625,
+          "regularized_gap_tolerance": 0.00390625,
+          "epsilon_Q": 1.52587890625e-05,
+          "eta": 1.953125e-05
+        },
+        "solver_configuration": {
+          "tol_factor": 1.0,
+          "maxiter": 300000,
+          "max_seconds": 1200.0,
+          "omd_maxiter": 20000
+        },
+        "solver_configuration_sha256": "29cc6c261083e40b97961dcfa164385a958ac667cec1faaa6a0ff00d0de2afce",
+        "source_sha256": {
+          "accelerated.py": "b4d1fb2a44464b389e487de6dc62eed4b2cfc6b7d443bdf1669afbf194fd8c3d",
+          "audit_solvers.py": "38a9bc11a75a72b2825e7b32e0e139942690f72708833595ec4670ed73aa2827",
+          "baseline.py": "c45d10efe23ae2dbf9afaa2768be85399143fd8c52f8e559d1c3241aafdab597",
+          "channel.py": "9b0347264a1b9b8480b7db34acf9bd265809a7010a68f2176b9931a48daf7981",
+          "estimators.py": "5a3cf374360c630917c8b88a342cbacfc353e330f985de2c4824dbd80bca33e0",
+          "existing.py": "74bd98c2e9202570773328b97d72af0194764e67bb203937ba14ae1b36b761ab",
+          "global_solution.py": "c6db0f316d771d88af78a777d131a76304ca42ce23a99734e98d181847203e00",
+          "large_simulation.py": "3f047fd703fda3fc14e92afa728023f1edcc6637cb1bf68112ded56d299f67e0",
+          "omd_tolerance.py": "8ba920d56dc5be17a5ff13c2a86f38fca662c45c5e6d719f3c8400e88fb0982c",
+          "projections.py": "7b4b855890455ab66747c8b277c6b57fb3d933901c771868e1196c4416b3a222",
+          "run_convergence.py": "0a737b5bc765704693030cfb8086a6c6d52125b8c661f378bc902cf45173c50f",
+          "run_global_benchmark.py": "6b321aaba47e37d2f92d2749f43f5a04f8a04c686f4cb66660e9763d26a4f40d",
+          "run_identity.py": "f4dceb32eba5aa91d821194cc6b715b4065c380197c973467ee8dd9ec8316d12",
+          "runtime_io.py": "02834f4e72ab45d6e4c19541fbccd6b2e579787e705dca553e45ccf31b4aad2a",
+          "sampling.py": "755edf09731e44bb4553db57ba2773ba7e3ac3baa17e12a4b942d0b6bb07520c",
+          "solvers.py": "05076a16fee5a3fdfa75d809dee9e847a92f38bc5fb8cb56ba9cdfb56afc2a3e",
+          "clifford_representatives.npz": "a10f9e2a396924b9582be6ce1e72d5868f5368cb0b272593c9fe7637b6675631"
+        },
+        "estimate_sha256": "c70f3320eee73389412c28bc1952d21482183ccddf314d195e082bc3e90f4c86",
+        "original_gap_tolerance": 0.00390625,
+        "regularized_gap_tolerance": 0.00390625
+      },
+      "validation": {
+        "feasible": true,
+        "trace_error": 2.220446049250313e-16,
+        "hermitian_error": 0.0,
+        "min_eigenvalue": -2.858493769618787e-17,
+        "mw_gap": 2.981555974335137e-16,
+        "raw_mw_gap": 2.981555974335137e-16,
+        "mw_objective": -0.06231116781182531,
+        "omd_objective": 0.003975469841489124,
+        "independent_accuracy": {
+          "tol_factor": 1.0,
+          "paper_omd_limit": 0.00390625,
+          "paper_mw_limit": 1.52587890625e-05,
+          "original_gap_tolerance": 0.00390625,
+          "regularized_gap_tolerance": 0.00390625,
+          "epsilon_Q": 1.52587890625e-05,
+          "eta": 1.953125e-05
+        },
+        "global_omd_optimum": 0.003975469841489103,
+        "omd_gap": 2.0816681711721685e-17,
+        "global_full_projection_difference": 7.889000257343091e-16,
+        "trace_norm_error": 0.049151608823172786,
+        "frobenius_error": 0.014746044476102258,
+        "mathematical_checks_passed": true,
+        "metadata_errors": [],
+        "accepted": true
+      }
+    },
+    {
+      "T": 1048576,
+      "profile": "OMD_tight",
+      "method": "OMD",
+      "tol_factor": 1e-06,
+      "stats": {
+        "solver": "shared_global_spectral",
+        "converged": true,
+        "status": "converged",
+        "iterations": 0,
+        "eta": 0.0,
+        "gap": 0.0,
+        "epsilon_Q": 1.52587890625e-11,
+        "certificate": "Analytic common spectral minimizer; numerical gaps independently checked.",
+        "pls_projection": {
+          "expansions": 0,
+          "active_rank": 12,
+          "projection_calls": 1
+        },
+        "wall_seconds": 0.0006573030259460211,
+        "problem": {
+          "n": 4,
+          "k": 4,
+          "d": 16,
+          "T": 1048576,
+          "method": "OMD",
+          "empirical_mean_sha256": "08bd047f21145e4ee001c74a1d016af09d5218afa4a79266560d0008db5e0dee"
+        },
+        "requested_accuracy": {
+          "tol_factor": 1e-06,
+          "paper_omd_limit": 0.00390625,
+          "paper_mw_limit": 1.52587890625e-05,
+          "original_gap_tolerance": 3.90625e-09,
+          "regularized_gap_tolerance": 3.90625e-09,
+          "epsilon_Q": 1.52587890625e-11,
+          "eta": 1.953125e-11
+        },
+        "solver_configuration": {
+          "tol_factor": 1e-06,
+          "maxiter": 300000,
+          "max_seconds": 1200.0,
+          "omd_maxiter": 20000
+        },
+        "solver_configuration_sha256": "4d9d8356a4d038fdacb3e1e8f1b1fc21824fb4359cb31e0b9d5b16d5b7688ec8",
+        "source_sha256": {
+          "accelerated.py": "b4d1fb2a44464b389e487de6dc62eed4b2cfc6b7d443bdf1669afbf194fd8c3d",
+          "audit_solvers.py": "38a9bc11a75a72b2825e7b32e0e139942690f72708833595ec4670ed73aa2827",
+          "baseline.py": "c45d10efe23ae2dbf9afaa2768be85399143fd8c52f8e559d1c3241aafdab597",
+          "channel.py": "9b0347264a1b9b8480b7db34acf9bd265809a7010a68f2176b9931a48daf7981",
+          "estimators.py": "5a3cf374360c630917c8b88a342cbacfc353e330f985de2c4824dbd80bca33e0",
+          "existing.py": "74bd98c2e9202570773328b97d72af0194764e67bb203937ba14ae1b36b761ab",
+          "global_solution.py": "c6db0f316d771d88af78a777d131a76304ca42ce23a99734e98d181847203e00",
+          "large_simulation.py": "3f047fd703fda3fc14e92afa728023f1edcc6637cb1bf68112ded56d299f67e0",
+          "omd_tolerance.py": "8ba920d56dc5be17a5ff13c2a86f38fca662c45c5e6d719f3c8400e88fb0982c",
+          "projections.py": "7b4b855890455ab66747c8b277c6b57fb3d933901c771868e1196c4416b3a222",
+          "run_convergence.py": "0a737b5bc765704693030cfb8086a6c6d52125b8c661f378bc902cf45173c50f",
+          "run_global_benchmark.py": "6b321aaba47e37d2f92d2749f43f5a04f8a04c686f4cb66660e9763d26a4f40d",
+          "run_identity.py": "f4dceb32eba5aa91d821194cc6b715b4065c380197c973467ee8dd9ec8316d12",
+          "runtime_io.py": "02834f4e72ab45d6e4c19541fbccd6b2e579787e705dca553e45ccf31b4aad2a",
+          "sampling.py": "755edf09731e44bb4553db57ba2773ba7e3ac3baa17e12a4b942d0b6bb07520c",
+          "solvers.py": "05076a16fee5a3fdfa75d809dee9e847a92f38bc5fb8cb56ba9cdfb56afc2a3e",
+          "clifford_representatives.npz": "a10f9e2a396924b9582be6ce1e72d5868f5368cb0b272593c9fe7637b6675631"
+        },
+        "estimate_sha256": "c70f3320eee73389412c28bc1952d21482183ccddf314d195e082bc3e90f4c86",
+        "original_gap_tolerance": 3.90625e-09,
+        "regularized_gap_tolerance": 3.90625e-09
+      },
+      "validation": {
+        "feasible": true,
+        "trace_error": 2.220446049250313e-16,
+        "hermitian_error": 0.0,
+        "min_eigenvalue": -2.858493769618787e-17,
+        "mw_gap": 2.981555974335137e-16,
+        "raw_mw_gap": 2.981555974335137e-16,
+        "mw_objective": -0.06231116781182531,
+        "omd_objective": 0.003975469841489124,
+        "independent_accuracy": {
+          "tol_factor": 1e-06,
+          "paper_omd_limit": 0.00390625,
+          "paper_mw_limit": 1.52587890625e-05,
+          "original_gap_tolerance": 3.90625e-09,
+          "regularized_gap_tolerance": 3.90625e-09,
+          "epsilon_Q": 1.52587890625e-11,
+          "eta": 1.953125e-11
+        },
+        "global_omd_optimum": 0.003975469841489103,
+        "omd_gap": 2.0816681711721685e-17,
+        "global_full_projection_difference": 7.889000257343091e-16,
+        "trace_norm_error": 0.049151608823172786,
+        "frobenius_error": 0.014746044476102258,
+        "mathematical_checks_passed": true,
+        "metadata_errors": [],
+        "accepted": true
+      }
+    }
+  ],
+  "failed_records": [],
+  "artifact_sha256": {
+    "data.npz": "48119475bc0277e486c4d1791560bcbca172cd50e2784887e7968a7f2e560430",
+    "estimates_T1048576.npz": "915d748385f84902c1ede7b3714b0f9008d708f7c0438c0ebbf86b205b59751d",
+    "estimates_T256.npz": "f644899e8639b54e80eb2538e2ec635d4f22f09325ac658dd79db56901358f27",
+    "estimates_T4096.npz": "b206e1ddaaa8b7da6c865482bc7b638f38ef3c853bd05e89770f9839df95d7bd",
+    "estimates_T65536.npz": "3bda995374b2b5014c71e1b6f8aaee03839b66849618e54f572bcb28d1f75c57",
+    "sampling.json": "73f3b7c4dddbf839133436539268ae8bc16cb7691304088e1bd7aee98d973288"
+  },
+  "result_sha256": "cb71eef8b8346511c59a7a0c532544b829cc07e1aab5aaea6a670bc7951b1e48"
+}

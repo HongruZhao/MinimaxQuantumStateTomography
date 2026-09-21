@@ -1,0 +1,12 @@
+{
+  "sampling": "Original periodic two-layer Born sampler, independent uniform two-qubit Clifford draws",
+  "seed": [
+    20260920,
+    4,
+    2,
+    1,
+    1002
+  ],
+  "nested_prefixes": true,
+  "seconds": 9.249550038948655
+}

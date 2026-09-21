@@ -1,0 +1,38 @@
+{
+  "status": "complete",
+  "rows": [
+    {
+      "method": "PLS",
+      "repetitions": 100,
+      "trace_norm_error": 1.7045212682873228,
+      "error_ci_low": 1.701764728698249,
+      "error_ci_high": 1.7073491126256537,
+      "median_seconds": 0.02240453055128455,
+      "seconds_q25": 0.02086121792672202,
+      "seconds_q75": 0.02547724251053296
+    },
+    {
+      "method": "OMD",
+      "repetitions": 100,
+      "trace_norm_error": 1.7045212682873228,
+      "error_ci_low": 1.701764728698249,
+      "error_ci_high": 1.7073491126256537,
+      "median_seconds": 0.022565448482055217,
+      "seconds_q25": 0.020825268467888236,
+      "seconds_q75": 0.025683666026452556
+    },
+    {
+      "method": "MW-PLS",
+      "repetitions": 100,
+      "trace_norm_error": 1.7045212682873228,
+      "error_ci_low": 1.701764728698249,
+      "error_ci_high": 1.7073491126256537,
+      "median_seconds": 0.02204999257810414,
+      "seconds_q25": 0.02076939880498685,
+      "seconds_q75": 0.02537759841652587
+    }
+  ],
+  "max_pairwise_output_difference": 0.0,
+  "max_independent_mw_gap": 9.992007221626409e-16,
+  "max_independent_omd_gap": 1.7486012637846216e-15
+}

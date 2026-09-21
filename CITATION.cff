@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite this repository and the accompanying paper."
+type: software
+title: 'Minimax Quantum State Tomography with Periodic Clifford Measurements: Lean Verification and Simulations'
+authors:
+  - family-names: Zhao
+    given-names: Hongru
+    affiliation: University of Minnesota Twin Cities
+    orcid: 'https://orcid.org/0000-0002-1753-4709'
+version: 1.0.0
+date-released: 2026-09-20
+license: GPL-3.0
+repository-code: 'https://github.com/HongruZhao/MinimaxQuantumStateTomography'
+keywords:
+  - quantum state tomography
+  - minimax estimation
+  - Clifford measurements
+  - Lean 4
+  - formal verification

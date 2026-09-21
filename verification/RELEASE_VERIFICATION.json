@@ -1,0 +1,35 @@
+{
+  "version": "1.0.0",
+  "manuscript_version": "September 20, 2026",
+  "fresh_build": {
+    "started_at_utc": "2026-09-21T04:09:07.179284+00:00",
+    "total": 958,
+    "compiled": 958,
+    "failed": [],
+    "running": [],
+    "pending": 0,
+    "complete": true,
+    "finished_at_utc": "2026-09-21T04:27:48.617571+00:00",
+    "source_changes": []
+  },
+  "focused_main_endpoints": 6,
+  "focused_supporting_modules": 504,
+  "paper_correspondence": "Human-reviewed statement and component correspondence; not a kernel-certified LaTeX translation.",
+  "python_validation": {
+    "regression_checks": 36,
+    "regression_status": "passed",
+    "saved_study_status": "passed",
+    "datasets": 15,
+    "total_saved_attempts": 241,
+    "final_accepted_attempts": 240,
+    "paper_tolerance_fits": 180,
+    "plotted_settings": 36,
+    "figure_comparisons_regenerated": 4,
+    "python_source_files_syntax_checked": 119,
+    "current_solver_sources_match_canonical": true,
+    "historical_timing_benchmarks_rerun": false,
+    "large_historical_raw_data_included": false,
+    "python_validation_environment": "Python 3.9.6; local .venv39 used for this check",
+    "production_simulation_environment": "Python 3.10, NumPy 1.23.5, SciPy 1.10.0; Stim 1.15.0 for original larger-block sampling"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "vary_measurements_three": {
+    "reference_size": [
+      2640,
+      1150
+    ],
+    "rendered_size": [
+      2640,
+      1150
+    ],
+    "pixel_identical": false
+  },
+  "vary_dimension_three": {
+    "reference_size": [
+      2640,
+      1150
+    ],
+    "rendered_size": [
+      2640,
+      1150
+    ],
+    "pixel_identical": false
+  },
+  "vary_block_size_three": {
+    "reference_size": [
+      2401,
+      920
+    ],
+    "rendered_size": [
+      2401,
+      920
+    ],
+    "pixel_identical": true
+  },
+  "fresh_reconstruction_comparison": {
+    "reference_size": [
+      1617,
+      594
+    ],
+    "rendered_size": [
+      1617,
+      594
+    ],
+    "pixel_identical": true
+  }
+}

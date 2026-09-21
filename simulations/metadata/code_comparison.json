@@ -1,0 +1,39 @@
+{
+  "remote_code_files": 125,
+  "remote_python_files": 91,
+  "files_per_run": {
+    "T_sweep_n8_k2_2026-09-09": 7,
+    "controlled_studies_2026-09-09": 13,
+    "estimator_review_fix_2026-09-20": 37,
+    "estimator_revision_2026-09-20": 26,
+    "fair_solver_comparison_100reps_2026-09-09": 19,
+    "mw_pls_fw_benchmark_2026-09-10": 21,
+    "three_estimator_comparison_2026-09-11": 2
+  },
+  "active_python_matches": [
+    "runtime_io.py",
+    "existing.py",
+    "baseline.py",
+    "accelerated.py",
+    "channel.py",
+    "run_global_benchmark.py",
+    "run_convergence.py",
+    "solvers.py",
+    "global_solution.py",
+    "large_simulation.py",
+    "sampling.py",
+    "estimators.py",
+    "projections.py",
+    "audit_solvers.py",
+    "run_identity.py",
+    "omd_tolerance.py"
+  ],
+  "active_python_mismatches": [],
+  "all_export_hashes_verified": true,
+  "all_python_syntax_parsed": true,
+  "active_configuration_and_pool_matches": 5,
+  "publication_summary_tables_match": 5,
+  "msi_direct_publication_png_matches": 1,
+  "main_compact_publication_exports": 2,
+  "main_publication_curve_matches": 12
+}

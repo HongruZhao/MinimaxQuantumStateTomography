@@ -1,0 +1,12 @@
+{
+  "vary_measurements_three": {
+    "curves_checked": 6,
+    "maximum_svg_coordinate_difference": 0.0,
+    "matches_current_publication_curves": true
+  },
+  "vary_dimension_three": {
+    "curves_checked": 6,
+    "maximum_svg_coordinate_difference": 0.0,
+    "matches_current_publication_curves": true
+  }
+}

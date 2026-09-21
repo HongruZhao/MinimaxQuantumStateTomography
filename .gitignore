@@ -1,0 +1,7 @@
+.lake/
+**/.lake/
+.DS_Store
+__pycache__/
+*.pyc
+simulations/publication_plotting/generated/
+verification/rerun/

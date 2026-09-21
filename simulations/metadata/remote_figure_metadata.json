@@ -1,0 +1,47 @@
+{
+  "three_estimator_comparison_2026-09-11/vary_measurements_three.png": {
+    "size": [
+      2640,
+      1340
+    ],
+    "mode": "RGBA",
+    "pixel_sha256": "c82d650ff901e16dcea4b87573b2e049ecde106bbb7d3fe4e69245a00bca39db",
+    "metadata": {
+      "Software": "Matplotlib version3.11.1, https://matplotlib.org/",
+      "dpi": [
+        199.9996,
+        199.9996
+      ]
+    }
+  },
+  "three_estimator_comparison_2026-09-11/vary_dimension_three.png": {
+    "size": [
+      2640,
+      1340
+    ],
+    "mode": "RGBA",
+    "pixel_sha256": "59f1723d82493593185535887e96a816753eff31eb9fd6a1ae11934bc2174f81",
+    "metadata": {
+      "Software": "Matplotlib version3.11.1, https://matplotlib.org/",
+      "dpi": [
+        199.9996,
+        199.9996
+      ]
+    }
+  },
+  "estimator_revision_2026-09-20/figures/vary_block_size_three_corrected.png": {
+    "size": [
+      2401,
+      920
+    ],
+    "mode": "RGBA",
+    "pixel_sha256": "f474f04b6c43a0fe9dafd05400059d00b584876116954787e2af41e7b86d0066",
+    "metadata": {
+      "Software": "Matplotlib version3.9.4, https://matplotlib.org/",
+      "dpi": [
+        219.9894,
+        219.9894
+      ]
+    }
+  }
+}

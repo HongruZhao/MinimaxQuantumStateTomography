@@ -1,0 +1,4042 @@
+[
+  {
+    "path": "MainResults.lean",
+    "module": "MainResults",
+    "exit_code": 0,
+    "seconds": 2.47,
+    "source_sha256": "a8eab4053840242d318f468732665d03df19edfe9cb520eaf924ae59e08ddfd1",
+    "log": "verification/lean/modules/MainResults.log"
+  },
+  {
+    "path": "TomographyOracleCore/Algebra.lean",
+    "module": "TomographyOracleCore.Algebra",
+    "exit_code": 0,
+    "seconds": 2.75,
+    "source_sha256": "3b8475cd11d8b003b76d9deae7ca37a3fc18bd69257d03dbcafee80ca48eaec0",
+    "log": "verification/lean/modules/TomographyOracleCore.Algebra.log"
+  },
+  {
+    "path": "TomographyOracleCore/Assumptions.lean",
+    "module": "TomographyOracleCore.Assumptions",
+    "exit_code": 0,
+    "seconds": 2.52,
+    "source_sha256": "c5f9c61d37bd190a8cae88ac03a6bb88e41d1ccb55521a7909e6b90b2f7d75b6",
+    "log": "verification/lean/modules/TomographyOracleCore.Assumptions.log"
+  },
+  {
+    "path": "TomographyOracleCore/BinaryCliffordBlockPhysicalFloor.lean",
+    "module": "TomographyOracleCore.BinaryCliffordBlockPhysicalFloor",
+    "exit_code": 0,
+    "seconds": 2.33,
+    "source_sha256": "710a14c984b6f6b4f309366e1f5ed3b79bbc2e8fb095c7f267929158e06a82cd",
+    "log": "verification/lean/modules/TomographyOracleCore.BinaryCliffordBlockPhysicalFloor.log"
+  },
+  {
+    "path": "TomographyOracleCore/BinaryCliffordBlockTensorEmbedding.lean",
+    "module": "TomographyOracleCore.BinaryCliffordBlockTensorEmbedding",
+    "exit_code": 0,
+    "seconds": 2.28,
+    "source_sha256": "5eafdf3b06bee05599546ebdd3d05323256acb94c79c1a6a1760b8d0d7675f54",
+    "log": "verification/lean/modules/TomographyOracleCore.BinaryCliffordBlockTensorEmbedding.log"
+  },
+  {
+    "path": "TomographyOracleCore/BinaryCliffordExactThirdDesign.lean",
+    "module": "TomographyOracleCore.BinaryCliffordExactThirdDesign",
+    "exit_code": 0,
+    "seconds": 3.28,
+    "source_sha256": "4963d8a0769592e7136c0843977dc329798dd1389f449aede03d16b9492de56e",
+    "log": "verification/lean/modules/TomographyOracleCore.BinaryCliffordExactThirdDesign.log"
+  },
+  {
+    "path": "TomographyOracleCore/BinaryCliffordFiniteFourthRepresentation.lean",
+    "module": "TomographyOracleCore.BinaryCliffordFiniteFourthRepresentation",
+    "exit_code": 0,
+    "seconds": 2.6,
+    "source_sha256": "63e37f35813af8b76ccb5a6aad8e5fc48b410aeface64293cd1025e4f3fa6735",
+    "log": "verification/lean/modules/TomographyOracleCore.BinaryCliffordFiniteFourthRepresentation.log"
+  },
+  {
+    "path": "TomographyOracleCore/BinaryCliffordFiniteSecondMoment.lean",
+    "module": "TomographyOracleCore.BinaryCliffordFiniteSecondMoment",
+    "exit_code": 0,
+    "seconds": 3.35,
+    "source_sha256": "98a7e52b9814cf706667f14c5ad18be696e9f0ca30c02bac2ed2fd67e6145274",
+    "log": "verification/lean/modules/TomographyOracleCore.BinaryCliffordFiniteSecondMoment.log"
+  },
+  {
+    "path": "TomographyOracleCore/BinaryCliffordFiniteThirdMoment.lean",
+    "module": "TomographyOracleCore.BinaryCliffordFiniteThirdMoment",
+    "exit_code": 0,
+    "seconds": 3.27,
+    "source_sha256": "87afc41d7cec4f096d3d789d82baf15cdab75e40b47e08a8c55856aba2b8b7a4",
+    "log": "verification/lean/modules/TomographyOracleCore.BinaryCliffordFiniteThirdMoment.log"
+  },
+  {
+    "path": "TomographyOracleCore/BinaryCliffordFourthBlockAction.lean",
+    "module": "TomographyOracleCore.BinaryCliffordFourthBlockAction",
+    "exit_code": 0,
+    "seconds": 2.29,
+    "source_sha256": "060c1b78075c391298669b21f89eca25bc7ae41d6b281436f02f0670ad55e962",
+    "log": "verification/lean/modules/TomographyOracleCore.BinaryCliffordFourthBlockAction.log"
+  },
+  {
+    "path": "TomographyOracleCore/BinaryCliffordFourthReplicaReindex.lean",
+    "module": "TomographyOracleCore.BinaryCliffordFourthReplicaReindex",
+    "exit_code": 0,
+    "seconds": 2.36,
+    "source_sha256": "51551d17ad2e8ef2837087f2bf3c96b785fe924c9d113886b17bbc0d10f9da17",
+    "log": "verification/lean/modules/TomographyOracleCore.BinaryCliffordFourthReplicaReindex.log"
+  },
+  {
+    "path": "TomographyOracleCore/BinaryCliffordGeneratedEnsemble.lean",
+    "module": "TomographyOracleCore.BinaryCliffordGeneratedEnsemble",
+    "exit_code": 0,
+    "seconds": 2.66,
+    "source_sha256": "0079a18c761ef45fba8365c6084cd1e5d064520e20f346e7625609ec72b26712",
+    "log": "verification/lean/modules/TomographyOracleCore.BinaryCliffordGeneratedEnsemble.log"
+  },
+  {
+    "path": "TomographyOracleCore/BinaryCliffordPauliCosetEnsemble.lean",
+    "module": "TomographyOracleCore.BinaryCliffordPauliCosetEnsemble",
+    "exit_code": 0,
+    "seconds": 10.53,
+    "source_sha256": "741b650479e040c3b3105c42849439a3596bc90027322dde3823a95c3f9c5116",
+    "log": "verification/lean/modules/TomographyOracleCore.BinaryCliffordPauliCosetEnsemble.log"
+  },
+  {
+    "path": "TomographyOracleCore/BinaryCliffordPauliCosetMixing.lean",
+    "module": "TomographyOracleCore.BinaryCliffordPauliCosetMixing",
+    "exit_code": 0,
+    "seconds": 2.93,
+    "source_sha256": "79327894d97cfdf80b2aff40a60a8964a2f636439e6cbceb659d1a748c4820b9",
+    "log": "verification/lean/modules/TomographyOracleCore.BinaryCliffordPauliCosetMixing.log"
+  },
+  {
+    "path": "TomographyOracleCore/BinaryCliffordPauliTwoMixing.lean",
+    "module": "TomographyOracleCore.BinaryCliffordPauliTwoMixing",
+    "exit_code": 0,
+    "seconds": 2.38,
+    "source_sha256": "72921640befee186cb734136ae271ce8713337cbda1c90fc5680bb41534f64ed",
+    "log": "verification/lean/modules/TomographyOracleCore.BinaryCliffordPauliTwoMixing.log"
+  },
+  {
+    "path": "TomographyOracleCore/BinaryCliffordPeriodicCircuit.lean",
+    "module": "TomographyOracleCore.BinaryCliffordPeriodicCircuit",
+    "exit_code": 0,
+    "seconds": 2.66,
+    "source_sha256": "b15bb089fce84b1b93f9347b6a0fae5c80215ee0fd0b3e69f2ff90bc40506fa4",
+    "log": "verification/lean/modules/TomographyOracleCore.BinaryCliffordPeriodicCircuit.log"
+  },
+  {
+    "path": "TomographyOracleCore/BinaryCliffordPeriodicFinEnsemble.lean",
+    "module": "TomographyOracleCore.BinaryCliffordPeriodicFinEnsemble",
+    "exit_code": 0,
+    "seconds": 2.47,
+    "source_sha256": "4a529a1512af69239912ae30483d3b7db5fa91552578a7dfde8c33b1a746f772",
+    "log": "verification/lean/modules/TomographyOracleCore.BinaryCliffordPeriodicFinEnsemble.log"
+  },
+  {
+    "path": "TomographyOracleCore/BinaryCliffordPeriodicPOVMCurvature.lean",
+    "module": "TomographyOracleCore.BinaryCliffordPeriodicPOVMCurvature",
+    "exit_code": 0,
+    "seconds": 4.43,
+    "source_sha256": "bf2e4285e5988128cfbfd1a8a9f505c3b2f14f5cb1b63c41ad3912bedb70478f",
+    "log": "verification/lean/modules/TomographyOracleCore.BinaryCliffordPeriodicPOVMCurvature.log"
+  },
+  {
+    "path": "TomographyOracleCore/BinaryCliffordPeriodicPhysicalChannel.lean",
+    "module": "TomographyOracleCore.BinaryCliffordPeriodicPhysicalChannel",
+    "exit_code": 0,
+    "seconds": 3.43,
+    "source_sha256": "478c18805b13901c8d57f273ad64e6db06cba17afb9e76cf6827b226c89778ff",
+    "log": "verification/lean/modules/TomographyOracleCore.BinaryCliffordPeriodicPhysicalChannel.log"
+  },
+  {
+    "path": "TomographyOracleCore/BinaryCliffordPeriodicThirdTwirlFactorization.lean",
+    "module": "TomographyOracleCore.BinaryCliffordPeriodicThirdTwirlFactorization",
+    "exit_code": 0,
+    "seconds": 2.84,
+    "source_sha256": "1e5c7b30f374dc68ba8bf375d02078ab24231739ba648ce2993e8908ed386028",
+    "log": "verification/lean/modules/TomographyOracleCore.BinaryCliffordPeriodicThirdTwirlFactorization.log"
+  },
+  {
+    "path": "TomographyOracleCore/BinaryCliffordPhysicalChannel.lean",
+    "module": "TomographyOracleCore.BinaryCliffordPhysicalChannel",
+    "exit_code": 0,
+    "seconds": 2.25,
+    "source_sha256": "2b9098ecd3b166f43be56541948381c610aa40881b11d66d9bb01ec8adb94604",
+    "log": "verification/lean/modules/TomographyOracleCore.BinaryCliffordPhysicalChannel.log"
+  },
+  {
+    "path": "TomographyOracleCore/BinaryCliffordTransvection.lean",
+    "module": "TomographyOracleCore.BinaryCliffordTransvection",
+    "exit_code": 0,
+    "seconds": 2.47,
+    "source_sha256": "bd78eb894dde4429b593e1b8f6fac295f401887dd59ee45312969828f0cf2318",
+    "log": "verification/lean/modules/TomographyOracleCore.BinaryCliffordTransvection.log"
+  },
+  {
+    "path": "TomographyOracleCore/BinaryCliffordWebbClassExpansion.lean",
+    "module": "TomographyOracleCore.BinaryCliffordWebbClassExpansion",
+    "exit_code": 0,
+    "seconds": 3.02,
+    "source_sha256": "aa11194b492b8443596aca924b676bc02cc85044e3766194f8eb0ed468374854",
+    "log": "verification/lean/modules/TomographyOracleCore.BinaryCliffordWebbClassExpansion.log"
+  },
+  {
+    "path": "TomographyOracleCore/BinaryCliffordWebbHaarBridge.lean",
+    "module": "TomographyOracleCore.BinaryCliffordWebbHaarBridge",
+    "exit_code": 0,
+    "seconds": 3.48,
+    "source_sha256": "78e44602da0d66694e7ab1d8e06f48e147c8296b455b318ed762ef5730af8f73",
+    "log": "verification/lean/modules/TomographyOracleCore.BinaryCliffordWebbHaarBridge.log"
+  },
+  {
+    "path": "TomographyOracleCore/BinaryCliffordWebbIdentityPlacements.lean",
+    "module": "TomographyOracleCore.BinaryCliffordWebbIdentityPlacements",
+    "exit_code": 0,
+    "seconds": 2.74,
+    "source_sha256": "b8343c1f1a65727359fe8b220a40b623a03e441b8a10068f54dcce7fe0c37a05",
+    "log": "verification/lean/modules/TomographyOracleCore.BinaryCliffordWebbIdentityPlacements.log"
+  },
+  {
+    "path": "TomographyOracleCore/BinaryCliffordWebbPauliCancellation.lean",
+    "module": "TomographyOracleCore.BinaryCliffordWebbPauliCancellation",
+    "exit_code": 0,
+    "seconds": 2.21,
+    "source_sha256": "bd51eadb5eb81e156bc4cc0b11a8d94b3ce6f6e6a586b29053b1c082adcb5447",
+    "log": "verification/lean/modules/TomographyOracleCore.BinaryCliffordWebbPauliCancellation.log"
+  },
+  {
+    "path": "TomographyOracleCore/BinaryCliffordWebbTotalPauliClassification.lean",
+    "module": "TomographyOracleCore.BinaryCliffordWebbTotalPauliClassification",
+    "exit_code": 0,
+    "seconds": 3.01,
+    "source_sha256": "6091b4425201ec796978b1a8c833144ccdb5692d7cf22cf7b130ff4b2300feb2",
+    "log": "verification/lean/modules/TomographyOracleCore.BinaryCliffordWebbTotalPauliClassification.log"
+  },
+  {
+    "path": "TomographyOracleCore/BinaryComputableIndex.lean",
+    "module": "TomographyOracleCore.BinaryComputableIndex",
+    "exit_code": 0,
+    "seconds": 2.14,
+    "source_sha256": "f861208f8a03286af0582ce926158147fdffb056e6aceda32a8c4492eb9e8126",
+    "log": "verification/lean/modules/TomographyOracleCore.BinaryComputableIndex.log"
+  },
+  {
+    "path": "TomographyOracleCore/BinaryPauliAlgebra.lean",
+    "module": "TomographyOracleCore.BinaryPauliAlgebra",
+    "exit_code": 0,
+    "seconds": 2.06,
+    "source_sha256": "07e109f789b001b9f6e9e4a701147780947b6ecdfc3462f051d5ed8799571ca2",
+    "log": "verification/lean/modules/TomographyOracleCore.BinaryPauliAlgebra.log"
+  },
+  {
+    "path": "TomographyOracleCore/BinaryPauliDephasing.lean",
+    "module": "TomographyOracleCore.BinaryPauliDephasing",
+    "exit_code": 0,
+    "seconds": 1.94,
+    "source_sha256": "d5d8f543073e9f39f1eaa3dd6e1eec28a8c419d4929e304b5adc57e9d4236e29",
+    "log": "verification/lean/modules/TomographyOracleCore.BinaryPauliDephasing.log"
+  },
+  {
+    "path": "TomographyOracleCore/BinaryPauliOneCopyCurvature.lean",
+    "module": "TomographyOracleCore.BinaryPauliOneCopyCurvature",
+    "exit_code": 0,
+    "seconds": 2.73,
+    "source_sha256": "37a92525284ee6b91948e088840ab633c3200054f686ba31db6f46aa5716c779",
+    "log": "verification/lean/modules/TomographyOracleCore.BinaryPauliOneCopyCurvature.log"
+  },
+  {
+    "path": "TomographyOracleCore/BinaryPauliTensorBasis.lean",
+    "module": "TomographyOracleCore.BinaryPauliTensorBasis",
+    "exit_code": 0,
+    "seconds": 2.3,
+    "source_sha256": "1dd5931623d2b5e13d391555fe029e6ec300d4efafb7e548d538944f3cb38937",
+    "log": "verification/lean/modules/TomographyOracleCore.BinaryPauliTensorBasis.log"
+  },
+  {
+    "path": "TomographyOracleCore/BinaryPauliTensorPermutations.lean",
+    "module": "TomographyOracleCore.BinaryPauliTensorPermutations",
+    "exit_code": 0,
+    "seconds": 2.53,
+    "source_sha256": "13b40a65b417057101c26609f075193f665d97c4a666d15400f37e78d458af99",
+    "log": "verification/lean/modules/TomographyOracleCore.BinaryPauliTensorPermutations.log"
+  },
+  {
+    "path": "TomographyOracleCore/BinarySymplecticBlockChannel.lean",
+    "module": "TomographyOracleCore.BinarySymplecticBlockChannel",
+    "exit_code": 0,
+    "seconds": 2.19,
+    "source_sha256": "065c323fb3ea8e5fe6b0a3a0e1ade14eaee0ae93f1e9b78f4d788fa0f4b2c5db",
+    "log": "verification/lean/modules/TomographyOracleCore.BinarySymplecticBlockChannel.log"
+  },
+  {
+    "path": "TomographyOracleCore/BinarySymplecticPauli.lean",
+    "module": "TomographyOracleCore.BinarySymplecticPauli",
+    "exit_code": 0,
+    "seconds": 2.99,
+    "source_sha256": "1bb60d7351c6570dcc7cae5fb92357807445549502dcbd95c7f40e3dce8d4ecd",
+    "log": "verification/lean/modules/TomographyOracleCore.BinarySymplecticPauli.log"
+  },
+  {
+    "path": "TomographyOracleCore/Candidate2ClippedScoreMGF.lean",
+    "module": "TomographyOracleCore.Candidate2ClippedScoreMGF",
+    "exit_code": 0,
+    "seconds": 2.56,
+    "source_sha256": "7de5e512fcdcc680128dde78c6005969ca7bdbdda7b5dbdb7510c5ea0c196190",
+    "log": "verification/lean/modules/TomographyOracleCore.Candidate2ClippedScoreMGF.log"
+  },
+  {
+    "path": "TomographyOracleCore/Candidate2ClippedSpreadBias.lean",
+    "module": "TomographyOracleCore.Candidate2ClippedSpreadBias",
+    "exit_code": 0,
+    "seconds": 2.03,
+    "source_sha256": "a489e2b62be2265e9701070db7ff927cd8d78635c7a2d9e984651e9d545501e7",
+    "log": "verification/lean/modules/TomographyOracleCore.Candidate2ClippedSpreadBias.log"
+  },
+  {
+    "path": "TomographyOracleCore/Candidate2ClippedSpreadFiniteNet.lean",
+    "module": "TomographyOracleCore.Candidate2ClippedSpreadFiniteNet",
+    "exit_code": 0,
+    "seconds": 2.51,
+    "source_sha256": "eeec968eda6ab9446e372f5cf23abb078c47ecf0c1aff004ec613dc7d854f8bb",
+    "log": "verification/lean/modules/TomographyOracleCore.Candidate2ClippedSpreadFiniteNet.log"
+  },
+  {
+    "path": "TomographyOracleCore/Candidate2ClippedSpreadLipschitz.lean",
+    "module": "TomographyOracleCore.Candidate2ClippedSpreadLipschitz",
+    "exit_code": 0,
+    "seconds": 2.19,
+    "source_sha256": "cf3194bb7adaa82e18d626797c37f4653a1c9feeb2e003b7d9bc6af700de6a28",
+    "log": "verification/lean/modules/TomographyOracleCore.Candidate2ClippedSpreadLipschitz.log"
+  },
+  {
+    "path": "TomographyOracleCore/Candidate2DeterministicOracle.lean",
+    "module": "TomographyOracleCore.Candidate2DeterministicOracle",
+    "exit_code": 0,
+    "seconds": 3.5,
+    "source_sha256": "eded83700bfff6cc08c153a35b9d971441c4cbc4ba32fd680056aad526e3bdc2",
+    "log": "verification/lean/modules/TomographyOracleCore.Candidate2DeterministicOracle.log"
+  },
+  {
+    "path": "TomographyOracleCore/Candidate2EuclideanSphereFiniteNet.lean",
+    "module": "TomographyOracleCore.Candidate2EuclideanSphereFiniteNet",
+    "exit_code": 0,
+    "seconds": 2.39,
+    "source_sha256": "388591dbf903b24e8a43ad70bdca5b499ef335b059120c0be3f379dc74fb1b1f",
+    "log": "verification/lean/modules/TomographyOracleCore.Candidate2EuclideanSphereFiniteNet.log"
+  },
+  {
+    "path": "TomographyOracleCore/Candidate2FeasibilityRepair.lean",
+    "module": "TomographyOracleCore.Candidate2FeasibilityRepair",
+    "exit_code": 0,
+    "seconds": 3.3,
+    "source_sha256": "afe2ae69101df076eefeeb54142535816049aa5a87f647635b3fc3cca3ec805a",
+    "log": "verification/lean/modules/TomographyOracleCore.Candidate2FeasibilityRepair.log"
+  },
+  {
+    "path": "TomographyOracleCore/Candidate2FiniteBornMomentBridge.lean",
+    "module": "TomographyOracleCore.Candidate2FiniteBornMomentBridge",
+    "exit_code": 0,
+    "seconds": 2.75,
+    "source_sha256": "a6f4b171f0f43b0e08006822520997673f4d934dc5f440013f9fdc9b4722db0b",
+    "log": "verification/lean/modules/TomographyOracleCore.Candidate2FiniteBornMomentBridge.log"
+  },
+  {
+    "path": "TomographyOracleCore/Candidate2FiniteBornVectorLaw.lean",
+    "module": "TomographyOracleCore.Candidate2FiniteBornVectorLaw",
+    "exit_code": 0,
+    "seconds": 3.18,
+    "source_sha256": "3c62256c97bf6e0e9267a986bac6aa92faae64f638bde49df035ae6fa279b476",
+    "log": "verification/lean/modules/TomographyOracleCore.Candidate2FiniteBornVectorLaw.log"
+  },
+  {
+    "path": "TomographyOracleCore/Candidate2FixedNormCovarianceFiniteSample.lean",
+    "module": "TomographyOracleCore.Candidate2FixedNormCovarianceFiniteSample",
+    "exit_code": 0,
+    "seconds": 2.64,
+    "source_sha256": "f539e480e7bcf84b67e95f78446ef71c843c1952dec24ff9079bbe37b0443a92",
+    "log": "verification/lean/modules/TomographyOracleCore.Candidate2FixedNormCovarianceFiniteSample.log"
+  },
+  {
+    "path": "TomographyOracleCore/Candidate2FixedNormCovariancePlumbing.lean",
+    "module": "TomographyOracleCore.Candidate2FixedNormCovariancePlumbing",
+    "exit_code": 0,
+    "seconds": 2.4,
+    "source_sha256": "00205e7d6e088af658720c6d77a41325cd8e7a90a933298d6c63901213eaa4df",
+    "log": "verification/lean/modules/TomographyOracleCore.Candidate2FixedNormCovariancePlumbing.log"
+  },
+  {
+    "path": "TomographyOracleCore/Candidate2FixedNormPeakyUniform.lean",
+    "module": "TomographyOracleCore.Candidate2FixedNormPeakyUniform",
+    "exit_code": 0,
+    "seconds": 1.96,
+    "source_sha256": "315cfd40e2a0c0d7cd5e19e08f744de11c2c37657bd860622da37effa568966d",
+    "log": "verification/lean/modules/TomographyOracleCore.Candidate2FixedNormPeakyUniform.log"
+  },
+  {
+    "path": "TomographyOracleCore/Candidate2ForwardFit.lean",
+    "module": "TomographyOracleCore.Candidate2ForwardFit",
+    "exit_code": 0,
+    "seconds": 2.45,
+    "source_sha256": "f9c25c597f6fd089bc7a375910cbda1e0bd380446c9e7bc61a86d2b360b7ba96",
+    "log": "verification/lean/modules/TomographyOracleCore.Candidate2ForwardFit.log"
+  },
+  {
+    "path": "TomographyOracleCore/Candidate2FullCalibratedChannel.lean",
+    "module": "TomographyOracleCore.Candidate2FullCalibratedChannel",
+    "exit_code": 0,
+    "seconds": 2.89,
+    "source_sha256": "6cb421d7fcdb90e79e4b4b5b5bbea2d98927be631addcdeb00952e08c377e45a",
+    "log": "verification/lean/modules/TomographyOracleCore.Candidate2FullCalibratedChannel.log"
+  },
+  {
+    "path": "TomographyOracleCore/Candidate2PACBayesVariational.lean",
+    "module": "TomographyOracleCore.Candidate2PACBayesVariational",
+    "exit_code": 0,
+    "seconds": 2.54,
+    "source_sha256": "4c2c8af2c7d33bc9611b9555eea9a57f43750885df7fb25b52066b23d2b7f11d",
+    "log": "verification/lean/modules/TomographyOracleCore.Candidate2PACBayesVariational.log"
+  },
+  {
+    "path": "TomographyOracleCore/Candidate2PeakyMomentControl.lean",
+    "module": "TomographyOracleCore.Candidate2PeakyMomentControl",
+    "exit_code": 0,
+    "seconds": 1.91,
+    "source_sha256": "18621b428ada4933d7bf5cec081539549423471d10056c5886c95c6d977403cb",
+    "log": "verification/lean/modules/TomographyOracleCore.Candidate2PeakyMomentControl.log"
+  },
+  {
+    "path": "TomographyOracleCore/Candidate2PeakySparseReduction.lean",
+    "module": "TomographyOracleCore.Candidate2PeakySparseReduction",
+    "exit_code": 0,
+    "seconds": 2.32,
+    "source_sha256": "7270126329e3f4d1dedaa9f5236bb0342e76741e96213f9d812d265d6040d176",
+    "log": "verification/lean/modules/TomographyOracleCore.Candidate2PeakySparseReduction.log"
+  },
+  {
+    "path": "TomographyOracleCore/Candidate2PeakySpreadDecomposition.lean",
+    "module": "TomographyOracleCore.Candidate2PeakySpreadDecomposition",
+    "exit_code": 0,
+    "seconds": 2.11,
+    "source_sha256": "2866c00bdb9814f358769e75b4f575e146ec7e4046c2cdd2f6d2120ee77003b0",
+    "log": "verification/lean/modules/TomographyOracleCore.Candidate2PeakySpreadDecomposition.log"
+  },
+  {
+    "path": "TomographyOracleCore/Candidate2PhaseRandomization.lean",
+    "module": "TomographyOracleCore.Candidate2PhaseRandomization",
+    "exit_code": 0,
+    "seconds": 2.17,
+    "source_sha256": "a19ff75b7190028b8c97095af363d6805d2a530f78612ba7c3561d42ad63f261",
+    "log": "verification/lean/modules/TomographyOracleCore.Candidate2PhaseRandomization.log"
+  },
+  {
+    "path": "TomographyOracleCore/Candidate2PhaseRandomizedL6L2.lean",
+    "module": "TomographyOracleCore.Candidate2PhaseRandomizedL6L2",
+    "exit_code": 0,
+    "seconds": 1.99,
+    "source_sha256": "48b942adecd8d37073d23681ae610b6280202657353c89ea23910a13f64c5a4e",
+    "log": "verification/lean/modules/TomographyOracleCore.Candidate2PhaseRandomizedL6L2.log"
+  },
+  {
+    "path": "TomographyOracleCore/Candidate2PhaseRandomizedLaw.lean",
+    "module": "TomographyOracleCore.Candidate2PhaseRandomizedLaw",
+    "exit_code": 0,
+    "seconds": 2.39,
+    "source_sha256": "5e1ded683e5eebaec1b0e1ce77b4fa5faeb2d5fdee74c6872dc4c081cbb1e1b9",
+    "log": "verification/lean/modules/TomographyOracleCore.Candidate2PhaseRandomizedLaw.log"
+  },
+  {
+    "path": "TomographyOracleCore/Candidate2PhysicalFiniteSampleCovariance.lean",
+    "module": "TomographyOracleCore.Candidate2PhysicalFiniteSampleCovariance",
+    "exit_code": 0,
+    "seconds": 2.84,
+    "source_sha256": "9a2a15ebb80224823dd5eb209569b93a4eb7b627329d0ce78ecc919381be114f",
+    "log": "verification/lean/modules/TomographyOracleCore.Candidate2PhysicalFiniteSampleCovariance.log"
+  },
+  {
+    "path": "TomographyOracleCore/ChannelPrediction.lean",
+    "module": "TomographyOracleCore.ChannelPrediction",
+    "exit_code": 0,
+    "seconds": 2.6,
+    "source_sha256": "bf0190b4759d45ecf63a80a24861ad31869ab027601adac2433af889c6ca211e",
+    "log": "verification/lean/modules/TomographyOracleCore.ChannelPrediction.log"
+  },
+  {
+    "path": "TomographyOracleCore/ChoKimBlockDimensionOptimization.lean",
+    "module": "TomographyOracleCore.ChoKimBlockDimensionOptimization",
+    "exit_code": 0,
+    "seconds": 2.91,
+    "source_sha256": "d1e84f9122fed4afb4932a3d4b16743fd93f59e8969098684942d099b90bae70",
+    "log": "verification/lean/modules/TomographyOracleCore.ChoKimBlockDimensionOptimization.log"
+  },
+  {
+    "path": "TomographyOracleCore/ChoKimCondition.lean",
+    "module": "TomographyOracleCore.ChoKimCondition",
+    "exit_code": 0,
+    "seconds": 2.62,
+    "source_sha256": "897cee54e1d503abb06ac434374cb410c84c06bad4b4b3edefc7b6bb3ee8318c",
+    "log": "verification/lean/modules/TomographyOracleCore.ChoKimCondition.log"
+  },
+  {
+    "path": "TomographyOracleCore/ChoKimFullHaarLinearMap.lean",
+    "module": "TomographyOracleCore.ChoKimFullHaarLinearMap",
+    "exit_code": 0,
+    "seconds": 2.81,
+    "source_sha256": "114777d02c6ff2819645ca4887d45aad901502829f54c2676dfc3ee570bbfedb",
+    "log": "verification/lean/modules/TomographyOracleCore.ChoKimFullHaarLinearMap.log"
+  },
+  {
+    "path": "TomographyOracleCore/ChoKimGluingArithmetic.lean",
+    "module": "TomographyOracleCore.ChoKimGluingArithmetic",
+    "exit_code": 0,
+    "seconds": 3.31,
+    "source_sha256": "02667c45680493a2c10008051abd78bce505badedf4bc67ade7c03c104e322df",
+    "log": "verification/lean/modules/TomographyOracleCore.ChoKimGluingArithmetic.log"
+  },
+  {
+    "path": "TomographyOracleCore/ChoKimGluingProductArithmetic.lean",
+    "module": "TomographyOracleCore.ChoKimGluingProductArithmetic",
+    "exit_code": 0,
+    "seconds": 5.06,
+    "source_sha256": "c3b9fc692327bb7f528cf98d9dadc9dd578a77ea9789e4e33a0940bea13970b6",
+    "log": "verification/lean/modules/TomographyOracleCore.ChoKimGluingProductArithmetic.log"
+  },
+  {
+    "path": "TomographyOracleCore/ChoKimOverlapCycle.lean",
+    "module": "TomographyOracleCore.ChoKimOverlapCycle",
+    "exit_code": 0,
+    "seconds": 2.28,
+    "source_sha256": "e6a3ae33dd39dec6d7188882e2fc4a2c5095e3ad30d34e15df84a60369898622",
+    "log": "verification/lean/modules/TomographyOracleCore.ChoKimOverlapCycle.log"
+  },
+  {
+    "path": "TomographyOracleCore/ChoKimPeriodicActiveSupportGeometry.lean",
+    "module": "TomographyOracleCore.ChoKimPeriodicActiveSupportGeometry",
+    "exit_code": 0,
+    "seconds": 3.06,
+    "source_sha256": "8637c5acc6886f3ff6dee18e14ce256662d42b4e49be3b7f5556d310f13affdc",
+    "log": "verification/lean/modules/TomographyOracleCore.ChoKimPeriodicActiveSupportGeometry.log"
+  },
+  {
+    "path": "TomographyOracleCore/ChoKimPeriodicAlternatingCPPrefix.lean",
+    "module": "TomographyOracleCore.ChoKimPeriodicAlternatingCPPrefix",
+    "exit_code": 0,
+    "seconds": 2.86,
+    "source_sha256": "e367d5a29b465783b81f528a9710c2075dfd93620046fa25499e325e50a0cd18",
+    "log": "verification/lean/modules/TomographyOracleCore.ChoKimPeriodicAlternatingCPPrefix.log"
+  },
+  {
+    "path": "TomographyOracleCore/ChoKimPeriodicBaseClosingGeometry.lean",
+    "module": "TomographyOracleCore.ChoKimPeriodicBaseClosingGeometry",
+    "exit_code": 0,
+    "seconds": 4.67,
+    "source_sha256": "fb7e05977c5de2334bfebcda9eea695077d4a8b070029506dbd5dd4418398384",
+    "log": "verification/lean/modules/TomographyOracleCore.ChoKimPeriodicBaseClosingGeometry.log"
+  },
+  {
+    "path": "TomographyOracleCore/ChoKimPeriodicCPGateList.lean",
+    "module": "TomographyOracleCore.ChoKimPeriodicCPGateList",
+    "exit_code": 0,
+    "seconds": 2.5,
+    "source_sha256": "7af1c80c3bd44f63fadc9f204c074f40563fdf0c76d455d349110d5880235e1f",
+    "log": "verification/lean/modules/TomographyOracleCore.ChoKimPeriodicCPGateList.log"
+  },
+  {
+    "path": "TomographyOracleCore/ChoKimPeriodicErrorOptimization.lean",
+    "module": "TomographyOracleCore.ChoKimPeriodicErrorOptimization",
+    "exit_code": 0,
+    "seconds": 3.77,
+    "source_sha256": "5effe28789e8a5fa07f7492f0745e33e7ff21915d727b533acda6b5a1c5f0cd6",
+    "log": "verification/lean/modules/TomographyOracleCore.ChoKimPeriodicErrorOptimization.log"
+  },
+  {
+    "path": "TomographyOracleCore/ChoKimPeriodicNearExactVariance.lean",
+    "module": "TomographyOracleCore.ChoKimPeriodicNearExactVariance",
+    "exit_code": 0,
+    "seconds": 2.66,
+    "source_sha256": "d4abc667106e894fe8fb42415678555bc8815532e4f7371eb9d3af1d1055c98e",
+    "log": "verification/lean/modules/TomographyOracleCore.ChoKimPeriodicNearExactVariance.log"
+  },
+  {
+    "path": "TomographyOracleCore/ChoKimPeriodicNonclosingStepGeometry.lean",
+    "module": "TomographyOracleCore.ChoKimPeriodicNonclosingStepGeometry",
+    "exit_code": 0,
+    "seconds": 6.34,
+    "source_sha256": "e4692a65d8d67f57af9717114abb50f31dbc76589cc04332cfc2f59051e5ee90",
+    "log": "verification/lean/modules/TomographyOracleCore.ChoKimPeriodicNonclosingStepGeometry.log"
+  },
+  {
+    "path": "TomographyOracleCore/ChoKimPeriodicSharpVariance.lean",
+    "module": "TomographyOracleCore.ChoKimPeriodicSharpVariance",
+    "exit_code": 0,
+    "seconds": 2.88,
+    "source_sha256": "6df74a348fc100a8fc147e361d44edab5f82e4ac523213c0a3d25abc2a2496a6",
+    "log": "verification/lean/modules/TomographyOracleCore.ChoKimPeriodicSharpVariance.log"
+  },
+  {
+    "path": "TomographyOracleCore/ChoKimPeriodicThirdTwirlCPCommutation.lean",
+    "module": "TomographyOracleCore.ChoKimPeriodicThirdTwirlCPCommutation",
+    "exit_code": 0,
+    "seconds": 2.78,
+    "source_sha256": "9ab6ff585e1b258a113149e06fbcd5422fd081ba06b3267cccced035ee99fec4",
+    "log": "verification/lean/modules/TomographyOracleCore.ChoKimPeriodicThirdTwirlCPCommutation.log"
+  },
+  {
+    "path": "TomographyOracleCore/ChoKimPeriodicThirdTwirlCPFold.lean",
+    "module": "TomographyOracleCore.ChoKimPeriodicThirdTwirlCPFold",
+    "exit_code": 0,
+    "seconds": 2.78,
+    "source_sha256": "421344b3bf54aeb51ac95c2717a677449f202ce9ac81f26131f9d06dcc0bfaeb",
+    "log": "verification/lean/modules/TomographyOracleCore.ChoKimPeriodicThirdTwirlCPFold.log"
+  },
+  {
+    "path": "TomographyOracleCore/ChoKimPeriodicThirdTwirlFactorizationBridge.lean",
+    "module": "TomographyOracleCore.ChoKimPeriodicThirdTwirlFactorizationBridge",
+    "exit_code": 0,
+    "seconds": 2.9,
+    "source_sha256": "16b2b1e6b7d980f7d778d43cbdc54b63aae9ebc5809a8d40992dd3e9250abd29",
+    "log": "verification/lean/modules/TomographyOracleCore.ChoKimPeriodicThirdTwirlFactorizationBridge.log"
+  },
+  {
+    "path": "TomographyOracleCore/ChoKimPeriodicUnconditionalRelativeDesign.lean",
+    "module": "TomographyOracleCore.ChoKimPeriodicUnconditionalRelativeDesign",
+    "exit_code": 0,
+    "seconds": 2.88,
+    "source_sha256": "18c70ab8f3fbc244fcc2dfa0ca2e94b401f1453eee12e81311e22d0e52217f07",
+    "log": "verification/lean/modules/TomographyOracleCore.ChoKimPeriodicUnconditionalRelativeDesign.log"
+  },
+  {
+    "path": "TomographyOracleCore/ChoKimPeriodicVarianceOptimization.lean",
+    "module": "TomographyOracleCore.ChoKimPeriodicVarianceOptimization",
+    "exit_code": 0,
+    "seconds": 3.09,
+    "source_sha256": "7568193648aa2c90ec254d1c8435bb6116319a90ab64924c3806c422325ba072",
+    "log": "verification/lean/modules/TomographyOracleCore.ChoKimPeriodicVarianceOptimization.log"
+  },
+  {
+    "path": "TomographyOracleCore/CliffordPauliCounting.lean",
+    "module": "TomographyOracleCore.CliffordPauliCounting",
+    "exit_code": 0,
+    "seconds": 7.0,
+    "source_sha256": "beb7cb18092eea11e12d09d14d07b70e6ce072d79796146623b8ba3ab488b590",
+    "log": "verification/lean/modules/TomographyOracleCore.CliffordPauliCounting.log"
+  },
+  {
+    "path": "TomographyOracleCore/DecayHardTail.lean",
+    "module": "TomographyOracleCore.DecayHardTail",
+    "exit_code": 0,
+    "seconds": 2.55,
+    "source_sha256": "812b813b270b157fd21dec7cf887c5dc4de107b4db40178fbb9aeadca005176e",
+    "log": "verification/lean/modules/TomographyOracleCore.DecayHardTail.log"
+  },
+  {
+    "path": "TomographyOracleCore/DecayLowerAlgebra.lean",
+    "module": "TomographyOracleCore.DecayLowerAlgebra",
+    "exit_code": 0,
+    "seconds": 4.51,
+    "source_sha256": "44119831f97896a372c776f578196a8624624db1bc677fcbe4004856070b2053",
+    "log": "verification/lean/modules/TomographyOracleCore.DecayLowerAlgebra.log"
+  },
+  {
+    "path": "TomographyOracleCore/DecayUpper.lean",
+    "module": "TomographyOracleCore.DecayUpper",
+    "exit_code": 0,
+    "seconds": 2.85,
+    "source_sha256": "c9660c25cec8b34a3da4e13a55e7e3fb7aa43d886e88bb88a8f9b3ef81cccf41",
+    "log": "verification/lean/modules/TomographyOracleCore.DecayUpper.log"
+  },
+  {
+    "path": "TomographyOracleCore/DensityCompact.lean",
+    "module": "TomographyOracleCore.DensityCompact",
+    "exit_code": 0,
+    "seconds": 2.59,
+    "source_sha256": "71a99b4676c502866fb253cd01bf1b1cf15ae100083e63ed1a44d0a9a0da9f4c",
+    "log": "verification/lean/modules/TomographyOracleCore.DensityCompact.log"
+  },
+  {
+    "path": "TomographyOracleCore/DensityGrid.lean",
+    "module": "TomographyOracleCore.DensityGrid",
+    "exit_code": 0,
+    "seconds": 3.21,
+    "source_sha256": "4468d8a732eb1676a2a7a1b488d49ffabf53aee0ab9c26d2d1e0c086a41980b8",
+    "log": "verification/lean/modules/TomographyOracleCore.DensityGrid.log"
+  },
+  {
+    "path": "TomographyOracleCore/DirectionalScores.lean",
+    "module": "TomographyOracleCore.DirectionalScores",
+    "exit_code": 0,
+    "seconds": 2.82,
+    "source_sha256": "a046e9e8f9bb90d4b1185f33f09ca79f7fda7edd58a67ab20fd4a23870458325",
+    "log": "verification/lean/modules/TomographyOracleCore.DirectionalScores.log"
+  },
+  {
+    "path": "TomographyOracleCore/ExactTargets.lean",
+    "module": "TomographyOracleCore.ExactTargets",
+    "exit_code": 0,
+    "seconds": 2.44,
+    "source_sha256": "17f9472a3df806db375a67c799c78abf1998f5f019494f8d929421ec60d3216e",
+    "log": "verification/lean/modules/TomographyOracleCore.ExactTargets.log"
+  },
+  {
+    "path": "TomographyOracleCore/ExpectedOracle.lean",
+    "module": "TomographyOracleCore.ExpectedOracle",
+    "exit_code": 0,
+    "seconds": 2.77,
+    "source_sha256": "cbabce5eb2bbbec76765719632da469df5b5e2703a3ed0f37972fe5153fc1d35",
+    "log": "verification/lean/modules/TomographyOracleCore.ExpectedOracle.log"
+  },
+  {
+    "path": "TomographyOracleCore/FanoConstants.lean",
+    "module": "TomographyOracleCore.FanoConstants",
+    "exit_code": 0,
+    "seconds": 2.68,
+    "source_sha256": "1b0e8fb4c80d7af27bb4fac6d76b3d08ea1fa99ba9b8050f9d3d3d21dd7d8d79",
+    "log": "verification/lean/modules/TomographyOracleCore.FanoConstants.log"
+  },
+  {
+    "path": "TomographyOracleCore/FiniteChoiTensorIdThirdTwirlReindex.lean",
+    "module": "TomographyOracleCore.FiniteChoiTensorIdThirdTwirlReindex",
+    "exit_code": 0,
+    "seconds": 2.72,
+    "source_sha256": "8974de91fc377ad58ee143b3fd8c36bf42e9d87783505c136fdd12a9a4f385ac",
+    "log": "verification/lean/modules/TomographyOracleCore.FiniteChoiTensorIdThirdTwirlReindex.log"
+  },
+  {
+    "path": "TomographyOracleCore/FiniteFano.lean",
+    "module": "TomographyOracleCore.FiniteFano",
+    "exit_code": 0,
+    "seconds": 2.72,
+    "source_sha256": "23230682595a906eb81fa27fead2dc720a43984892a11e3b8ebe4a805a6d00fa",
+    "log": "verification/lean/modules/TomographyOracleCore.FiniteFano.log"
+  },
+  {
+    "path": "TomographyOracleCore/FiniteFanoBridge.lean",
+    "module": "TomographyOracleCore.FiniteFanoBridge",
+    "exit_code": 0,
+    "seconds": 2.43,
+    "source_sha256": "0afe563b970c755b2dc6a7ded33f81a8d35bda793e3922f3f8a59979444113e6",
+    "log": "verification/lean/modules/TomographyOracleCore.FiniteFanoBridge.log"
+  },
+  {
+    "path": "TomographyOracleCore/FiniteGroupHilbertSchmidtTwirl.lean",
+    "module": "TomographyOracleCore.FiniteGroupHilbertSchmidtTwirl",
+    "exit_code": 0,
+    "seconds": 2.12,
+    "source_sha256": "926433860db3b095f07205db2105151b2042bdf0c3edf0e0f0961764e32b0aa9",
+    "log": "verification/lean/modules/TomographyOracleCore.FiniteGroupHilbertSchmidtTwirl.log"
+  },
+  {
+    "path": "TomographyOracleCore/FiniteInformationRadius.lean",
+    "module": "TomographyOracleCore.FiniteInformationRadius",
+    "exit_code": 0,
+    "seconds": 2.51,
+    "source_sha256": "8f07ff0927e060f5b580c4b90090e7fa3b75bfd9fb43c8adae7651db85eac33b",
+    "log": "verification/lean/modules/TomographyOracleCore.FiniteInformationRadius.log"
+  },
+  {
+    "path": "TomographyOracleCore/FiniteKLFormula.lean",
+    "module": "TomographyOracleCore.FiniteKLFormula",
+    "exit_code": 0,
+    "seconds": 6.35,
+    "source_sha256": "14f7c2652ac12231dc8301df9b15e6a1bfbe969dac7c243ff17f3d4b247993e6",
+    "log": "verification/lean/modules/TomographyOracleCore.FiniteKLFormula.log"
+  },
+  {
+    "path": "TomographyOracleCore/FiniteKernelFano.lean",
+    "module": "TomographyOracleCore.FiniteKernelFano",
+    "exit_code": 0,
+    "seconds": 2.45,
+    "source_sha256": "26200a9519760d77ac568901501f16bc3f2c2ff6599ac1a65954fc65ea68add9",
+    "log": "verification/lean/modules/TomographyOracleCore.FiniteKernelFano.log"
+  },
+  {
+    "path": "TomographyOracleCore/FiniteNet.lean",
+    "module": "TomographyOracleCore.FiniteNet",
+    "exit_code": 0,
+    "seconds": 2.89,
+    "source_sha256": "4996498754da0b5278f4388ff78a80138c35aad40cf9e64f549782f4b2f43fec",
+    "log": "verification/lean/modules/TomographyOracleCore.FiniteNet.log"
+  },
+  {
+    "path": "TomographyOracleCore/FiniteProductKL.lean",
+    "module": "TomographyOracleCore.FiniteProductKL",
+    "exit_code": 0,
+    "seconds": 2.02,
+    "source_sha256": "ad4f7cac539296e4fc56648aad1babfff99290d4bc850f95a7c362138b6b6b4d",
+    "log": "verification/lean/modules/TomographyOracleCore.FiniteProductKL.log"
+  },
+  {
+    "path": "TomographyOracleCore/FiniteUnitaryProjectiveCStarRelativeThirdMoment.lean",
+    "module": "TomographyOracleCore.FiniteUnitaryProjectiveCStarRelativeThirdMoment",
+    "exit_code": 0,
+    "seconds": 2.67,
+    "source_sha256": "63dde3403836c9a00c7ac872dcc0de7017dc91ea489cd53ca9fede2d4a6f141b",
+    "log": "verification/lean/modules/TomographyOracleCore.FiniteUnitaryProjectiveCStarRelativeThirdMoment.log"
+  },
+  {
+    "path": "TomographyOracleCore/FiniteUnitaryProjectivePOVM.lean",
+    "module": "TomographyOracleCore.FiniteUnitaryProjectivePOVM",
+    "exit_code": 0,
+    "seconds": 3.26,
+    "source_sha256": "256c50f0e379849076eff88b63fd50aeae23766a388b1678a739294d31bde0c6",
+    "log": "verification/lean/modules/TomographyOracleCore.FiniteUnitaryProjectivePOVM.log"
+  },
+  {
+    "path": "TomographyOracleCore/FiniteUnitaryProjectiveRelativeThirdMoment.lean",
+    "module": "TomographyOracleCore.FiniteUnitaryProjectiveRelativeThirdMoment",
+    "exit_code": 0,
+    "seconds": 3.8,
+    "source_sha256": "203594c00adcde2ddf4ff604968ba9943722646bc14b2dcddb0e03c7cc0468ec",
+    "log": "verification/lean/modules/TomographyOracleCore.FiniteUnitaryProjectiveRelativeThirdMoment.log"
+  },
+  {
+    "path": "TomographyOracleCore/FiniteUnitaryProjectiveScore.lean",
+    "module": "TomographyOracleCore.FiniteUnitaryProjectiveScore",
+    "exit_code": 0,
+    "seconds": 3.48,
+    "source_sha256": "ec1726918b4bc204571720446b69ad16702b14785ab8b509d7b4f77877e920c3",
+    "log": "verification/lean/modules/TomographyOracleCore.FiniteUnitaryProjectiveScore.log"
+  },
+  {
+    "path": "TomographyOracleCore/FiniteUnitaryProjectiveThirdMomentBridge.lean",
+    "module": "TomographyOracleCore.FiniteUnitaryProjectiveThirdMomentBridge",
+    "exit_code": 0,
+    "seconds": 3.04,
+    "source_sha256": "65713292f5c361a8bc0fff098fb5824c50ba75e2ea893b2173f9ffb4b1c252f2",
+    "log": "verification/lean/modules/TomographyOracleCore.FiniteUnitaryProjectiveThirdMomentBridge.log"
+  },
+  {
+    "path": "TomographyOracleCore/FiniteUnitaryThirdTwirlCPBridge.lean",
+    "module": "TomographyOracleCore.FiniteUnitaryThirdTwirlCPBridge",
+    "exit_code": 0,
+    "seconds": 2.51,
+    "source_sha256": "a6ed484823a55a8368894c4faa0f5df6c4264154685e364b5113a2ae10b6049d",
+    "log": "verification/lean/modules/TomographyOracleCore.FiniteUnitaryThirdTwirlCPBridge.log"
+  },
+  {
+    "path": "TomographyOracleCore/FiniteUnitaryThirdTwirlComposition.lean",
+    "module": "TomographyOracleCore.FiniteUnitaryThirdTwirlComposition",
+    "exit_code": 0,
+    "seconds": 2.38,
+    "source_sha256": "6e5ae1c1f4e5c6447411c9c9101507af8f1ea71ee7a788f22110dbb14e9d8a1a",
+    "log": "verification/lean/modules/TomographyOracleCore.FiniteUnitaryThirdTwirlComposition.log"
+  },
+  {
+    "path": "TomographyOracleCore/FiniteUnitaryThirdTwirlFactorCP.lean",
+    "module": "TomographyOracleCore.FiniteUnitaryThirdTwirlFactorCP",
+    "exit_code": 0,
+    "seconds": 2.82,
+    "source_sha256": "b86dbbaacd7958ab44c1f073a868bdbdfe2ad68222f9d78496188698f03e19d3",
+    "log": "verification/lean/modules/TomographyOracleCore.FiniteUnitaryThirdTwirlFactorCP.log"
+  },
+  {
+    "path": "TomographyOracleCore/FiniteUnitaryThirdTwirlIndependentBlocks.lean",
+    "module": "TomographyOracleCore.FiniteUnitaryThirdTwirlIndependentBlocks",
+    "exit_code": 0,
+    "seconds": 2.76,
+    "source_sha256": "4ceef3c2f98af7d5fe7617a5af887523aa1f90abd4461cd7cd4c6798910b2989",
+    "log": "verification/lean/modules/TomographyOracleCore.FiniteUnitaryThirdTwirlIndependentBlocks.log"
+  },
+  {
+    "path": "TomographyOracleCore/FiniteUnitaryThirdTwirlReindex.lean",
+    "module": "TomographyOracleCore.FiniteUnitaryThirdTwirlReindex",
+    "exit_code": 0,
+    "seconds": 2.95,
+    "source_sha256": "ab3c762c309e457cd64920b515b5650b801bf08bedaf818a94eb211e4875079a",
+    "log": "verification/lean/modules/TomographyOracleCore.FiniteUnitaryThirdTwirlReindex.log"
+  },
+  {
+    "path": "TomographyOracleCore/ForwardGeometry.lean",
+    "module": "TomographyOracleCore.ForwardGeometry",
+    "exit_code": 0,
+    "seconds": 3.19,
+    "source_sha256": "0081b541f5f7e7e76370d296e98704177bdc35adeb1f86da77ced0604afb1db3",
+    "log": "verification/lean/modules/TomographyOracleCore.ForwardGeometry.log"
+  },
+  {
+    "path": "TomographyOracleCore/GammaLaplace.lean",
+    "module": "TomographyOracleCore.GammaLaplace",
+    "exit_code": 0,
+    "seconds": 2.52,
+    "source_sha256": "2987cb228bb3998e518c7f59d8b844dc1fcda68ab0b220c69c70e34436844078",
+    "log": "verification/lean/modules/TomographyOracleCore.GammaLaplace.log"
+  },
+  {
+    "path": "TomographyOracleCore/GaussianRadialDirectionIndependence.lean",
+    "module": "TomographyOracleCore.GaussianRadialDirectionIndependence",
+    "exit_code": 0,
+    "seconds": 3.23,
+    "source_sha256": "91340f72f3006dfee6ebf4987297373a88589722de6b52b6e093b50edfacde00",
+    "log": "verification/lean/modules/TomographyOracleCore.GaussianRadialDirectionIndependence.log"
+  },
+  {
+    "path": "TomographyOracleCore/GrassmannGreedy.lean",
+    "module": "TomographyOracleCore.GrassmannGreedy",
+    "exit_code": 0,
+    "seconds": 2.45,
+    "source_sha256": "1e2f6197b2a00ff0a5c039e249d238ce0fdc85bb883d745e5fdc3013b9dbc585",
+    "log": "verification/lean/modules/TomographyOracleCore.GrassmannGreedy.log"
+  },
+  {
+    "path": "TomographyOracleCore/GrassmannHaarCoordinates.lean",
+    "module": "TomographyOracleCore.GrassmannHaarCoordinates",
+    "exit_code": 0,
+    "seconds": 2.77,
+    "source_sha256": "dab3dbf9b652282b6af1888550ee81678f5beacf4b49868ed92315a4922c984f",
+    "log": "verification/lean/modules/TomographyOracleCore.GrassmannHaarCoordinates.log"
+  },
+  {
+    "path": "TomographyOracleCore/GrassmannHaarCyclicOrbit.lean",
+    "module": "TomographyOracleCore.GrassmannHaarCyclicOrbit",
+    "exit_code": 0,
+    "seconds": 4.05,
+    "source_sha256": "f407dd203d4a3fba32cccbd5ca724c28190c7f141566379b56e1a4be2fc1741f",
+    "log": "verification/lean/modules/TomographyOracleCore.GrassmannHaarCyclicOrbit.log"
+  },
+  {
+    "path": "TomographyOracleCore/GrassmannHaarJensen.lean",
+    "module": "TomographyOracleCore.GrassmannHaarJensen",
+    "exit_code": 0,
+    "seconds": 2.79,
+    "source_sha256": "6c9dfb9ff8ab46fc6f890075eaa83f3670abdb7f05a8ceac250d051c4c7eb509",
+    "log": "verification/lean/modules/TomographyOracleCore.GrassmannHaarJensen.log"
+  },
+  {
+    "path": "TomographyOracleCore/GrassmannHaarOverlap.lean",
+    "module": "TomographyOracleCore.GrassmannHaarOverlap",
+    "exit_code": 0,
+    "seconds": 2.83,
+    "source_sha256": "21fcf021619d55d462a903ef504424c3e1e0139159ed40bcd88a35cb6852c515",
+    "log": "verification/lean/modules/TomographyOracleCore.GrassmannHaarOverlap.log"
+  },
+  {
+    "path": "TomographyOracleCore/GrassmannHardFamily.lean",
+    "module": "TomographyOracleCore.GrassmannHardFamily",
+    "exit_code": 0,
+    "seconds": 2.45,
+    "source_sha256": "c729ced9761ef677f9fb0600e9cc311db8d1eafa76b9556996b245d5c9eccf52",
+    "log": "verification/lean/modules/TomographyOracleCore.GrassmannHardFamily.log"
+  },
+  {
+    "path": "TomographyOracleCore/GrassmannHardFamilyUnconditional.lean",
+    "module": "TomographyOracleCore.GrassmannHardFamilyUnconditional",
+    "exit_code": 0,
+    "seconds": 2.66,
+    "source_sha256": "fb0c123c69d789a231874d12d5727ab546db32137f8d86de51e94b20c539f074",
+    "log": "verification/lean/modules/TomographyOracleCore.GrassmannHardFamilyUnconditional.log"
+  },
+  {
+    "path": "TomographyOracleCore/GrassmannInducedStateBridge.lean",
+    "module": "TomographyOracleCore.GrassmannInducedStateBridge",
+    "exit_code": 0,
+    "seconds": 6.18,
+    "source_sha256": "46f5a6c8a2519b11187c241ee9652175ff7941ae09d36788ddefc0edbaa252d9",
+    "log": "verification/lean/modules/TomographyOracleCore.GrassmannInducedStateBridge.log"
+  },
+  {
+    "path": "TomographyOracleCore/GrassmannMetricUnionBound.lean",
+    "module": "TomographyOracleCore.GrassmannMetricUnionBound",
+    "exit_code": 0,
+    "seconds": 2.53,
+    "source_sha256": "a4fe03d60a036734300d8f05056a5c85b61d3cf90508cbfe19e65706962b378f",
+    "log": "verification/lean/modules/TomographyOracleCore.GrassmannMetricUnionBound.log"
+  },
+  {
+    "path": "TomographyOracleCore/GrassmannPureSphereBridge.lean",
+    "module": "TomographyOracleCore.GrassmannPureSphereBridge",
+    "exit_code": 0,
+    "seconds": 3.93,
+    "source_sha256": "4a707e93f863f4e1c3325770f6356af8a4f3e4918250e92a95209427195233d6",
+    "log": "verification/lean/modules/TomographyOracleCore.GrassmannPureSphereBridge.log"
+  },
+  {
+    "path": "TomographyOracleCore/GrassmannStatement.lean",
+    "module": "TomographyOracleCore.GrassmannStatement",
+    "exit_code": 0,
+    "seconds": 2.42,
+    "source_sha256": "eb22d9dbe946298121da8858795f224b771e7b7964406ddf07830d051e5b02ac",
+    "log": "verification/lean/modules/TomographyOracleCore.GrassmannStatement.log"
+  },
+  {
+    "path": "TomographyOracleCore/GrassmannThreshold.lean",
+    "module": "TomographyOracleCore.GrassmannThreshold",
+    "exit_code": 0,
+    "seconds": 2.58,
+    "source_sha256": "041e63b78e0ef44cdd1b12203847c411e0dbcf63d499469e777dc97737c617e6",
+    "log": "verification/lean/modules/TomographyOracleCore.GrassmannThreshold.log"
+  },
+  {
+    "path": "TomographyOracleCore/GrassmannUnitaryHaar.lean",
+    "module": "TomographyOracleCore.GrassmannUnitaryHaar",
+    "exit_code": 0,
+    "seconds": 3.22,
+    "source_sha256": "c4b171c74c22ab65eb556de08d496f6b15424ee6218d1519b9affc1150630884",
+    "log": "verification/lean/modules/TomographyOracleCore.GrassmannUnitaryHaar.log"
+  },
+  {
+    "path": "TomographyOracleCore/HaarBornScoreMoments.lean",
+    "module": "TomographyOracleCore.HaarBornScoreMoments",
+    "exit_code": 0,
+    "seconds": 29.26,
+    "source_sha256": "43aa4e5e03816d91aabb75f0f20ccf86e02fb7bef07a47f35e8139bf7a7b6777",
+    "log": "verification/lean/modules/TomographyOracleCore.HaarBornScoreMoments.log"
+  },
+  {
+    "path": "TomographyOracleCore/HaarChannel.lean",
+    "module": "TomographyOracleCore.HaarChannel",
+    "exit_code": 0,
+    "seconds": 2.71,
+    "source_sha256": "e6291bf424ece5094013b46ec278739c4c1c66b1f466f2ee89688917fc160c12",
+    "log": "verification/lean/modules/TomographyOracleCore.HaarChannel.log"
+  },
+  {
+    "path": "TomographyOracleCore/HaarOverlapChernoff.lean",
+    "module": "TomographyOracleCore.HaarOverlapChernoff",
+    "exit_code": 0,
+    "seconds": 2.29,
+    "source_sha256": "b7061f15ab54802de7e606e56f80fc6d8a101502757195d05d3095bb88cde07b",
+    "log": "verification/lean/modules/TomographyOracleCore.HaarOverlapChernoff.log"
+  },
+  {
+    "path": "TomographyOracleCore/HaarRankMProjector.lean",
+    "module": "TomographyOracleCore.HaarRankMProjector",
+    "exit_code": 0,
+    "seconds": 2.48,
+    "source_sha256": "157caf99ac4cdd0b21263f6fec47c688b333d5a8080743b775f0fc59866228f0",
+    "log": "verification/lean/modules/TomographyOracleCore.HaarRankMProjector.log"
+  },
+  {
+    "path": "TomographyOracleCore/HardDiagonalState.lean",
+    "module": "TomographyOracleCore.HardDiagonalState",
+    "exit_code": 0,
+    "seconds": 2.51,
+    "source_sha256": "88f35a863935c1e4c9a5de9be05b5cb9f576cd65407d6008d54c575fa353b265",
+    "log": "verification/lean/modules/TomographyOracleCore.HardDiagonalState.log"
+  },
+  {
+    "path": "TomographyOracleCore/HardMass.lean",
+    "module": "TomographyOracleCore.HardMass",
+    "exit_code": 0,
+    "seconds": 2.32,
+    "source_sha256": "fd65a1343094c45d07f63a8dfef52a69745270a57d48be1801231f2d6362a704",
+    "log": "verification/lean/modules/TomographyOracleCore.HardMass.log"
+  },
+  {
+    "path": "TomographyOracleCore/HardProjectorState.lean",
+    "module": "TomographyOracleCore.HardProjectorState",
+    "exit_code": 0,
+    "seconds": 3.24,
+    "source_sha256": "3e1bfda84340da13db71811cc7881e317ddc5469c344a93b54b52398d35670d6",
+    "log": "verification/lean/modules/TomographyOracleCore.HardProjectorState.log"
+  },
+  {
+    "path": "TomographyOracleCore/HardReferenceBornLower.lean",
+    "module": "TomographyOracleCore.HardReferenceBornLower",
+    "exit_code": 0,
+    "seconds": 2.46,
+    "source_sha256": "83b08cdca3d400700892116544ea05476cd61540ee1969d470245bc30b25c51d",
+    "log": "verification/lean/modules/TomographyOracleCore.HardReferenceBornLower.log"
+  },
+  {
+    "path": "TomographyOracleCore/HardReferenceLikelihood.lean",
+    "module": "TomographyOracleCore.HardReferenceLikelihood",
+    "exit_code": 0,
+    "seconds": 2.55,
+    "source_sha256": "9d848d92d49bba4947a8f4b2290c81b3a35ec859098928ad1b6369129ab8648e",
+    "log": "verification/lean/modules/TomographyOracleCore.HardReferenceLikelihood.log"
+  },
+  {
+    "path": "TomographyOracleCore/HardReferenceState.lean",
+    "module": "TomographyOracleCore.HardReferenceState",
+    "exit_code": 0,
+    "seconds": 2.81,
+    "source_sha256": "003040461dbca2118fc044bd48608eb6c7fc30e171307800865f026b3eaf79d4",
+    "log": "verification/lean/modules/TomographyOracleCore.HardReferenceState.log"
+  },
+  {
+    "path": "TomographyOracleCore/HardSpectrum.lean",
+    "module": "TomographyOracleCore.HardSpectrum",
+    "exit_code": 0,
+    "seconds": 2.64,
+    "source_sha256": "fb0fbbaa444ccb9e8d3d6ead72a629c0df15bc5b581c28a70e355b67d7d57022",
+    "log": "verification/lean/modules/TomographyOracleCore.HardSpectrum.log"
+  },
+  {
+    "path": "TomographyOracleCore/HermitianSemanticUpper.lean",
+    "module": "TomographyOracleCore.HermitianSemanticUpper",
+    "exit_code": 0,
+    "seconds": 2.38,
+    "source_sha256": "9f2be7b2f46daa05a875b6819e6b6f134d412570f7a10ef08e9698ce32940754",
+    "log": "verification/lean/modules/TomographyOracleCore.HermitianSemanticUpper.log"
+  },
+  {
+    "path": "TomographyOracleCore/IndependentBlockPauliCounting.lean",
+    "module": "TomographyOracleCore.IndependentBlockPauliCounting",
+    "exit_code": 0,
+    "seconds": 2.4,
+    "source_sha256": "1d37b9387e6df3181baeef74bddfa3ed71d27e27f634bb1d2a8fccdd98e5bee7",
+    "log": "verification/lean/modules/TomographyOracleCore.IndependentBlockPauliCounting.log"
+  },
+  {
+    "path": "TomographyOracleCore/KernelConditionalKL.lean",
+    "module": "TomographyOracleCore.KernelConditionalKL",
+    "exit_code": 0,
+    "seconds": 2.57,
+    "source_sha256": "da36f8ead7eabe93d7cd71d67b833b7461a78f6119d181ca038240454a21411b",
+    "log": "verification/lean/modules/TomographyOracleCore.KernelConditionalKL.log"
+  },
+  {
+    "path": "TomographyOracleCore/LowerConstantAssembly.lean",
+    "module": "TomographyOracleCore.LowerConstantAssembly",
+    "exit_code": 0,
+    "seconds": 2.46,
+    "source_sha256": "e1e20abe51444c732867adf805ef9e62f0316c6f09469ba110d5160d3f5b6dab",
+    "log": "verification/lean/modules/TomographyOracleCore.LowerConstantAssembly.log"
+  },
+  {
+    "path": "TomographyOracleCore/LowerConstants.lean",
+    "module": "TomographyOracleCore.LowerConstants",
+    "exit_code": 0,
+    "seconds": 2.23,
+    "source_sha256": "67bfbe7026dce7d496dc97728114c0037c2ebcbe9393ccc2fb8203455aded66b",
+    "log": "verification/lean/modules/TomographyOracleCore.LowerConstants.log"
+  },
+  {
+    "path": "TomographyOracleCore/LowerDimensionComparison.lean",
+    "module": "TomographyOracleCore.LowerDimensionComparison",
+    "exit_code": 0,
+    "seconds": 2.96,
+    "source_sha256": "0e98e4b8ff9cd441753a6d5e5ae53b4b464cb7938ba408c6fd3f188ff29cb095",
+    "log": "verification/lean/modules/TomographyOracleCore.LowerDimensionComparison.log"
+  },
+  {
+    "path": "TomographyOracleCore/LowerInformationAlgebra.lean",
+    "module": "TomographyOracleCore.LowerInformationAlgebra",
+    "exit_code": 0,
+    "seconds": 2.52,
+    "source_sha256": "ff47cac97bb3ff239de4a370864bf9bde0cc3faee2ad344f0adbff8eb1a6f611",
+    "log": "verification/lean/modules/TomographyOracleCore.LowerInformationAlgebra.log"
+  },
+  {
+    "path": "TomographyOracleCore/MathlibImports.lean",
+    "module": "TomographyOracleCore.MathlibImports",
+    "exit_code": 0,
+    "seconds": 2.72,
+    "source_sha256": "c06c87797e7699dbea783f7aad746d7768cbcd92a97d0f2ea19e23df1967a5ea",
+    "log": "verification/lean/modules/TomographyOracleCore.MathlibImports.log"
+  },
+  {
+    "path": "TomographyOracleCore/MatrixRealEncoding.lean",
+    "module": "TomographyOracleCore.MatrixRealEncoding",
+    "exit_code": 0,
+    "seconds": 2.46,
+    "source_sha256": "4b4ef0fa12c488e9bebae4a72251e167a53ec21f67e18f99d566244f2af58f0f",
+    "log": "verification/lean/modules/TomographyOracleCore.MatrixRealEncoding.log"
+  },
+  {
+    "path": "TomographyOracleCore/MatrixReduction.lean",
+    "module": "TomographyOracleCore.MatrixReduction",
+    "exit_code": 0,
+    "seconds": 5.69,
+    "source_sha256": "e2fb7cbb604c62ccdb0b831721d5c38f76e72b477be07ed0e42b69094c968334",
+    "log": "verification/lean/modules/TomographyOracleCore.MatrixReduction.log"
+  },
+  {
+    "path": "TomographyOracleCore/OrderedSpectral.lean",
+    "module": "TomographyOracleCore.OrderedSpectral",
+    "exit_code": 0,
+    "seconds": 2.83,
+    "source_sha256": "1fb399e531e0a41027a4b8a444c2f41f6457a00adcbffa9edae16d1cbefeaafd",
+    "log": "verification/lean/modules/TomographyOracleCore.OrderedSpectral.log"
+  },
+  {
+    "path": "TomographyOracleCore/PaperMatch/CorollaryFourMWPLS.lean",
+    "module": "TomographyOracleCore.PaperMatch.CorollaryFourMWPLS",
+    "exit_code": 0,
+    "seconds": 3.43,
+    "source_sha256": "381233472f2dff17fcf4a71623b3f21a657a9440defaf127c2be6c6a2c0081c6",
+    "log": "verification/lean/modules/TomographyOracleCore.PaperMatch.CorollaryFourMWPLS.log"
+  },
+  {
+    "path": "TomographyOracleCore/PaperMatch/CorollaryFourUnconditional.lean",
+    "module": "TomographyOracleCore.PaperMatch.CorollaryFourUnconditional",
+    "exit_code": 0,
+    "seconds": 2.71,
+    "source_sha256": "d9b73a64623871ebdaf6677a4ed2a778e54495ba5c5e72e8866914ca89dd9f83",
+    "log": "verification/lean/modules/TomographyOracleCore.PaperMatch.CorollaryFourUnconditional.log"
+  },
+  {
+    "path": "TomographyOracleCore/PaperMatch/ExactCorollaryFour.lean",
+    "module": "TomographyOracleCore.PaperMatch.ExactCorollaryFour",
+    "exit_code": 0,
+    "seconds": 3.17,
+    "source_sha256": "446c83aae5e16a8a51d66b6dd8eac3f229212cc9c8cb818053f2f72cacc73ad5",
+    "log": "verification/lean/modules/TomographyOracleCore.PaperMatch.ExactCorollaryFour.log"
+  },
+  {
+    "path": "TomographyOracleCore/PaperMatch/ExactCorollaryFourMW.lean",
+    "module": "TomographyOracleCore.PaperMatch.ExactCorollaryFourMW",
+    "exit_code": 0,
+    "seconds": 2.7,
+    "source_sha256": "f1c5117e5a8632a7d6ac48b9a1b0f21d4a8e79b48f84bb0d53485ccfa0ace4ab",
+    "log": "verification/lean/modules/TomographyOracleCore.PaperMatch.ExactCorollaryFourMW.log"
+  },
+  {
+    "path": "TomographyOracleCore/PaperMatch/ExactCorollaryFourOMD.lean",
+    "module": "TomographyOracleCore.PaperMatch.ExactCorollaryFourOMD",
+    "exit_code": 0,
+    "seconds": 3.18,
+    "source_sha256": "aed5f6e25fce4b878a0dbc955a6650375060376ac22e7b6126d4c15df8b04eab",
+    "log": "verification/lean/modules/TomographyOracleCore.PaperMatch.ExactCorollaryFourOMD.log"
+  },
+  {
+    "path": "TomographyOracleCore/PaperMatch/ExactSpectralMW.lean",
+    "module": "TomographyOracleCore.PaperMatch.ExactSpectralMW",
+    "exit_code": 0,
+    "seconds": 2.95,
+    "source_sha256": "e286a73c41605f40475394f8fce1eb8a0a12980b9598d2a2c66cb43f7e35e959",
+    "log": "verification/lean/modules/TomographyOracleCore.PaperMatch.ExactSpectralMW.log"
+  },
+  {
+    "path": "TomographyOracleCore/PaperMatch/ExactTheoremThree.lean",
+    "module": "TomographyOracleCore.PaperMatch.ExactTheoremThree",
+    "exit_code": 0,
+    "seconds": 2.45,
+    "source_sha256": "fed75555c91ff22729ddaaa923f43e99ee942cb2b2d3a1663d9fbaf3f320b31b",
+    "log": "verification/lean/modules/TomographyOracleCore.PaperMatch.ExactTheoremThree.log"
+  },
+  {
+    "path": "TomographyOracleCore/PaperMatch/LowerMoments/ArbitraryBoundary.lean",
+    "module": "TomographyOracleCore.PaperMatch.LowerMoments.ArbitraryBoundary",
+    "exit_code": 0,
+    "seconds": 2.71,
+    "source_sha256": "8380a494ebaf4dc7a8f2838866b9ead13f4277a898f6ea7039321b380b14139e",
+    "log": "verification/lean/modules/TomographyOracleCore.PaperMatch.LowerMoments.ArbitraryBoundary.log"
+  },
+  {
+    "path": "TomographyOracleCore/PaperMatch/LowerMoments/GeneralPureRisk.lean",
+    "module": "TomographyOracleCore.PaperMatch.LowerMoments.GeneralPureRisk",
+    "exit_code": 0,
+    "seconds": 2.83,
+    "source_sha256": "621a10066ba96e33e0a0b3a8b851a6788fd6ecf377045f44905540a5a69a5883",
+    "log": "verification/lean/modules/TomographyOracleCore.PaperMatch.LowerMoments.GeneralPureRisk.log"
+  },
+  {
+    "path": "TomographyOracleCore/PaperMatch/LowerMoments/OneCopy.lean",
+    "module": "TomographyOracleCore.PaperMatch.LowerMoments.OneCopy",
+    "exit_code": 0,
+    "seconds": 2.75,
+    "source_sha256": "bb24e0c6c1b4947cdabdba6a7c857b41f7757627ca9110a4f31bf5098b297e75",
+    "log": "verification/lean/modules/TomographyOracleCore.PaperMatch.LowerMoments.OneCopy.log"
+  },
+  {
+    "path": "TomographyOracleCore/PaperMatch/LowerMoments/OperatorInformation.lean",
+    "module": "TomographyOracleCore.PaperMatch.LowerMoments.OperatorInformation",
+    "exit_code": 0,
+    "seconds": 2.72,
+    "source_sha256": "2406ce7af64c3894074b582474c764c3821af00976ea4c3dc3dcc5fa56611878",
+    "log": "verification/lean/modules/TomographyOracleCore.PaperMatch.LowerMoments.OperatorInformation.log"
+  },
+  {
+    "path": "TomographyOracleCore/PaperMatch/LowerMoments/OperatorMinimax.lean",
+    "module": "TomographyOracleCore.PaperMatch.LowerMoments.OperatorMinimax",
+    "exit_code": 0,
+    "seconds": 2.93,
+    "source_sha256": "9a9c30305d7f1b8a06f8f7a7acc03eb7b1c352ace7532f8b5df15e6f093323b7",
+    "log": "verification/lean/modules/TomographyOracleCore.PaperMatch.LowerMoments.OperatorMinimax.log"
+  },
+  {
+    "path": "TomographyOracleCore/PaperMatch/Model/DominatedPOVMBridge.lean",
+    "module": "TomographyOracleCore.PaperMatch.Model.DominatedPOVMBridge",
+    "exit_code": 0,
+    "seconds": 3.05,
+    "source_sha256": "28eca79389084006e43bc527e6bc683dbd0089fb70b76599df6f55e9eca3281e",
+    "log": "verification/lean/modules/TomographyOracleCore.PaperMatch.Model.DominatedPOVMBridge.log"
+  },
+  {
+    "path": "TomographyOracleCore/PaperMatch/Model/GeneralRisk.lean",
+    "module": "TomographyOracleCore.PaperMatch.Model.GeneralRisk",
+    "exit_code": 0,
+    "seconds": 2.78,
+    "source_sha256": "2bcc3b544aa9430e3990e191046b0e34f344c88cb363d1f2efdaf6ebeaa8eb5d",
+    "log": "verification/lean/modules/TomographyOracleCore.PaperMatch.Model.GeneralRisk.log"
+  },
+  {
+    "path": "TomographyOracleCore/PaperMatch/Model/GeneralRiskBridge.lean",
+    "module": "TomographyOracleCore.PaperMatch.Model.GeneralRiskBridge",
+    "exit_code": 0,
+    "seconds": 2.46,
+    "source_sha256": "59f0effc4a9473f68fdf01079956f5130251f334649bdaf3e9b379c0a070769e",
+    "log": "verification/lean/modules/TomographyOracleCore.PaperMatch.Model.GeneralRiskBridge.log"
+  },
+  {
+    "path": "TomographyOracleCore/PaperMatch/Model/OperatorDesign.lean",
+    "module": "TomographyOracleCore.PaperMatch.Model.OperatorDesign",
+    "exit_code": 0,
+    "seconds": 2.76,
+    "source_sha256": "1d2e79c9e923532cc42790700cf6a9b26708f1432af3e92f8a3f73bc195c031d",
+    "log": "verification/lean/modules/TomographyOracleCore.PaperMatch.Model.OperatorDesign.log"
+  },
+  {
+    "path": "TomographyOracleCore/PaperMatch/Model/OperatorPOVM.lean",
+    "module": "TomographyOracleCore.PaperMatch.Model.OperatorPOVM",
+    "exit_code": 0,
+    "seconds": 2.96,
+    "source_sha256": "6202d10bdc6c79dbc47678d67de8c61e14296f2113dcd25ec82096f87b291150",
+    "log": "verification/lean/modules/TomographyOracleCore.PaperMatch.Model.OperatorPOVM.log"
+  },
+  {
+    "path": "TomographyOracleCore/PaperMatch/Model/StatesRisk.lean",
+    "module": "TomographyOracleCore.PaperMatch.Model.StatesRisk",
+    "exit_code": 0,
+    "seconds": 2.32,
+    "source_sha256": "0d8485b675a308b8213e7680b5788df095bbb576dc43a21321f41e27d8b35722",
+    "log": "verification/lean/modules/TomographyOracleCore.PaperMatch.Model.StatesRisk.log"
+  },
+  {
+    "path": "TomographyOracleCore/PaperMatch/PureBinaryTesting.lean",
+    "module": "TomographyOracleCore.PaperMatch.PureBinaryTesting",
+    "exit_code": 0,
+    "seconds": 3.26,
+    "source_sha256": "068ea8779c7ffeaf0b670adab6e4cef094bb22555426641ec3fc68b6ff218858",
+    "log": "verification/lean/modules/TomographyOracleCore.PaperMatch.PureBinaryTesting.log"
+  },
+  {
+    "path": "TomographyOracleCore/PaperMatch/PureCapStates.lean",
+    "module": "TomographyOracleCore.PaperMatch.PureCapStates",
+    "exit_code": 0,
+    "seconds": 2.69,
+    "source_sha256": "d6671d6db21472c1cf9e5b5f1d209083d2772fa5e780eb8f53219286f2eaa947",
+    "log": "verification/lean/modules/TomographyOracleCore.PaperMatch.PureCapStates.log"
+  },
+  {
+    "path": "TomographyOracleCore/PaperMatch/PureHypercubeGeometry.lean",
+    "module": "TomographyOracleCore.PaperMatch.PureHypercubeGeometry",
+    "exit_code": 0,
+    "seconds": 2.86,
+    "source_sha256": "d509d65c7c4a60926f1e71edf1c84c9237be2d7ba8f18f3d36d1ac446daaa8f9",
+    "log": "verification/lean/modules/TomographyOracleCore.PaperMatch.PureHypercubeGeometry.log"
+  },
+  {
+    "path": "TomographyOracleCore/PaperMatch/PureHypercubeRisk.lean",
+    "module": "TomographyOracleCore.PaperMatch.PureHypercubeRisk",
+    "exit_code": 0,
+    "seconds": 2.7,
+    "source_sha256": "040c42336575aaa47ff9515dbf9ab8d43b14741c15c8c8610a968efa89dcbbe8",
+    "log": "verification/lean/modules/TomographyOracleCore.PaperMatch.PureHypercubeRisk.log"
+  },
+  {
+    "path": "TomographyOracleCore/PaperMatch/PureHypercubeScale.lean",
+    "module": "TomographyOracleCore.PaperMatch.PureHypercubeScale",
+    "exit_code": 0,
+    "seconds": 3.12,
+    "source_sha256": "e1c045e457b24531ae5f1ddab8965206102640838c6469d3b664f73df0d28fcf",
+    "log": "verification/lean/modules/TomographyOracleCore.PaperMatch.PureHypercubeScale.log"
+  },
+  {
+    "path": "TomographyOracleCore/PaperMatch/PurePOVMTesting.lean",
+    "module": "TomographyOracleCore.PaperMatch.PurePOVMTesting",
+    "exit_code": 0,
+    "seconds": 2.88,
+    "source_sha256": "37d637d0ce0c220b24375a1577b5fcdc05bc2a2b2da3f10ab0df502b60778de9",
+    "log": "verification/lean/modules/TomographyOracleCore.PaperMatch.PurePOVMTesting.log"
+  },
+  {
+    "path": "TomographyOracleCore/PaperMatch/PureRandomizedTesting.lean",
+    "module": "TomographyOracleCore.PaperMatch.PureRandomizedTesting",
+    "exit_code": 0,
+    "seconds": 2.51,
+    "source_sha256": "e0adfe00ceda3a1ec991488390e9297d7fd45efdd048c6461cf189fcb50630b4",
+    "log": "verification/lean/modules/TomographyOracleCore.PaperMatch.PureRandomizedTesting.log"
+  },
+  {
+    "path": "TomographyOracleCore/PaperMatch/PureTensorTesting.lean",
+    "module": "TomographyOracleCore.PaperMatch.PureTensorTesting",
+    "exit_code": 0,
+    "seconds": 3.05,
+    "source_sha256": "a6c0d8d979fa88fef85b43539767d2b8625ed3c33400d56b8b53cecafe2787d9",
+    "log": "verification/lean/modules/TomographyOracleCore.PaperMatch.PureTensorTesting.log"
+  },
+  {
+    "path": "TomographyOracleCore/PaperMatch/PureTestRepresentation.lean",
+    "module": "TomographyOracleCore.PaperMatch.PureTestRepresentation",
+    "exit_code": 0,
+    "seconds": 2.59,
+    "source_sha256": "d775700f1b0d3f1d03208ecde4cf582a091d40380306423f102eef45a4bc5333",
+    "log": "verification/lean/modules/TomographyOracleCore.PaperMatch.PureTestRepresentation.log"
+  },
+  {
+    "path": "TomographyOracleCore/PaperMatch/RankMinimax.lean",
+    "module": "TomographyOracleCore.PaperMatch.RankMinimax",
+    "exit_code": 0,
+    "seconds": 2.94,
+    "source_sha256": "2236c243c19b0f8713b7839b5025bd919281c200f93438defca8adb813450ac5",
+    "log": "verification/lean/modules/TomographyOracleCore.PaperMatch.RankMinimax.log"
+  },
+  {
+    "path": "TomographyOracleCore/PaperMatch/RankThreeLower.lean",
+    "module": "TomographyOracleCore.PaperMatch.RankThreeLower",
+    "exit_code": 0,
+    "seconds": 3.12,
+    "source_sha256": "dc7a1876377419ed2f0c7a63d5de7afe7b7e3907aba556dfc45bebeae488643b",
+    "log": "verification/lean/modules/TomographyOracleCore.PaperMatch.RankThreeLower.log"
+  },
+  {
+    "path": "TomographyOracleCore/PaperMatch/SectionV/OperatorMoment.lean",
+    "module": "TomographyOracleCore.PaperMatch.SectionV.OperatorMoment",
+    "exit_code": 0,
+    "seconds": 6.71,
+    "source_sha256": "1dfdfe934d14d9ba4a4278216bb8666545799948d191a3adcc57c9a575db535d",
+    "log": "verification/lean/modules/TomographyOracleCore.PaperMatch.SectionV.OperatorMoment.log"
+  },
+  {
+    "path": "TomographyOracleCore/PaperMatch/SharedHaarOn.lean",
+    "module": "TomographyOracleCore.PaperMatch.SharedHaarOn",
+    "exit_code": 0,
+    "seconds": 2.64,
+    "source_sha256": "5e5c9ed1c7aa4c3e38c22cc8820d52accf75c7d5b6b1b5756e8a172580e8410e",
+    "log": "verification/lean/modules/TomographyOracleCore.PaperMatch.SharedHaarOn.log"
+  },
+  {
+    "path": "TomographyOracleCore/PaperMatch/SmallRankReduction.lean",
+    "module": "TomographyOracleCore.PaperMatch.SmallRankReduction",
+    "exit_code": 0,
+    "seconds": 2.55,
+    "source_sha256": "6ff9b1ed4e04d6066dbb5fa9ba95aa2eb03e23a08b6db98c15b0fe2ba89d20f0",
+    "log": "verification/lean/modules/TomographyOracleCore.PaperMatch.SmallRankReduction.log"
+  },
+  {
+    "path": "TomographyOracleCore/PaperMatch/Upper/ExpectedMW.lean",
+    "module": "TomographyOracleCore.PaperMatch.Upper.ExpectedMW",
+    "exit_code": 0,
+    "seconds": 2.93,
+    "source_sha256": "b11da9982aeca6cef2076641ffc91d9ce60ba0c8468aa7cdbf943264aab67709",
+    "log": "verification/lean/modules/TomographyOracleCore.PaperMatch.Upper.ExpectedMW.log"
+  },
+  {
+    "path": "TomographyOracleCore/PauliCharacterDiagonalization.lean",
+    "module": "TomographyOracleCore.PauliCharacterDiagonalization",
+    "exit_code": 0,
+    "seconds": 2.66,
+    "source_sha256": "7894617e198776d8310cba1549fc6cce39c8e6ce64f1318b477090542a24c60f",
+    "log": "verification/lean/modules/TomographyOracleCore.PauliCharacterDiagonalization.log"
+  },
+  {
+    "path": "TomographyOracleCore/PauliHaarThirdTwirlAbsorption.lean",
+    "module": "TomographyOracleCore.PauliHaarThirdTwirlAbsorption",
+    "exit_code": 0,
+    "seconds": 2.49,
+    "source_sha256": "506ee5c991c3a23376ecd6c1f49d1accde70eb6a1ee9d11f2ced9e41e7904537",
+    "log": "verification/lean/modules/TomographyOracleCore.PauliHaarThirdTwirlAbsorption.log"
+  },
+  {
+    "path": "TomographyOracleCore/PauliHaarThirdTwirlEmptyInactive.lean",
+    "module": "TomographyOracleCore.PauliHaarThirdTwirlEmptyInactive",
+    "exit_code": 0,
+    "seconds": 2.53,
+    "source_sha256": "32dabb08fcf2977741bed3207b0924870955e1c265b78c855593149c9f4bcba9",
+    "log": "verification/lean/modules/TomographyOracleCore.PauliHaarThirdTwirlEmptyInactive.log"
+  },
+  {
+    "path": "TomographyOracleCore/PearsonKL.lean",
+    "module": "TomographyOracleCore.PearsonKL",
+    "exit_code": 0,
+    "seconds": 1.92,
+    "source_sha256": "ad152a8b30d6c0840c50d9f84b15917db24be36cb45a41860c38397772f82607",
+    "log": "verification/lean/modules/TomographyOracleCore.PearsonKL.log"
+  },
+  {
+    "path": "TomographyOracleCore/PeriodicCliffordFourthAssembly.lean",
+    "module": "TomographyOracleCore.PeriodicCliffordFourthAssembly",
+    "exit_code": 0,
+    "seconds": 1.6,
+    "source_sha256": "a64fd2ebfef6d3bf69f216ac2703b74143c51145b7bff955159cac038eece1e7",
+    "log": "verification/lean/modules/TomographyOracleCore.PeriodicCliffordFourthAssembly.log"
+  },
+  {
+    "path": "TomographyOracleCore/PeriodicCliffordFourthBoundary.lean",
+    "module": "TomographyOracleCore.PeriodicCliffordFourthBoundary",
+    "exit_code": 0,
+    "seconds": 2.78,
+    "source_sha256": "de12449ddedc142ac9bbbed17c231b163e7fd41866bea56c6ffe21f7a60097bc",
+    "log": "verification/lean/modules/TomographyOracleCore.PeriodicCliffordFourthBoundary.log"
+  },
+  {
+    "path": "TomographyOracleCore/PeriodicCliffordFourthChoKimBridge.lean",
+    "module": "TomographyOracleCore.PeriodicCliffordFourthChoKimBridge",
+    "exit_code": 0,
+    "seconds": 2.57,
+    "source_sha256": "e11bbe0fdc9c44e72765223158fa0931a65c4b9ef03055397e8a7f013dbe7ca7",
+    "log": "verification/lean/modules/TomographyOracleCore.PeriodicCliffordFourthChoKimBridge.log"
+  },
+  {
+    "path": "TomographyOracleCore/PeriodicCliffordFourthConstant.lean",
+    "module": "TomographyOracleCore.PeriodicCliffordFourthConstant",
+    "exit_code": 0,
+    "seconds": 1.86,
+    "source_sha256": "b9f10b34298b92b29a0fb36c30d23a9341487f98ed3c5500540781ba2d9efe2b",
+    "log": "verification/lean/modules/TomographyOracleCore.PeriodicCliffordFourthConstant.log"
+  },
+  {
+    "path": "TomographyOracleCore/PeriodicCliffordFourthCycle.lean",
+    "module": "TomographyOracleCore.PeriodicCliffordFourthCycle",
+    "exit_code": 0,
+    "seconds": 1.22,
+    "source_sha256": "287a690d97d71d51ae3bc68473678e5d3539114bcd53901b1acf3df621932dc5",
+    "log": "verification/lean/modules/TomographyOracleCore.PeriodicCliffordFourthCycle.log"
+  },
+  {
+    "path": "TomographyOracleCore/PeriodicCliffordFourthGramMatrix.lean",
+    "module": "TomographyOracleCore.PeriodicCliffordFourthGramMatrix",
+    "exit_code": 0,
+    "seconds": 3.59,
+    "source_sha256": "0ded723022f995108c7124d4be1a2f73aacf1efbb2f5800b23181102a6938e17",
+    "log": "verification/lean/modules/TomographyOracleCore.PeriodicCliffordFourthGramMatrix.log"
+  },
+  {
+    "path": "TomographyOracleCore/PeriodicCliffordFourthGramRowSum.lean",
+    "module": "TomographyOracleCore.PeriodicCliffordFourthGramRowSum",
+    "exit_code": 0,
+    "seconds": 1.88,
+    "source_sha256": "561f62ea264f800e05dbca71bc9af9cd30ab987d70ad295b877ec192df0926b6",
+    "log": "verification/lean/modules/TomographyOracleCore.PeriodicCliffordFourthGramRowSum.log"
+  },
+  {
+    "path": "TomographyOracleCore/PeriodicCliffordFourthSectorAveragingCriterion.lean",
+    "module": "TomographyOracleCore.PeriodicCliffordFourthSectorAveragingCriterion",
+    "exit_code": 0,
+    "seconds": 1.63,
+    "source_sha256": "eab5b35882968535a2fcdef14953408e198353165437f9bf425e7f2c79ebb21a",
+    "log": "verification/lean/modules/TomographyOracleCore.PeriodicCliffordFourthSectorAveragingCriterion.log"
+  },
+  {
+    "path": "TomographyOracleCore/PeriodicCliffordFourthSectorInverse.lean",
+    "module": "TomographyOracleCore.PeriodicCliffordFourthSectorInverse",
+    "exit_code": 0,
+    "seconds": 3.17,
+    "source_sha256": "35862005c70584937bef5493f3d9734e16dcb58943e4a4a230895f3414e37ff0",
+    "log": "verification/lean/modules/TomographyOracleCore.PeriodicCliffordFourthSectorInverse.log"
+  },
+  {
+    "path": "TomographyOracleCore/PeriodicCliffordFourthSectorOperatorComplex.lean",
+    "module": "TomographyOracleCore.PeriodicCliffordFourthSectorOperatorComplex",
+    "exit_code": 0,
+    "seconds": 1.82,
+    "source_sha256": "acdb3e602eb89754cde3a84d43ecddba132f47eb53683d5f16569ff0d9225ed7",
+    "log": "verification/lean/modules/TomographyOracleCore.PeriodicCliffordFourthSectorOperatorComplex.log"
+  },
+  {
+    "path": "TomographyOracleCore/PeriodicCliffordFourthSectorOperatorCoordinates.lean",
+    "module": "TomographyOracleCore.PeriodicCliffordFourthSectorOperatorCoordinates",
+    "exit_code": 0,
+    "seconds": 56.45,
+    "source_sha256": "6c038bcc089886cbd68cb3aa1e60e9a2d77c03cef98086c63b55f06aa595e779",
+    "log": "verification/lean/modules/TomographyOracleCore.PeriodicCliffordFourthSectorOperatorCoordinates.log"
+  },
+  {
+    "path": "TomographyOracleCore/PeriodicCliffordFourthSectorProjectionUniqueness.lean",
+    "module": "TomographyOracleCore.PeriodicCliffordFourthSectorProjectionUniqueness",
+    "exit_code": 0,
+    "seconds": 1.84,
+    "source_sha256": "1271e39cd81fab2db7e82d961e19446fe59f4db863fe87cd0e0c0550c33ee85c",
+    "log": "verification/lean/modules/TomographyOracleCore.PeriodicCliffordFourthSectorProjectionUniqueness.log"
+  },
+  {
+    "path": "TomographyOracleCore/PeriodicCliffordFourthSectorSynthesis.lean",
+    "module": "TomographyOracleCore.PeriodicCliffordFourthSectorSynthesis",
+    "exit_code": 0,
+    "seconds": 1.83,
+    "source_sha256": "ecfd2949b9a3cbdc8da36764276c147a2df3edbd1cd841b3286a8bbd4e95f25c",
+    "log": "verification/lean/modules/TomographyOracleCore.PeriodicCliffordFourthSectorSynthesis.log"
+  },
+  {
+    "path": "TomographyOracleCore/PeriodicCliffordFourthSectors.lean",
+    "module": "TomographyOracleCore.PeriodicCliffordFourthSectors",
+    "exit_code": 0,
+    "seconds": 97.82,
+    "source_sha256": "60df4828676d5940c7376da1a95774cc2d32352510786e6cfd522f8662238b8b",
+    "log": "verification/lean/modules/TomographyOracleCore.PeriodicCliffordFourthSectors.log"
+  },
+  {
+    "path": "TomographyOracleCore/PeriodicCliffordFourthTransferArithmetic.lean",
+    "module": "TomographyOracleCore.PeriodicCliffordFourthTransferArithmetic",
+    "exit_code": 0,
+    "seconds": 8.96,
+    "source_sha256": "d9c5e962dc7cd5c3740fd68792b24fccd1fdc20ea6e3c4789548f14ea6144297",
+    "log": "verification/lean/modules/TomographyOracleCore.PeriodicCliffordFourthTransferArithmetic.log"
+  },
+  {
+    "path": "TomographyOracleCore/PeriodicCliffordFourthU4Abstract.lean",
+    "module": "TomographyOracleCore.PeriodicCliffordFourthU4Abstract",
+    "exit_code": 0,
+    "seconds": 1.62,
+    "source_sha256": "b006b7c10377fdf735cde5a0b883a6c4e32958e4a54f390deda27cd51652f5e7",
+    "log": "verification/lean/modules/TomographyOracleCore.PeriodicCliffordFourthU4Abstract.log"
+  },
+  {
+    "path": "TomographyOracleCore/PeriodicForwardCovarianceBaiYinReduction.lean",
+    "module": "TomographyOracleCore.PeriodicForwardCovarianceBaiYinReduction",
+    "exit_code": 0,
+    "seconds": 2.16,
+    "source_sha256": "73db2ea36bdf694c93d1fd8a550532c160f02c9aa2ee8931ea3f7211ded0771f",
+    "log": "verification/lean/modules/TomographyOracleCore.PeriodicForwardCovarianceBaiYinReduction.log"
+  },
+  {
+    "path": "TomographyOracleCore/PhysicalConstantMatrixPOVMDesign.lean",
+    "module": "TomographyOracleCore.PhysicalConstantMatrixPOVMDesign",
+    "exit_code": 0,
+    "seconds": 2.36,
+    "source_sha256": "6d13f16306229dfb1c279830c20515b7702a354c1160a342c8d1fe4f06a2d156",
+    "log": "verification/lean/modules/TomographyOracleCore.PhysicalConstantMatrixPOVMDesign.log"
+  },
+  {
+    "path": "TomographyOracleCore/PhysicalConstantMatrixPOVMPrefixLaw.lean",
+    "module": "TomographyOracleCore.PhysicalConstantMatrixPOVMPrefixLaw",
+    "exit_code": 0,
+    "seconds": 2.31,
+    "source_sha256": "0516ac6fa1418dd9e6f7a86fbef9e03d6fa41eb83a3c30d2122e317845d1de12",
+    "log": "verification/lean/modules/TomographyOracleCore.PhysicalConstantMatrixPOVMPrefixLaw.log"
+  },
+  {
+    "path": "TomographyOracleCore/PhysicalConstantMatrixPOVMProductLaw.lean",
+    "module": "TomographyOracleCore.PhysicalConstantMatrixPOVMProductLaw",
+    "exit_code": 0,
+    "seconds": 2.45,
+    "source_sha256": "bb5abd876d20fd168b0cc21af91d779dce0ff3774d1275f6f7da024c5b74f57b",
+    "log": "verification/lean/modules/TomographyOracleCore.PhysicalConstantMatrixPOVMProductLaw.log"
+  },
+  {
+    "path": "TomographyOracleCore/PhysicalDecodedKL.lean",
+    "module": "TomographyOracleCore.PhysicalDecodedKL",
+    "exit_code": 0,
+    "seconds": 2.42,
+    "source_sha256": "22b0058317e715c17f06ab3e4acadbd5b28a52dde272eb0b2d535b27097cd52c",
+    "log": "verification/lean/modules/TomographyOracleCore.PhysicalDecodedKL.log"
+  },
+  {
+    "path": "TomographyOracleCore/PhysicalDensityMeasurable.lean",
+    "module": "TomographyOracleCore.PhysicalDensityMeasurable",
+    "exit_code": 0,
+    "seconds": 2.46,
+    "source_sha256": "f5469cd38d71293c3419110986ed6bd248a4a1d0021d1cfc2c7618dd5cde2254",
+    "log": "verification/lean/modules/TomographyOracleCore.PhysicalDensityMeasurable.log"
+  },
+  {
+    "path": "TomographyOracleCore/PhysicalFiniteFanoKernel.lean",
+    "module": "TomographyOracleCore.PhysicalFiniteFanoKernel",
+    "exit_code": 0,
+    "seconds": 2.8,
+    "source_sha256": "b4a7fa3bf919547165010aea5bf6cfb8f9b60951c4ffae87ff08d9864a8245f8",
+    "log": "verification/lean/modules/TomographyOracleCore.PhysicalFiniteFanoKernel.log"
+  },
+  {
+    "path": "TomographyOracleCore/PhysicalFiniteInformation.lean",
+    "module": "TomographyOracleCore.PhysicalFiniteInformation",
+    "exit_code": 0,
+    "seconds": 2.48,
+    "source_sha256": "d7fcfea64bf8952b2f38ac8a766e58e5accdca91f3c377fb6b7b35809122936a",
+    "log": "verification/lean/modules/TomographyOracleCore.PhysicalFiniteInformation.log"
+  },
+  {
+    "path": "TomographyOracleCore/PhysicalHaarDesign.lean",
+    "module": "TomographyOracleCore.PhysicalHaarDesign",
+    "exit_code": 0,
+    "seconds": 2.54,
+    "source_sha256": "c0a3fc44ff398d422259378c3e48ca70ad9470009899dda3194b4096e7b6e194",
+    "log": "verification/lean/modules/TomographyOracleCore.PhysicalHaarDesign.log"
+  },
+  {
+    "path": "TomographyOracleCore/PhysicalHaarOneCopy.lean",
+    "module": "TomographyOracleCore.PhysicalHaarOneCopy",
+    "exit_code": 0,
+    "seconds": 2.36,
+    "source_sha256": "1a3ba0fa5d6efb9c4944b125efbfa5ac46929fae4e59ed698c99e440b831dc3b",
+    "log": "verification/lean/modules/TomographyOracleCore.PhysicalHaarOneCopy.log"
+  },
+  {
+    "path": "TomographyOracleCore/PhysicalHaarOneCopyDesignKL.lean",
+    "module": "TomographyOracleCore.PhysicalHaarOneCopyDesignKL",
+    "exit_code": 0,
+    "seconds": 2.6,
+    "source_sha256": "b61718b4499e9ef5319689886c7de264a772ef781d9fa02373fd0bf7116b7d17",
+    "log": "verification/lean/modules/TomographyOracleCore.PhysicalHaarOneCopyDesignKL.log"
+  },
+  {
+    "path": "TomographyOracleCore/PhysicalHaarOneCopyEffectAverage.lean",
+    "module": "TomographyOracleCore.PhysicalHaarOneCopyEffectAverage",
+    "exit_code": 0,
+    "seconds": 2.86,
+    "source_sha256": "bb59f9345411862681cdb0a52020e5bb87139d80c22fd8a01fc4fd0692ba5ef4",
+    "log": "verification/lean/modules/TomographyOracleCore.PhysicalHaarOneCopyEffectAverage.log"
+  },
+  {
+    "path": "TomographyOracleCore/PhysicalHaarOneCopyKL.lean",
+    "module": "TomographyOracleCore.PhysicalHaarOneCopyKL",
+    "exit_code": 0,
+    "seconds": 3.01,
+    "source_sha256": "24fa9ddf6954d17a08a8e642ca6d6833b185b4f75e24e83be1af40ff374baeca",
+    "log": "verification/lean/modules/TomographyOracleCore.PhysicalHaarOneCopyKL.log"
+  },
+  {
+    "path": "TomographyOracleCore/PhysicalHaarOneCopyPOVMLift.lean",
+    "module": "TomographyOracleCore.PhysicalHaarOneCopyPOVMLift",
+    "exit_code": 0,
+    "seconds": 3.01,
+    "source_sha256": "de7daf84a0ae373b316399a2d0607770c00d25fe318dfc5f50644b5a2b82f3ab",
+    "log": "verification/lean/modules/TomographyOracleCore.PhysicalHaarOneCopyPOVMLift.log"
+  },
+  {
+    "path": "TomographyOracleCore/PhysicalHaarOneCopyPearson.lean",
+    "module": "TomographyOracleCore.PhysicalHaarOneCopyPearson",
+    "exit_code": 0,
+    "seconds": 2.88,
+    "source_sha256": "b52eb60ddd7fd3a221f26748eb635320629c69c9a91b49d0eebe0e986ea689b4",
+    "log": "verification/lean/modules/TomographyOracleCore.PhysicalHaarOneCopyPearson.log"
+  },
+  {
+    "path": "TomographyOracleCore/PhysicalHaarOneCopyPointwise.lean",
+    "module": "TomographyOracleCore.PhysicalHaarOneCopyPointwise",
+    "exit_code": 0,
+    "seconds": 3.7,
+    "source_sha256": "188710e2fbfbe1029fca92be04667592aa87950c3b81de10b4e37fba5cbacf8d",
+    "log": "verification/lean/modules/TomographyOracleCore.PhysicalHaarOneCopyPointwise.log"
+  },
+  {
+    "path": "TomographyOracleCore/PhysicalHaarOneCopySpectral.lean",
+    "module": "TomographyOracleCore.PhysicalHaarOneCopySpectral",
+    "exit_code": 0,
+    "seconds": 4.34,
+    "source_sha256": "76b4b117a2e5a60dec39c12ad9c527072527c99331660e4761a5f5e2d7e5636f",
+    "log": "verification/lean/modules/TomographyOracleCore.PhysicalHaarOneCopySpectral.log"
+  },
+  {
+    "path": "TomographyOracleCore/PhysicalHaarPrefixLaw.lean",
+    "module": "TomographyOracleCore.PhysicalHaarPrefixLaw",
+    "exit_code": 0,
+    "seconds": 2.42,
+    "source_sha256": "e137f96373fd21071bccda26d69794eff92417fad145cea95c94f52a8722e221",
+    "log": "verification/lean/modules/TomographyOracleCore.PhysicalHaarPrefixLaw.log"
+  },
+  {
+    "path": "TomographyOracleCore/PhysicalHaarProductLaw.lean",
+    "module": "TomographyOracleCore.PhysicalHaarProductLaw",
+    "exit_code": 0,
+    "seconds": 2.4,
+    "source_sha256": "d096de9985bbd03a4ddf0b5d567d011ed68c0ff9cb1394ead5ff22b2e8d8c8ce",
+    "log": "verification/lean/modules/TomographyOracleCore.PhysicalHaarProductLaw.log"
+  },
+  {
+    "path": "TomographyOracleCore/PhysicalLossBounds.lean",
+    "module": "TomographyOracleCore.PhysicalLossBounds",
+    "exit_code": 0,
+    "seconds": 2.56,
+    "source_sha256": "e1187f7774dd1f515730700859983aaed0a20efefafb86d4ab5125e3c84e10e2",
+    "log": "verification/lean/modules/TomographyOracleCore.PhysicalLossBounds.log"
+  },
+  {
+    "path": "TomographyOracleCore/PhysicalLowerAssembly.lean",
+    "module": "TomographyOracleCore.PhysicalLowerAssembly",
+    "exit_code": 0,
+    "seconds": 2.62,
+    "source_sha256": "52d0504a52c77b5a75472f249402da61cc1aa43927a6966decff736af8d3189a",
+    "log": "verification/lean/modules/TomographyOracleCore.PhysicalLowerAssembly.log"
+  },
+  {
+    "path": "TomographyOracleCore/PhysicalLowerDecision.lean",
+    "module": "TomographyOracleCore.PhysicalLowerDecision",
+    "exit_code": 0,
+    "seconds": 2.45,
+    "source_sha256": "e5f3ab8bf0734b380eb4fc3d98d9c5defc0265b2717269f1bf438fe9e08cb924",
+    "log": "verification/lean/modules/TomographyOracleCore.PhysicalLowerDecision.log"
+  },
+  {
+    "path": "TomographyOracleCore/PhysicalNearestDecoder.lean",
+    "module": "TomographyOracleCore.PhysicalNearestDecoder",
+    "exit_code": 0,
+    "seconds": 3.17,
+    "source_sha256": "eadf3b2b0238ec1231ef9e6b87f09c2b1846e11ef334297c6b6bfd678f073c8b",
+    "log": "verification/lean/modules/TomographyOracleCore.PhysicalNearestDecoder.log"
+  },
+  {
+    "path": "TomographyOracleCore/PhysicalPOVM.lean",
+    "module": "TomographyOracleCore.PhysicalPOVM",
+    "exit_code": 0,
+    "seconds": 2.59,
+    "source_sha256": "dfcdafa1368101b53132406d5ea5405bef14e537cd71acee00f4c45bb1fb4870",
+    "log": "verification/lean/modules/TomographyOracleCore.PhysicalPOVM.log"
+  },
+  {
+    "path": "TomographyOracleCore/PhysicalProductScore.lean",
+    "module": "TomographyOracleCore.PhysicalProductScore",
+    "exit_code": 0,
+    "seconds": 2.5,
+    "source_sha256": "5468ecc8ccf9b58d42f71383338f2038188c8d10d25dff0b233034e8b7480bfa",
+    "log": "verification/lean/modules/TomographyOracleCore.PhysicalProductScore.log"
+  },
+  {
+    "path": "TomographyOracleCore/PhysicalReferenceDensity.lean",
+    "module": "TomographyOracleCore.PhysicalReferenceDensity",
+    "exit_code": 0,
+    "seconds": 2.48,
+    "source_sha256": "de368e40b9210b910891ce1f7abfd28e087fcff5cae3db6657adfc4d734e73de",
+    "log": "verification/lean/modules/TomographyOracleCore.PhysicalReferenceDensity.log"
+  },
+  {
+    "path": "TomographyOracleCore/PhysicalReferencePearson.lean",
+    "module": "TomographyOracleCore.PhysicalReferencePearson",
+    "exit_code": 0,
+    "seconds": 2.47,
+    "source_sha256": "f14c0b344de1397bc4538fd3a34c5157422ba98c0585e7b6a46d68e3b2e63ad3",
+    "log": "verification/lean/modules/TomographyOracleCore.PhysicalReferencePearson.log"
+  },
+  {
+    "path": "TomographyOracleCore/PhysicalRisk.lean",
+    "module": "TomographyOracleCore.PhysicalRisk",
+    "exit_code": 0,
+    "seconds": 2.37,
+    "source_sha256": "9e830e3847e51419524aedde164f180100c7e3d236bc854a6f54534a044b8eae",
+    "log": "verification/lean/modules/TomographyOracleCore.PhysicalRisk.log"
+  },
+  {
+    "path": "TomographyOracleCore/PhysicalSharedHaarLowerUnconditional.lean",
+    "module": "TomographyOracleCore.PhysicalSharedHaarLowerUnconditional",
+    "exit_code": 0,
+    "seconds": 3.04,
+    "source_sha256": "43bb74677342c78c306f1deda994dd60e9e371bdef3de5a13f0ed4fb2d7aa4a1",
+    "log": "verification/lean/modules/TomographyOracleCore.PhysicalSharedHaarLowerUnconditional.log"
+  },
+  {
+    "path": "TomographyOracleCore/PhysicalTargets.lean",
+    "module": "TomographyOracleCore.PhysicalTargets",
+    "exit_code": 0,
+    "seconds": 2.48,
+    "source_sha256": "453112ec430f0618f268815b9e8b7c8dc342d9787997011826df2738f2036f84",
+    "log": "verification/lean/modules/TomographyOracleCore.PhysicalTargets.log"
+  },
+  {
+    "path": "TomographyOracleCore/PhysicalTranscriptKL.lean",
+    "module": "TomographyOracleCore.PhysicalTranscriptKL",
+    "exit_code": 0,
+    "seconds": 2.58,
+    "source_sha256": "ee4179ed8209b6b26b404ab0f8cbd2c540ca6e95a86add70943b3bb7d22927da",
+    "log": "verification/lean/modules/TomographyOracleCore.PhysicalTranscriptKL.log"
+  },
+  {
+    "path": "TomographyOracleCore/PortedFixedSubspaceGaussian.lean",
+    "module": "TomographyOracleCore.PortedFixedSubspaceGaussian",
+    "exit_code": 0,
+    "seconds": 3.78,
+    "source_sha256": "3ddacfec0ed31484c0fc41b694c8a564052d5d28ec35a29db0f7b427276027b6",
+    "log": "verification/lean/modules/TomographyOracleCore.PortedFixedSubspaceGaussian.log"
+  },
+  {
+    "path": "TomographyOracleCore/PortedGaussianSphereDirection.lean",
+    "module": "TomographyOracleCore.PortedGaussianSphereDirection",
+    "exit_code": 0,
+    "seconds": 3.3,
+    "source_sha256": "0e96fa0edc454a24783c8de166cd74ecf191d1d44aa6f8769523c1cdacdfa6b8",
+    "log": "verification/lean/modules/TomographyOracleCore.PortedGaussianSphereDirection.log"
+  },
+  {
+    "path": "TomographyOracleCore/PortedGaussianSubspace.lean",
+    "module": "TomographyOracleCore.PortedGaussianSubspace",
+    "exit_code": 0,
+    "seconds": 2.5,
+    "source_sha256": "6963adc8309fa8144c1903a23f4cf0a457c7d35cf4d9a52a626ab2c0c01810ea",
+    "log": "verification/lean/modules/TomographyOracleCore.PortedGaussianSubspace.log"
+  },
+  {
+    "path": "TomographyOracleCore/PortedScalarGammaBetaBridge.lean",
+    "module": "TomographyOracleCore.PortedScalarGammaBetaBridge",
+    "exit_code": 0,
+    "seconds": 3.77,
+    "source_sha256": "dc5ea813db75cef3a75b9aea92e4836058860248f3a315d7360a4a6fab215908",
+    "log": "verification/lean/modules/TomographyOracleCore.PortedScalarGammaBetaBridge.log"
+  },
+  {
+    "path": "TomographyOracleCore/PositiveObservableVariance.lean",
+    "module": "TomographyOracleCore.PositiveObservableVariance",
+    "exit_code": 0,
+    "seconds": 3.85,
+    "source_sha256": "9d4aef393a5cba24c1425eb0c05d849f5d1fe7ea6044d655951667aba6fe21a4",
+    "log": "verification/lean/modules/TomographyOracleCore.PositiveObservableVariance.log"
+  },
+  {
+    "path": "TomographyOracleCore/ProductKL.lean",
+    "module": "TomographyOracleCore.ProductKL",
+    "exit_code": 0,
+    "seconds": 1.98,
+    "source_sha256": "614f17b119ac566fa4d4d4d008b25bd4616bb5b672ea2e6450359c36aa1f651d",
+    "log": "verification/lean/modules/TomographyOracleCore.ProductKL.log"
+  },
+  {
+    "path": "TomographyOracleCore/ProjectiveHaar.lean",
+    "module": "TomographyOracleCore.ProjectiveHaar",
+    "exit_code": 0,
+    "seconds": 2.69,
+    "source_sha256": "8bbc0340f5d4544ed984628d5d534d02e30a0decdaa01a1b9d961a0503a4fbe7",
+    "log": "verification/lean/modules/TomographyOracleCore.ProjectiveHaar.log"
+  },
+  {
+    "path": "TomographyOracleCore/ProjectiveHaarBlockBeta.lean",
+    "module": "TomographyOracleCore.ProjectiveHaarBlockBeta",
+    "exit_code": 0,
+    "seconds": 3.1,
+    "source_sha256": "017cc130fba50289daadf2e7e335eb2f967567ce94db97a955fefd7b9477bd89",
+    "log": "verification/lean/modules/TomographyOracleCore.ProjectiveHaarBlockBeta.log"
+  },
+  {
+    "path": "TomographyOracleCore/ProjectiveHaarBlockLaw.lean",
+    "module": "TomographyOracleCore.ProjectiveHaarBlockLaw",
+    "exit_code": 0,
+    "seconds": 4.63,
+    "source_sha256": "0a2759627a53993a7e358410fbea76c959290bd283502bd33cb2ef3a99f73b76",
+    "log": "verification/lean/modules/TomographyOracleCore.ProjectiveHaarBlockLaw.log"
+  },
+  {
+    "path": "TomographyOracleCore/ProjectiveHaarCoupledRatio.lean",
+    "module": "TomographyOracleCore.ProjectiveHaarCoupledRatio",
+    "exit_code": 0,
+    "seconds": 3.46,
+    "source_sha256": "5e31a1289bb6a10e0221f21ebf651659476c8f9a2633c5df39672b08a870202b",
+    "log": "verification/lean/modules/TomographyOracleCore.ProjectiveHaarCoupledRatio.log"
+  },
+  {
+    "path": "TomographyOracleCore/ProjectiveHaarFirstMoment.lean",
+    "module": "TomographyOracleCore.ProjectiveHaarFirstMoment",
+    "exit_code": 0,
+    "seconds": 2.59,
+    "source_sha256": "3194b6b9942b50d063268fc3cd130cc441f21ec6f26c93085b8d21cf35e5db8d",
+    "log": "verification/lean/modules/TomographyOracleCore.ProjectiveHaarFirstMoment.log"
+  },
+  {
+    "path": "TomographyOracleCore/ProjectiveHaarHardRatio.lean",
+    "module": "TomographyOracleCore.ProjectiveHaarHardRatio",
+    "exit_code": 0,
+    "seconds": 2.5,
+    "source_sha256": "27073b174461a1c18605045ed58ec737521eaa5bfd72910de8b22b6b4e1ec2b7",
+    "log": "verification/lean/modules/TomographyOracleCore.ProjectiveHaarHardRatio.log"
+  },
+  {
+    "path": "TomographyOracleCore/ProjectiveHaarLargeScores.lean",
+    "module": "TomographyOracleCore.ProjectiveHaarLargeScores",
+    "exit_code": 0,
+    "seconds": 2.99,
+    "source_sha256": "79a0dfeb712640406510703dc55ab0fa0ab2df6ad12e68a4259433425416fc06",
+    "log": "verification/lean/modules/TomographyOracleCore.ProjectiveHaarLargeScores.log"
+  },
+  {
+    "path": "TomographyOracleCore/ProjectiveHaarMeasure.lean",
+    "module": "TomographyOracleCore.ProjectiveHaarMeasure",
+    "exit_code": 0,
+    "seconds": 2.49,
+    "source_sha256": "17453f762465b2b5129a7656a1b7ebde04e295777f30cc2237dd36aa3892ac28",
+    "log": "verification/lean/modules/TomographyOracleCore.ProjectiveHaarMeasure.log"
+  },
+  {
+    "path": "TomographyOracleCore/ProjectiveHaarMomentValues.lean",
+    "module": "TomographyOracleCore.ProjectiveHaarMomentValues",
+    "exit_code": 0,
+    "seconds": 3.24,
+    "source_sha256": "724c77b1749433398e5928a266ca5b77d926e19a8acd82d9f16d5934e3f72c98",
+    "log": "verification/lean/modules/TomographyOracleCore.ProjectiveHaarMomentValues.log"
+  },
+  {
+    "path": "TomographyOracleCore/ProjectiveHaarMoments.lean",
+    "module": "TomographyOracleCore.ProjectiveHaarMoments",
+    "exit_code": 0,
+    "seconds": 7.74,
+    "source_sha256": "1cfae993560aa6f1bec64246b141462bd1cbda734f4975bb2d59c9d21c8a56d0",
+    "log": "verification/lean/modules/TomographyOracleCore.ProjectiveHaarMoments.log"
+  },
+  {
+    "path": "TomographyOracleCore/ProjectiveHaarPOVM.lean",
+    "module": "TomographyOracleCore.ProjectiveHaarPOVM",
+    "exit_code": 0,
+    "seconds": 2.72,
+    "source_sha256": "cf57832d00a36747ed5630dfdd45663b2481bf4b7ed2cd8b56e370010ff95440",
+    "log": "verification/lean/modules/TomographyOracleCore.ProjectiveHaarPOVM.log"
+  },
+  {
+    "path": "TomographyOracleCore/ProjectiveHaarTailCoupling.lean",
+    "module": "TomographyOracleCore.ProjectiveHaarTailCoupling",
+    "exit_code": 0,
+    "seconds": 4.37,
+    "source_sha256": "b760d9196f436f8e667e7d85200c42e574f35b6c1e049c9824581d6bd8206c4a",
+    "log": "verification/lean/modules/TomographyOracleCore.ProjectiveHaarTailCoupling.log"
+  },
+  {
+    "path": "TomographyOracleCore/ProjectiveHaarThirdMoments.lean",
+    "module": "TomographyOracleCore.ProjectiveHaarThirdMoments",
+    "exit_code": 0,
+    "seconds": 5.62,
+    "source_sha256": "80429e3507e411d847fb6eae0bc457a6c75a2c2a178d3a5d120b74934ef6a4f8",
+    "log": "verification/lean/modules/TomographyOracleCore.ProjectiveHaarThirdMoments.log"
+  },
+  {
+    "path": "TomographyOracleCore/ProjectiveHaarThirdTrace.lean",
+    "module": "TomographyOracleCore.ProjectiveHaarThirdTrace",
+    "exit_code": 0,
+    "seconds": 4.46,
+    "source_sha256": "ac1ea2e3e1748087796c6e2dd5d0660a037b88389fedb2f9d921bc18671f4daa",
+    "log": "verification/lean/modules/TomographyOracleCore.ProjectiveHaarThirdTrace.log"
+  },
+  {
+    "path": "TomographyOracleCore/PureSphereProjectionLaplace.lean",
+    "module": "TomographyOracleCore.PureSphereProjectionLaplace",
+    "exit_code": 0,
+    "seconds": 3.16,
+    "source_sha256": "63b6cd968c69a61d7ef046d81cbcc09eabaa3fd8d561957200ce5e7813769a2c",
+    "log": "verification/lean/modules/TomographyOracleCore.PureSphereProjectionLaplace.log"
+  },
+  {
+    "path": "TomographyOracleCore/RelativeDesignApproximationCalculus.lean",
+    "module": "TomographyOracleCore.RelativeDesignApproximationCalculus",
+    "exit_code": 0,
+    "seconds": 3.0,
+    "source_sha256": "151fd5f2128ac8dfc368f55e21670eac4598cc20bf7ca7c4fac7368cb1453d1a",
+    "log": "verification/lean/modules/TomographyOracleCore.RelativeDesignApproximationCalculus.log"
+  },
+  {
+    "path": "TomographyOracleCore/RelativeDesignChoiTensorId.lean",
+    "module": "TomographyOracleCore.RelativeDesignChoiTensorId",
+    "exit_code": 0,
+    "seconds": 2.9,
+    "source_sha256": "8e05b0ed02a599c24be0576d257a772b3b34e7808fa9d72727d730ce51b08aa1",
+    "log": "verification/lean/modules/TomographyOracleCore.RelativeDesignChoiTensorId.log"
+  },
+  {
+    "path": "TomographyOracleCore/RelativeDesignChoiTensorIdOrder.lean",
+    "module": "TomographyOracleCore.RelativeDesignChoiTensorIdOrder",
+    "exit_code": 0,
+    "seconds": 2.73,
+    "source_sha256": "2e6d60d3267d6bfe77025142c0e45acafeacd595a3e4be558997e0aa9b92ab4b",
+    "log": "verification/lean/modules/TomographyOracleCore.RelativeDesignChoiTensorIdOrder.log"
+  },
+  {
+    "path": "TomographyOracleCore/RelativeDesignConcretePairwiseActualHaarInactive.lean",
+    "module": "TomographyOracleCore.RelativeDesignConcretePairwiseActualHaarInactive",
+    "exit_code": 0,
+    "seconds": 2.83,
+    "source_sha256": "a6840444cd6696391978924cd69d7164ec070a3045980bc1272d3547a989c0e2",
+    "log": "verification/lean/modules/TomographyOracleCore.RelativeDesignConcretePairwiseActualHaarInactive.log"
+  },
+  {
+    "path": "TomographyOracleCore/RelativeDesignConstructiveGluingIteration.lean",
+    "module": "TomographyOracleCore.RelativeDesignConstructiveGluingIteration",
+    "exit_code": 0,
+    "seconds": 2.88,
+    "source_sha256": "a0486ebbc7b3e5dae36f47baa911e59027d0bc65a79de21238e58609ae00d932",
+    "log": "verification/lean/modules/TomographyOracleCore.RelativeDesignConstructiveGluingIteration.log"
+  },
+  {
+    "path": "TomographyOracleCore/RelativeDesignEPRFlatSupport.lean",
+    "module": "TomographyOracleCore.RelativeDesignEPRFlatSupport",
+    "exit_code": 0,
+    "seconds": 2.26,
+    "source_sha256": "9179476e65615d84ab8ad6a1d426f093204204c9c368034c3cbef7f71bd80eb8",
+    "log": "verification/lean/modules/TomographyOracleCore.RelativeDesignEPRFlatSupport.log"
+  },
+  {
+    "path": "TomographyOracleCore/RelativeDesignFiniteChoi.lean",
+    "module": "TomographyOracleCore.RelativeDesignFiniteChoi",
+    "exit_code": 0,
+    "seconds": 2.88,
+    "source_sha256": "cc15e0a5dc2bcf3b2f7ede78d4d076b519e83b3162e1a7645f5ff829cda27503",
+    "log": "verification/lean/modules/TomographyOracleCore.RelativeDesignFiniteChoi.log"
+  },
+  {
+    "path": "TomographyOracleCore/RelativeDesignFiniteUnitaryThirdTwirlCP.lean",
+    "module": "TomographyOracleCore.RelativeDesignFiniteUnitaryThirdTwirlCP",
+    "exit_code": 0,
+    "seconds": 3.35,
+    "source_sha256": "7eb5f56b8dd6a77d4e79a76edcd8333760941e655bd8ce6ba84e250c43b8784a",
+    "log": "verification/lean/modules/TomographyOracleCore.RelativeDesignFiniteUnitaryThirdTwirlCP.log"
+  },
+  {
+    "path": "TomographyOracleCore/RelativeDesignGlobalHaarReferenceCP.lean",
+    "module": "TomographyOracleCore.RelativeDesignGlobalHaarReferenceCP",
+    "exit_code": 0,
+    "seconds": 3.51,
+    "source_sha256": "609c8423b9719a3c29d88a660d0fe9c931422c9cf8a6196710538627b3c5183f",
+    "log": "verification/lean/modules/TomographyOracleCore.RelativeDesignGlobalHaarReferenceCP.log"
+  },
+  {
+    "path": "TomographyOracleCore/RelativeDesignGluingIteration.lean",
+    "module": "TomographyOracleCore.RelativeDesignGluingIteration",
+    "exit_code": 0,
+    "seconds": 2.39,
+    "source_sha256": "95d2d8123e99f27567323f40ad63a6d1084693d3db58f9ace54f22950c5895c4",
+    "log": "verification/lean/modules/TomographyOracleCore.RelativeDesignGluingIteration.log"
+  },
+  {
+    "path": "TomographyOracleCore/RelativeDesignHaarThirdTwirlChoiWeingarten.lean",
+    "module": "TomographyOracleCore.RelativeDesignHaarThirdTwirlChoiWeingarten",
+    "exit_code": 0,
+    "seconds": 16.21,
+    "source_sha256": "0940645c447c4f51098bac09576061fa7ccb147abd93d659e6ab84fd75eb689b",
+    "log": "verification/lean/modules/TomographyOracleCore.RelativeDesignHaarThirdTwirlChoiWeingarten.log"
+  },
+  {
+    "path": "TomographyOracleCore/RelativeDesignLocalHaarReferenceCP.lean",
+    "module": "TomographyOracleCore.RelativeDesignLocalHaarReferenceCP",
+    "exit_code": 0,
+    "seconds": 3.85,
+    "source_sha256": "0331b1743c8ce41c72b134489f5dd747edf2dda27d408dcc4bf9be0c54cd92c0",
+    "log": "verification/lean/modules/TomographyOracleCore.RelativeDesignLocalHaarReferenceCP.log"
+  },
+  {
+    "path": "TomographyOracleCore/RelativeDesignOrder.lean",
+    "module": "TomographyOracleCore.RelativeDesignOrder",
+    "exit_code": 0,
+    "seconds": 2.3,
+    "source_sha256": "191d15503cade092e5570d4546ae822c99bc28cf1b7b3719ab2b738a68a6b1d7",
+    "log": "verification/lean/modules/TomographyOracleCore.RelativeDesignOrder.log"
+  },
+  {
+    "path": "TomographyOracleCore/RelativeDesignPairwiseActualHaarGluing.lean",
+    "module": "TomographyOracleCore.RelativeDesignPairwiseActualHaarGluing",
+    "exit_code": 0,
+    "seconds": 3.16,
+    "source_sha256": "2923ccbf7a351cb14a53a08aa35ecfe35348b1eb06289930411e5e32fa49f237",
+    "log": "verification/lean/modules/TomographyOracleCore.RelativeDesignPairwiseActualHaarGluing.log"
+  },
+  {
+    "path": "TomographyOracleCore/RelativeDesignPairwiseActualHaarInactive.lean",
+    "module": "TomographyOracleCore.RelativeDesignPairwiseActualHaarInactive",
+    "exit_code": 0,
+    "seconds": 2.62,
+    "source_sha256": "ce40f978a25038ae87dcfd3afacedede1e46edaabd89bc68125792bd7e58023d",
+    "log": "verification/lean/modules/TomographyOracleCore.RelativeDesignPairwiseActualHaarInactive.log"
+  },
+  {
+    "path": "TomographyOracleCore/RelativeDesignPauliHaarThirdReference.lean",
+    "module": "TomographyOracleCore.RelativeDesignPauliHaarThirdReference",
+    "exit_code": 0,
+    "seconds": 2.44,
+    "source_sha256": "9492c45298ab7555324f54a27bf86e3bc1b4648a6c84baa453c21dd8806c45cf",
+    "log": "verification/lean/modules/TomographyOracleCore.RelativeDesignPauliHaarThirdReference.log"
+  },
+  {
+    "path": "TomographyOracleCore/RelativeDesignReferenceTransport.lean",
+    "module": "TomographyOracleCore.RelativeDesignReferenceTransport",
+    "exit_code": 0,
+    "seconds": 2.72,
+    "source_sha256": "86ed5f4d562d8bee48596d7f137098442fa7237c019c49d59778cceeca856059",
+    "log": "verification/lean/modules/TomographyOracleCore.RelativeDesignReferenceTransport.log"
+  },
+  {
+    "path": "TomographyOracleCore/RelativeDesignReverseApproximation.lean",
+    "module": "TomographyOracleCore.RelativeDesignReverseApproximation",
+    "exit_code": 0,
+    "seconds": 2.96,
+    "source_sha256": "c82d04d6b80fb7cc4bbbd6da6eb34dc9d07e0636faaebfd26f9026101bec5c03",
+    "log": "verification/lean/modules/TomographyOracleCore.RelativeDesignReverseApproximation.log"
+  },
+  {
+    "path": "TomographyOracleCore/RelativeDesignThreeMomentApproximateHaar.lean",
+    "module": "TomographyOracleCore.RelativeDesignThreeMomentApproximateHaar",
+    "exit_code": 0,
+    "seconds": 3.93,
+    "source_sha256": "06f47bf18949b82ae7c4576a21cb45ded735261fec2d48430862dd5610b6ff6e",
+    "log": "verification/lean/modules/TomographyOracleCore.RelativeDesignThreeMomentApproximateHaar.log"
+  },
+  {
+    "path": "TomographyOracleCore/RelativeDesignThreeMomentApproximateHaarComposition.lean",
+    "module": "TomographyOracleCore.RelativeDesignThreeMomentApproximateHaarComposition",
+    "exit_code": 0,
+    "seconds": 7.05,
+    "source_sha256": "238d46fb5be0de6977a3ce1f94f283c207fcf8b638e8f401ff3c29e67a6d0239",
+    "log": "verification/lean/modules/TomographyOracleCore.RelativeDesignThreeMomentApproximateHaarComposition.log"
+  },
+  {
+    "path": "TomographyOracleCore/RelativeDesignThreeMomentApproximateHaarGluing.lean",
+    "module": "TomographyOracleCore.RelativeDesignThreeMomentApproximateHaarGluing",
+    "exit_code": 0,
+    "seconds": 3.15,
+    "source_sha256": "b5b9216b32860a65f7c0d07d51241b86320cb92ada6e3e0553827898afdb18d0",
+    "log": "verification/lean/modules/TomographyOracleCore.RelativeDesignThreeMomentApproximateHaarGluing.log"
+  },
+  {
+    "path": "TomographyOracleCore/RelativeDesignThreeMomentChoiGluing.lean",
+    "module": "TomographyOracleCore.RelativeDesignThreeMomentChoiGluing",
+    "exit_code": 0,
+    "seconds": 2.46,
+    "source_sha256": "10b9c903fc4bff976a9c00d5b7b0e252b3dc5da7b284bf24125896b8f9611148",
+    "log": "verification/lean/modules/TomographyOracleCore.RelativeDesignThreeMomentChoiGluing.log"
+  },
+  {
+    "path": "TomographyOracleCore/RelativeDesignThreeMomentConcretePermutation.lean",
+    "module": "TomographyOracleCore.RelativeDesignThreeMomentConcretePermutation",
+    "exit_code": 0,
+    "seconds": 2.46,
+    "source_sha256": "bfde3ce2fac87b10a53a09062d943a0e1c71f02075483fd7fdd64d59a9916743",
+    "log": "verification/lean/modules/TomographyOracleCore.RelativeDesignThreeMomentConcretePermutation.log"
+  },
+  {
+    "path": "TomographyOracleCore/RelativeDesignThreeMomentEPRGluing.lean",
+    "module": "TomographyOracleCore.RelativeDesignThreeMomentEPRGluing",
+    "exit_code": 0,
+    "seconds": 3.09,
+    "source_sha256": "2fec048ef44e1f52ba4e0ea0cddef574d96b1b24f25601f7f13e9c0131e1a954",
+    "log": "verification/lean/modules/TomographyOracleCore.RelativeDesignThreeMomentEPRGluing.log"
+  },
+  {
+    "path": "TomographyOracleCore/RelativeDesignThreeMomentGlobalHaarReference.lean",
+    "module": "TomographyOracleCore.RelativeDesignThreeMomentGlobalHaarReference",
+    "exit_code": 0,
+    "seconds": 2.6,
+    "source_sha256": "bc9d59bbe3cd9ac8b3b8f79ffc7115d8fbdf8cc6dc8e80acf88ceca82f88e040",
+    "log": "verification/lean/modules/TomographyOracleCore.RelativeDesignThreeMomentGlobalHaarReference.log"
+  },
+  {
+    "path": "TomographyOracleCore/RelativeDesignThreeMomentHaarReferenceB23.lean",
+    "module": "TomographyOracleCore.RelativeDesignThreeMomentHaarReferenceB23",
+    "exit_code": 0,
+    "seconds": 2.71,
+    "source_sha256": "05cdfa86c119af020a0389bfcb5ef367487942103515cc9540be3d41082a5a80",
+    "log": "verification/lean/modules/TomographyOracleCore.RelativeDesignThreeMomentHaarReferenceB23.log"
+  },
+  {
+    "path": "TomographyOracleCore/RelativeDesignThreeMomentHaarReferenceRelativeCP.lean",
+    "module": "TomographyOracleCore.RelativeDesignThreeMomentHaarReferenceRelativeCP",
+    "exit_code": 0,
+    "seconds": 2.82,
+    "source_sha256": "66b522ffbcfde28cd4cc4cf2bb3b0857cc474eaeacaed7fbe6218d0429984a71",
+    "log": "verification/lean/modules/TomographyOracleCore.RelativeDesignThreeMomentHaarReferenceRelativeCP.log"
+  },
+  {
+    "path": "TomographyOracleCore/RelativeDesignThreeMomentHaarReferenceScaledCP.lean",
+    "module": "TomographyOracleCore.RelativeDesignThreeMomentHaarReferenceScaledCP",
+    "exit_code": 0,
+    "seconds": 2.83,
+    "source_sha256": "544a6c5f918d708c33fef69a9f342efbdad6f47486167b322b581a3c43ca2c16",
+    "log": "verification/lean/modules/TomographyOracleCore.RelativeDesignThreeMomentHaarReferenceScaledCP.log"
+  },
+  {
+    "path": "TomographyOracleCore/RelativeDesignThreeMomentInactiveReferenceGluing.lean",
+    "module": "TomographyOracleCore.RelativeDesignThreeMomentInactiveReferenceGluing",
+    "exit_code": 0,
+    "seconds": 2.55,
+    "source_sha256": "78d4dec77b7e9ca0f8fc1295a3fc1b0f6c93e5f5316dea732d8484e8ca236d56",
+    "log": "verification/lean/modules/TomographyOracleCore.RelativeDesignThreeMomentInactiveReferenceGluing.log"
+  },
+  {
+    "path": "TomographyOracleCore/RelativeDesignThreeMomentLocalEPRRepresentation.lean",
+    "module": "TomographyOracleCore.RelativeDesignThreeMomentLocalEPRRepresentation",
+    "exit_code": 0,
+    "seconds": 2.77,
+    "source_sha256": "30bf7932e68af338bed7c40fb25266ce9b8346642fac09e7e6d6778653e11dc4",
+    "log": "verification/lean/modules/TomographyOracleCore.RelativeDesignThreeMomentLocalEPRRepresentation.log"
+  },
+  {
+    "path": "TomographyOracleCore/RelativeDesignThreeMomentPermutationSupport.lean",
+    "module": "TomographyOracleCore.RelativeDesignThreeMomentPermutationSupport",
+    "exit_code": 0,
+    "seconds": 2.8,
+    "source_sha256": "6799dd3214bdfee2901ce11890c1531e87fdbbe55a90ba8403702fe6fba7e5a6",
+    "log": "verification/lean/modules/TomographyOracleCore.RelativeDesignThreeMomentPermutationSupport.log"
+  },
+  {
+    "path": "TomographyOracleCore/RelativeDesignThreeMomentWeingarten.lean",
+    "module": "TomographyOracleCore.RelativeDesignThreeMomentWeingarten",
+    "exit_code": 0,
+    "seconds": 14.75,
+    "source_sha256": "7b2d8bc8cd5e8902fa24f001e509839a6b14d4de33b619e9c99776533808ad85",
+    "log": "verification/lean/modules/TomographyOracleCore.RelativeDesignThreeMomentWeingarten.log"
+  },
+  {
+    "path": "TomographyOracleCore/RelativeDesignTwoUnitaryGluing.lean",
+    "module": "TomographyOracleCore.RelativeDesignTwoUnitaryGluing",
+    "exit_code": 0,
+    "seconds": 3.16,
+    "source_sha256": "0040af2e1ce9d4350bfc0648d1758a454d5418437e4a4eefdb79f43db4a49c86",
+    "log": "verification/lean/modules/TomographyOracleCore.RelativeDesignTwoUnitaryGluing.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/AlgorithmResourcesDense.lean",
+    "module": "TomographyOracleCore.Revision.AlgorithmResourcesDense",
+    "exit_code": 0,
+    "seconds": 1.4,
+    "source_sha256": "db10867bcbc7762a4531d8e03f8eddc1223cc0f03565e0f635f9f54c2df33ff4",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.AlgorithmResourcesDense.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/AlgorithmResourcesDenseSpectral.lean",
+    "module": "TomographyOracleCore.Revision.AlgorithmResourcesDenseSpectral",
+    "exit_code": 0,
+    "seconds": 2.34,
+    "source_sha256": "590fcdcb468df112809c0ff10d99c1de19a977ee74a48e5efe9ed198d90fe7b8",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.AlgorithmResourcesDenseSpectral.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/AlgorithmResourcesDyadic.lean",
+    "module": "TomographyOracleCore.Revision.AlgorithmResourcesDyadic",
+    "exit_code": 0,
+    "seconds": 1.25,
+    "source_sha256": "fdf2cfac48423682f2ca8df6bc65461123749c9a55142c4239578b49b99c8e4c",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.AlgorithmResourcesDyadic.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/AlgorithmResourcesPeriodicAverage.lean",
+    "module": "TomographyOracleCore.Revision.AlgorithmResourcesPeriodicAverage",
+    "exit_code": 0,
+    "seconds": 2.99,
+    "source_sha256": "31193270cca0451cd3cd4bed6fd99948b0194359bd7d4816e95afdee01b680ce",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.AlgorithmResourcesPeriodicAverage.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/AlgorithmResourcesPeriodicChannel.lean",
+    "module": "TomographyOracleCore.Revision.AlgorithmResourcesPeriodicChannel",
+    "exit_code": 0,
+    "seconds": 2.5,
+    "source_sha256": "1760f6e738d310f18fa5d2851d12410d54fcfd0f684545246129e499e63bf987",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.AlgorithmResourcesPeriodicChannel.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/AlgorithmResourcesPeriodicOrbit.lean",
+    "module": "TomographyOracleCore.Revision.AlgorithmResourcesPeriodicOrbit",
+    "exit_code": 0,
+    "seconds": 5.11,
+    "source_sha256": "7395c1d5b989f21bcb3d7bab260d7b2128b4cf8ffd2eb93d1bfbf5165ddf4448",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.AlgorithmResourcesPeriodicOrbit.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/AlgorithmResourcesPeriodicProjector.lean",
+    "module": "TomographyOracleCore.Revision.AlgorithmResourcesPeriodicProjector",
+    "exit_code": 0,
+    "seconds": 2.67,
+    "source_sha256": "055f34090a55a5194142f3126da7ad0963f4e88527922022a65a490e95002740",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.AlgorithmResourcesPeriodicProjector.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/AlgorithmResourcesPeriodicRational.lean",
+    "module": "TomographyOracleCore.Revision.AlgorithmResourcesPeriodicRational",
+    "exit_code": 0,
+    "seconds": 2.55,
+    "source_sha256": "f2a7a82c857d2fdf808945cdbe0de3dc26e6836726c9bbc1484764706a31e6fb",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.AlgorithmResourcesPeriodicRational.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/AlgorithmResourcesPowerArithmetic.lean",
+    "module": "TomographyOracleCore.Revision.AlgorithmResourcesPowerArithmetic",
+    "exit_code": 0,
+    "seconds": 1.66,
+    "source_sha256": "f4e7e932b6580920ef306d38ae0a0123817595410140f17964e77d9d35ad5554",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.AlgorithmResourcesPowerArithmetic.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/AlgorithmResourcesPowerBound.lean",
+    "module": "TomographyOracleCore.Revision.AlgorithmResourcesPowerBound",
+    "exit_code": 0,
+    "seconds": 2.04,
+    "source_sha256": "97f2a68fb90c0ec90a6562cf08be45c3413723b9a1ab5b85395d001e9e781805",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.AlgorithmResourcesPowerBound.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/AlgorithmResourcesPowerBridge.lean",
+    "module": "TomographyOracleCore.Revision.AlgorithmResourcesPowerBridge",
+    "exit_code": 0,
+    "seconds": 1.9,
+    "source_sha256": "017aa2ffb49ce779acb6193c6de02f6fbf9b93f869dbe7a1539b63162b3aa7f6",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.AlgorithmResourcesPowerBridge.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/AlgorithmResourcesPowerMinimum.lean",
+    "module": "TomographyOracleCore.Revision.AlgorithmResourcesPowerMinimum",
+    "exit_code": 0,
+    "seconds": 2.57,
+    "source_sha256": "d8c7f2932b0096859d647eb8a0fd9577f1a2eea6c2f3231b60e387b5bc587535",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.AlgorithmResourcesPowerMinimum.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/AlgorithmResourcesPowerNorm.lean",
+    "module": "TomographyOracleCore.Revision.AlgorithmResourcesPowerNorm",
+    "exit_code": 0,
+    "seconds": 2.93,
+    "source_sha256": "81dbd61a5474440d12a1686d8d9e6507d0070b2eaa5f5484668e3534a625c5fb",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.AlgorithmResourcesPowerNorm.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/AlgorithmResourcesPowerScalar.lean",
+    "module": "TomographyOracleCore.Revision.AlgorithmResourcesPowerScalar",
+    "exit_code": 0,
+    "seconds": 1.48,
+    "source_sha256": "581e2eaa9bfd6fbce030f2659862bff7901fbd03b71cb130d18740fe6964d052",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.AlgorithmResourcesPowerScalar.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/AlgorithmResourcesPowerShift.lean",
+    "module": "TomographyOracleCore.Revision.AlgorithmResourcesPowerShift",
+    "exit_code": 0,
+    "seconds": 2.48,
+    "source_sha256": "c596a41917d5f144d72ee08af117ed0332c07849dbbf29da10b8b96b28dde83d",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.AlgorithmResourcesPowerShift.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/AlgorithmResourcesPowerSigned.lean",
+    "module": "TomographyOracleCore.Revision.AlgorithmResourcesPowerSigned",
+    "exit_code": 0,
+    "seconds": 2.42,
+    "source_sha256": "ceb05da1d82eb7387cae374b5ad9d9c07cb97af99d0afe344e5225b773d88a97",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.AlgorithmResourcesPowerSigned.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/BernoulliFiniteAverage.lean",
+    "module": "TomographyOracleCore.Revision.BernoulliFiniteAverage",
+    "exit_code": 0,
+    "seconds": 2.32,
+    "source_sha256": "9f77cc9c4739ad540a0987ca4c10e7a6e6c20c78dbbf0a1756d49a4d559330d9",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.BernoulliFiniteAverage.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/BernoulliFourthMoment.lean",
+    "module": "TomographyOracleCore.Revision.BernoulliFourthMoment",
+    "exit_code": 0,
+    "seconds": 3.23,
+    "source_sha256": "1f563b33a0e7037986cc63f8edf9ada0a61be7773d31dbea4674d169f471d21c",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.BernoulliFourthMoment.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/BernoulliSmallBall.lean",
+    "module": "TomographyOracleCore.Revision.BernoulliSmallBall",
+    "exit_code": 0,
+    "seconds": 2.55,
+    "source_sha256": "bed4e5635f86dcfaef9349b61bfb0b34628eec9fcbb959c56efe69d664d6ac87",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.BernoulliSmallBall.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/BernoulliVectorMoments.lean",
+    "module": "TomographyOracleCore.Revision.BernoulliVectorMoments",
+    "exit_code": 0,
+    "seconds": 2.31,
+    "source_sha256": "20cc9324c6b764fb2f07f6d27a627d46f2dbfa9e7a755d02450965f908cbc793",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.BernoulliVectorMoments.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/BinaryCliffordFourthRange.lean",
+    "module": "TomographyOracleCore.Revision.BinaryCliffordFourthRange",
+    "exit_code": 0,
+    "seconds": 2.7,
+    "source_sha256": "5d8a728e0ee5bbb23a13137400742557f3010587017d370f9dd2760a19e11e39",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.BinaryCliffordFourthRange.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/BinaryCliffordNeutralFourth.lean",
+    "module": "TomographyOracleCore.Revision.BinaryCliffordNeutralFourth",
+    "exit_code": 0,
+    "seconds": 2.51,
+    "source_sha256": "c519ad3be0802c56ba1a438462765b8cac85428ce90708ea459e401889f2b6b6",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.BinaryCliffordNeutralFourth.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/BinaryPauliFourthBasis.lean",
+    "module": "TomographyOracleCore.Revision.BinaryPauliFourthBasis",
+    "exit_code": 0,
+    "seconds": 2.96,
+    "source_sha256": "e788e5e06ef0fc4e38ec74f706222973161945d218843cc3148955cec91fcf93",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.BinaryPauliFourthBasis.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/BinaryPauliOrbitClassification.lean",
+    "module": "TomographyOracleCore.Revision.BinaryPauliOrbitClassification",
+    "exit_code": 0,
+    "seconds": 2.15,
+    "source_sha256": "bc62faa278e206d65f467667b06187de43727188b369e91ff757be398cc68a4a",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.BinaryPauliOrbitClassification.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/BinaryPauliTripleSignatures.lean",
+    "module": "TomographyOracleCore.Revision.BinaryPauliTripleSignatures",
+    "exit_code": 0,
+    "seconds": 10.0,
+    "source_sha256": "153eef6b34e4f1d4343a73d564940a19b3eacc468d81c80891c86fc278ddb9c1",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.BinaryPauliTripleSignatures.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/BinarySymplecticExtension.lean",
+    "module": "TomographyOracleCore.Revision.BinarySymplecticExtension",
+    "exit_code": 0,
+    "seconds": 2.28,
+    "source_sha256": "ad35bbd4f0e1e825fad9f46c634da397c6c79932239694d7f9ddd1fdc34f932b",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.BinarySymplecticExtension.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/BinomialEntropyBound.lean",
+    "module": "TomographyOracleCore.Revision.BinomialEntropyBound",
+    "exit_code": 0,
+    "seconds": 1.83,
+    "source_sha256": "842503fd7f2e51f2f93da8f5e2201b7428f8c56468b610b2b0bad351c893916d",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.BinomialEntropyBound.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/BlockSectorBoundary.lean",
+    "module": "TomographyOracleCore.Revision.BlockSectorBoundary",
+    "exit_code": 0,
+    "seconds": 2.69,
+    "source_sha256": "3365d1c7b079201ac6eafa9caea4ea0635b8fd1bea3ad4143d805693f41f958c",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.BlockSectorBoundary.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/BornCovarianceConditions.lean",
+    "module": "TomographyOracleCore.Revision.BornCovarianceConditions",
+    "exit_code": 0,
+    "seconds": 2.79,
+    "source_sha256": "6c4d5c4db5f74cbff283c8ebbc722fa1ae560941c126fead5fd18c53f93f79d0",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.BornCovarianceConditions.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/BornFourthMoment.lean",
+    "module": "TomographyOracleCore.Revision.BornFourthMoment",
+    "exit_code": 0,
+    "seconds": 2.96,
+    "source_sha256": "3e8c817a6a302f63cd24106e8385623457c29444f3e201ad2b4c697ff6078ed9",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.BornFourthMoment.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/BornMatrixCovariance.lean",
+    "module": "TomographyOracleCore.Revision.BornMatrixCovariance",
+    "exit_code": 0,
+    "seconds": 3.51,
+    "source_sha256": "0760cf031a16b48aa59e8f92239bf116f1a4c1160b9ee461dd8f9d28e5ffeeb6",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.BornMatrixCovariance.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/BornMomentHomogeneity.lean",
+    "module": "TomographyOracleCore.Revision.BornMomentHomogeneity",
+    "exit_code": 0,
+    "seconds": 2.49,
+    "source_sha256": "ed0e75b393bb0939d49928f6f4380ffa08ea0caff6d97acd2ea64d068d4dfcff",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.BornMomentHomogeneity.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/BornProjectorPushforward.lean",
+    "module": "TomographyOracleCore.Revision.BornProjectorPushforward",
+    "exit_code": 0,
+    "seconds": 2.64,
+    "source_sha256": "762a24415f018c69711cefe052d7ddcad847d1303c33a0fba4bdb4474a775c8b",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.BornProjectorPushforward.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/BornSecondMoment.lean",
+    "module": "TomographyOracleCore.Revision.BornSecondMoment",
+    "exit_code": 0,
+    "seconds": 3.43,
+    "source_sha256": "b0edccd9bc34b322bab6aeb08da03951cf614ce72ab6e527a94ec49f2af8a0e7",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.BornSecondMoment.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/CliffordFourthBasisInput.lean",
+    "module": "TomographyOracleCore.Revision.CliffordFourthBasisInput",
+    "exit_code": 0,
+    "seconds": 2.55,
+    "source_sha256": "3ad0dca6275c2fd13bc14d95b4ecbf63ba0da1b23d4bda28cc8b1303d134889b",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.CliffordFourthBasisInput.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/CliffordFourthOmega.lean",
+    "module": "TomographyOracleCore.Revision.CliffordFourthOmega",
+    "exit_code": 0,
+    "seconds": 2.86,
+    "source_sha256": "5d00ae4c4569336e7bd736f761469e626c7ceb1a269ccbc58605a3ec98b9f521",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.CliffordFourthOmega.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/CliffordFourthProductProjection.lean",
+    "module": "TomographyOracleCore.Revision.CliffordFourthProductProjection",
+    "exit_code": 0,
+    "seconds": 2.47,
+    "source_sha256": "12cbfa09ff0c5ca92cb9dcd267b059d23c89985fd54e295ed84e0b8dde2c9192",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.CliffordFourthProductProjection.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/CliffordFourthWgRows.lean",
+    "module": "TomographyOracleCore.Revision.CliffordFourthWgRows",
+    "exit_code": 0,
+    "seconds": 1.99,
+    "source_sha256": "074f188d0c258e7eb39ed00e807195426205561732bc03ff8f4eba23e07563b0",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.CliffordFourthWgRows.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/ClippingLogCalculus.lean",
+    "module": "TomographyOracleCore.Revision.ClippingLogCalculus",
+    "exit_code": 0,
+    "seconds": 3.17,
+    "source_sha256": "cf6f3bdb40526c90d1f29953cdc527b51b3ca0edd90c8abb386732545e181dca",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.ClippingLogCalculus.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/ClippingLogSmoothing.lean",
+    "module": "TomographyOracleCore.Revision.ClippingLogSmoothing",
+    "exit_code": 0,
+    "seconds": 2.67,
+    "source_sha256": "e52e483d2fa79da759d656f9a3d1a94b087f6fd79505f868b7f1f0eaa5c1fb19",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.ClippingLogSmoothing.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/ComplexCovarianceSymmetrization.lean",
+    "module": "TomographyOracleCore.Revision.ComplexCovarianceSymmetrization",
+    "exit_code": 0,
+    "seconds": 3.37,
+    "source_sha256": "b879615400a05ce76d9b843f88e8ecff78f75c9bc74c709aaf6158ffdbbd27fe",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.ComplexCovarianceSymmetrization.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/ConditionalProductRareEvents.lean",
+    "module": "TomographyOracleCore.Revision.ConditionalProductRareEvents",
+    "exit_code": 0,
+    "seconds": 2.25,
+    "source_sha256": "7e2ee666b76c216b9e3a840ef55705853aa53d02fdec3277a59dc22df19984ff",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.ConditionalProductRareEvents.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/ConstantCovariance.lean",
+    "module": "TomographyOracleCore.Revision.ConstantCovariance",
+    "exit_code": 0,
+    "seconds": 3.88,
+    "source_sha256": "8a8928747d30d57797325fe555d3dfe610c7e80eb5ab2097f9487042bb970be1",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.ConstantCovariance.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/ConstantCurvature.lean",
+    "module": "TomographyOracleCore.Revision.ConstantCurvature",
+    "exit_code": 0,
+    "seconds": 3.15,
+    "source_sha256": "5abe7d6308a713398e237d4b67f9216f2f3a2151f0455f1c9f6447d0bb75807e",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.ConstantCurvature.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/ConstantDimensionEndpoints.lean",
+    "module": "TomographyOracleCore.Revision.ConstantDimensionEndpoints",
+    "exit_code": 0,
+    "seconds": 2.45,
+    "source_sha256": "b54c39a7e1a073257567766c6eb5ca3a8c6594bc4169fd50461783edb2849b10",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.ConstantDimensionEndpoints.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/ConstantDimensionPhysical.lean",
+    "module": "TomographyOracleCore.Revision.ConstantDimensionPhysical",
+    "exit_code": 0,
+    "seconds": 2.73,
+    "source_sha256": "325c3708d7923a91ebdc43e3d2edfe486b1701d1c96c4ee24cf6f20343d828f6",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.ConstantDimensionPhysical.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/ConstantDimensionRational.lean",
+    "module": "TomographyOracleCore.Revision.ConstantDimensionRational",
+    "exit_code": 0,
+    "seconds": 3.55,
+    "source_sha256": "5d365a5f63c1118bdee17be3d92ad079c61f7947b595b219d358fe7d5ede0786",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.ConstantDimensionRational.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/ConstantDimensionSchedule.lean",
+    "module": "TomographyOracleCore.Revision.ConstantDimensionSchedule",
+    "exit_code": 0,
+    "seconds": 3.07,
+    "source_sha256": "1ac30bb96c1f0a84cc9b6bc5634cb2d3b28d820fd4e72ffd23d17931db265c54",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.ConstantDimensionSchedule.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/ConstantDimensionSolver.lean",
+    "module": "TomographyOracleCore.Revision.ConstantDimensionSolver",
+    "exit_code": 0,
+    "seconds": 2.87,
+    "source_sha256": "78804357806d65ed8c44b88069e316a53e6577ca7216b5d0c68e84d1daa0ba83",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.ConstantDimensionSolver.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/ConstantEndpoints.lean",
+    "module": "TomographyOracleCore.Revision.ConstantEndpoints",
+    "exit_code": 0,
+    "seconds": 2.6,
+    "source_sha256": "b42fa305605c7a084d3d56f2b4f1652353475a429f500789721ef7de01145fa7",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.ConstantEndpoints.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/ConstantFinitePrecision.lean",
+    "module": "TomographyOracleCore.Revision.ConstantFinitePrecision",
+    "exit_code": 0,
+    "seconds": 2.76,
+    "source_sha256": "064179d15cf267b47b7f840e17e7c732a3e6ea1eff30e32dc53ff63c379d5f19",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.ConstantFinitePrecision.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/ConstantGeometry.lean",
+    "module": "TomographyOracleCore.Revision.ConstantGeometry",
+    "exit_code": 0,
+    "seconds": 3.54,
+    "source_sha256": "a2c6df97c645cc0352ccda38df355ad034338291919beabc1c3f6b0f779346c3",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.ConstantGeometry.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/ConstantGradient.lean",
+    "module": "TomographyOracleCore.Revision.ConstantGradient",
+    "exit_code": 0,
+    "seconds": 2.97,
+    "source_sha256": "6dc82edfacba7aa5c6dcd3ec0f7887fa7e84cdc2cc75fb43b9d74fd62055774d",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.ConstantGradient.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/ConstantLower.lean",
+    "module": "TomographyOracleCore.Revision.ConstantLower",
+    "exit_code": 0,
+    "seconds": 3.01,
+    "source_sha256": "fed2af9e10a790faecb439eda61e1849da3fc37daac41ffcd781c91de5693252",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.ConstantLower.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/ConstantMoments.lean",
+    "module": "TomographyOracleCore.Revision.ConstantMoments",
+    "exit_code": 0,
+    "seconds": 3.46,
+    "source_sha256": "f8bec43f3f349b86669099bab8ab0f649007e6464a3b7cb96d26a4d8f9d2e6d6",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.ConstantMoments.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/ConstantNegativeSpectrum.lean",
+    "module": "TomographyOracleCore.Revision.ConstantNegativeSpectrum",
+    "exit_code": 0,
+    "seconds": 3.22,
+    "source_sha256": "ec8c398d314c25d72e6da04708f654290de420e184033ef419f7c620869c619a",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.ConstantNegativeSpectrum.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/ConstantOracle.lean",
+    "module": "TomographyOracleCore.Revision.ConstantOracle",
+    "exit_code": 0,
+    "seconds": 3.37,
+    "source_sha256": "fbae7f9a377a67b7c75974990c06929fc909b1de98a06ff40f0f2380587056f7",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.ConstantOracle.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/ConstantRankEndpoints.lean",
+    "module": "TomographyOracleCore.Revision.ConstantRankEndpoints",
+    "exit_code": 0,
+    "seconds": 3.45,
+    "source_sha256": "2c2c9048204839382444f3b035405067c8de75d95f7fa17172d00d5e4ce5bdd0",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.ConstantRankEndpoints.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/ConstantRankTail.lean",
+    "module": "TomographyOracleCore.Revision.ConstantRankTail",
+    "exit_code": 0,
+    "seconds": 2.5,
+    "source_sha256": "036e013186a55471d988e527dbed8f98879ed2a9ea94d5b481b58a8253bbcae1",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.ConstantRankTail.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/ConstantRates.lean",
+    "module": "TomographyOracleCore.Revision.ConstantRates",
+    "exit_code": 0,
+    "seconds": 4.27,
+    "source_sha256": "2a531e103fda74bb9af76320cd67a308fa6f60f07cd775182de8f6420ada5ff7",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.ConstantRates.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/ConstantRationalPhysical.lean",
+    "module": "TomographyOracleCore.Revision.ConstantRationalPhysical",
+    "exit_code": 0,
+    "seconds": 2.72,
+    "source_sha256": "61293cd9bcca2c5673cf8b68609d5fe6cc2270d2ad2d56e3eb5841228ae42796",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.ConstantRationalPhysical.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/ConstantRationalSolver.lean",
+    "module": "TomographyOracleCore.Revision.ConstantRationalSolver",
+    "exit_code": 0,
+    "seconds": 3.12,
+    "source_sha256": "d8fff1bb528f39e09605ceb34383d1d40d9ec4c9fa12f203c6f9e85d9108901b",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.ConstantRationalSolver.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/ConstantRisk.lean",
+    "module": "TomographyOracleCore.Revision.ConstantRisk",
+    "exit_code": 0,
+    "seconds": 3.15,
+    "source_sha256": "9cde07e049f6efc586d0178f3bf46562a078f246897f5bdd6e390feca885c327",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.ConstantRisk.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/ConstantSolver.lean",
+    "module": "TomographyOracleCore.Revision.ConstantSolver",
+    "exit_code": 0,
+    "seconds": 2.8,
+    "source_sha256": "4cc0a521602c8e5e857bb5148224dd685f22c492570c11f2cb284e62bb0c17f2",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.ConstantSolver.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/ConstantStatisticalTolerance.lean",
+    "module": "TomographyOracleCore.Revision.ConstantStatisticalTolerance",
+    "exit_code": 0,
+    "seconds": 3.21,
+    "source_sha256": "48c368b9b6b675d7ac746bc0ccd5054f6a691e418daf3171aada089a764360ef",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.ConstantStatisticalTolerance.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/CovarianceIsometryTransport.lean",
+    "module": "TomographyOracleCore.Revision.CovarianceIsometryTransport",
+    "exit_code": 0,
+    "seconds": 2.56,
+    "source_sha256": "a884e49b8be85b01c365f90ce3eb04e2dfe686a4865abef3f69e8ac83eb04fda",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.CovarianceIsometryTransport.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/CovarianceRateAlgebra.lean",
+    "module": "TomographyOracleCore.Revision.CovarianceRateAlgebra",
+    "exit_code": 0,
+    "seconds": 2.71,
+    "source_sha256": "aadef78e79c639f0296db20f5afe4376025f265a3c4ee16e6540917cdb581061",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.CovarianceRateAlgebra.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/ElementarySparsifying.lean",
+    "module": "TomographyOracleCore.Revision.ElementarySparsifying",
+    "exit_code": 0,
+    "seconds": 3.56,
+    "source_sha256": "737b67e0938a022ac32c41c239cf7f152c5944079a907cd161b966c367d3b005",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.ElementarySparsifying.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/EuclideanBallFiniteNet.lean",
+    "module": "TomographyOracleCore.Revision.EuclideanBallFiniteNet",
+    "exit_code": 0,
+    "seconds": 2.22,
+    "source_sha256": "8f397a49985854fb9143c8a8ff0510bca242a4efbbfc0df395c867f284c90d35",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.EuclideanBallFiniteNet.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/EuclideanGaussianObservable.lean",
+    "module": "TomographyOracleCore.Revision.EuclideanGaussianObservable",
+    "exit_code": 0,
+    "seconds": 2.56,
+    "source_sha256": "339ce22bb0b82a83f96b96b4bf580e083c27042162a815a426a742cb2364320f",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.EuclideanGaussianObservable.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/FiniteAverageIntegration.lean",
+    "module": "TomographyOracleCore.Revision.FiniteAverageIntegration",
+    "exit_code": 0,
+    "seconds": 2.16,
+    "source_sha256": "05f4b31934ba985094c550cddfc13d155d13d4adfbcc2f2c8420d9991768125d",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.FiniteAverageIntegration.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/FinitePrecisionFrankWolfe.lean",
+    "module": "TomographyOracleCore.Revision.FinitePrecisionFrankWolfe",
+    "exit_code": 0,
+    "seconds": 2.88,
+    "source_sha256": "7431fcc394c2f4d687a10991cfdbf9cc8b808dfed6fd2aa1e44d03fb79ffd826",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.FinitePrecisionFrankWolfe.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/FinitePrecisionInexactFrankWolfe.lean",
+    "module": "TomographyOracleCore.Revision.FinitePrecisionInexactFrankWolfe",
+    "exit_code": 0,
+    "seconds": 2.83,
+    "source_sha256": "1919978b1583871a36321bdda32d8e1e3dfc7e7c0c0d722e6d2a1cc2d01b9760",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.FinitePrecisionInexactFrankWolfe.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/FinitePrecisionOracles.lean",
+    "module": "TomographyOracleCore.Revision.FinitePrecisionOracles",
+    "exit_code": 0,
+    "seconds": 2.55,
+    "source_sha256": "fe10302c14256543e92b79868d8f5d77909aa2f3646f5ebc870711d50aa7e75f",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.FinitePrecisionOracles.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/FinitePrecisionPotential.lean",
+    "module": "TomographyOracleCore.Revision.FinitePrecisionPotential",
+    "exit_code": 0,
+    "seconds": 3.53,
+    "source_sha256": "3e7b199ea648185526797ea6534ab87c8e782b83ecc5e211495c028788913931",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.FinitePrecisionPotential.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/FinitePrecisionProjector.lean",
+    "module": "TomographyOracleCore.Revision.FinitePrecisionProjector",
+    "exit_code": 0,
+    "seconds": 3.14,
+    "source_sha256": "33c1eda8b370818b62332c1eb119431342809fe7d47fc5197512e1c2f07ddc9a",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.FinitePrecisionProjector.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/FinitePrecisionRationalProjection.lean",
+    "module": "TomographyOracleCore.Revision.FinitePrecisionRationalProjection",
+    "exit_code": 0,
+    "seconds": 2.75,
+    "source_sha256": "82e867898d4170d56524404c1691ba604bac6a1ae9fda6db96ea66921a98829e",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.FinitePrecisionRationalProjection.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/FinitePrecisionRayleigh.lean",
+    "module": "TomographyOracleCore.Revision.FinitePrecisionRayleigh",
+    "exit_code": 0,
+    "seconds": 2.82,
+    "source_sha256": "83a33cbac56862171334a00fe5a7c381c69e05fa536c2278a9e6015d7f38b765",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.FinitePrecisionRayleigh.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/FinitePrecisionRepair.lean",
+    "module": "TomographyOracleCore.Revision.FinitePrecisionRepair",
+    "exit_code": 0,
+    "seconds": 2.96,
+    "source_sha256": "3b9c6d51705504f0629c7983be0ec139a97bfe28c13ced3eed1119c2b1a98c20",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.FinitePrecisionRepair.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/FinitePrecisionRoundedProjection.lean",
+    "module": "TomographyOracleCore.Revision.FinitePrecisionRoundedProjection",
+    "exit_code": 0,
+    "seconds": 3.75,
+    "source_sha256": "34e823d808d7f3bc65d177a7a2fb25457aab037e195f2b047e7b9c5110568a06",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.FinitePrecisionRoundedProjection.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/FinitePrecisionRounding.lean",
+    "module": "TomographyOracleCore.Revision.FinitePrecisionRounding",
+    "exit_code": 0,
+    "seconds": 2.81,
+    "source_sha256": "0b334a5240614b88054d2f8fa3731a1a49ab433819be6b9344ca1fc91e79fa6b",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.FinitePrecisionRounding.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/FinitePrecisionRoundingDefinitions.lean",
+    "module": "TomographyOracleCore.Revision.FinitePrecisionRoundingDefinitions",
+    "exit_code": 0,
+    "seconds": 1.39,
+    "source_sha256": "91597b86cba574873ced5e3df0fc86094e2a6e840f189b2e02ea0f83cb0e0d87",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.FinitePrecisionRoundingDefinitions.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/FiniteProbabilityAverage.lean",
+    "module": "TomographyOracleCore.Revision.FiniteProbabilityAverage",
+    "exit_code": 0,
+    "seconds": 2.42,
+    "source_sha256": "836b8f70febcf6260bda3fda6f1f3d229e0241cc45c1e617ff73c3465f3482cc",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.FiniteProbabilityAverage.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/FiniteSetSparsification.lean",
+    "module": "TomographyOracleCore.Revision.FiniteSetSparsification",
+    "exit_code": 0,
+    "seconds": 2.32,
+    "source_sha256": "93fb3d65ff109939108d9dec7395b6b31cda3c6197515e05d494e21e3aa62ec6",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.FiniteSetSparsification.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/FixedNormBaiYinProof.lean",
+    "module": "TomographyOracleCore.Revision.FixedNormBaiYinProof",
+    "exit_code": 0,
+    "seconds": 3.22,
+    "source_sha256": "78a4795c2d8bc48b3cb0f94a592481b8db339f84b3bf8083b37e0da4a7e2b25a",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.FixedNormBaiYinProof.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/FixedNormBaiYinTransport.lean",
+    "module": "TomographyOracleCore.Revision.FixedNormBaiYinTransport",
+    "exit_code": 0,
+    "seconds": 2.82,
+    "source_sha256": "b5cb55fb9991f76d257d5f4ddd3f6d96f79b4bb1ca8ed974a03600517d52b419",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.FixedNormBaiYinTransport.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/FixedNormCovarianceBounds.lean",
+    "module": "TomographyOracleCore.Revision.FixedNormCovarianceBounds",
+    "exit_code": 0,
+    "seconds": 2.19,
+    "source_sha256": "27e23aed4cb0df800adf4ab2ec6b5e612aed64db02d825f322e0a3c5cb37e78d",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.FixedNormCovarianceBounds.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/FixedNormCovarianceIntegrability.lean",
+    "module": "TomographyOracleCore.Revision.FixedNormCovarianceIntegrability",
+    "exit_code": 0,
+    "seconds": 2.01,
+    "source_sha256": "d225e4ee9066fa5c876e3cc61ea5d8657d84af77f823fa22813b6f9b4121dd7b",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.FixedNormCovarianceIntegrability.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/FixedNormMarginalMoments.lean",
+    "module": "TomographyOracleCore.Revision.FixedNormMarginalMoments",
+    "exit_code": 0,
+    "seconds": 2.31,
+    "source_sha256": "577064f1021e4303b52963be6c10898ecbaa8ba11ce4c79db977045070532d83",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.FixedNormMarginalMoments.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/FixedNormPeaky.lean",
+    "module": "TomographyOracleCore.Revision.FixedNormPeaky",
+    "exit_code": 0,
+    "seconds": 2.85,
+    "source_sha256": "6710897864559473580258338aeffe664cb6fe474bff5fca49451e43d7b26c2c",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.FixedNormPeaky.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/FixedNormSixthTail.lean",
+    "module": "TomographyOracleCore.Revision.FixedNormSixthTail",
+    "exit_code": 0,
+    "seconds": 2.42,
+    "source_sha256": "84b83f33391eea3e39a552824f1fa0df44bf9859044f9586e88546ddb9563099",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.FixedNormSixthTail.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/FixedNormSpread.lean",
+    "module": "TomographyOracleCore.Revision.FixedNormSpread",
+    "exit_code": 0,
+    "seconds": 3.12,
+    "source_sha256": "428fd9900cf158aacbf1dfcccfb4785c3bb8232964207edeffe6d778f720cc71",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.FixedNormSpread.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/FourthBoundaryReindex.lean",
+    "module": "TomographyOracleCore.Revision.FourthBoundaryReindex",
+    "exit_code": 0,
+    "seconds": 2.97,
+    "source_sha256": "9d56a38ab0775d0ebdca2155e4d07a6281caeedd724454ff5504fe9e385e9be7",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.FourthBoundaryReindex.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/FourthCycleContraction.lean",
+    "module": "TomographyOracleCore.Revision.FourthCycleContraction",
+    "exit_code": 0,
+    "seconds": 1.29,
+    "source_sha256": "74b01aba9d7c5e74e960a9fa25ddb4fc6922de757b3109c057fad5dbd4a13927",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.FourthCycleContraction.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/FourthHalfBlockGeometry.lean",
+    "module": "TomographyOracleCore.Revision.FourthHalfBlockGeometry",
+    "exit_code": 0,
+    "seconds": 3.17,
+    "source_sha256": "46c08512c58891ba61fafa280d9ee031d98ab12fc6196056d05c3886193940d6",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.FourthHalfBlockGeometry.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/FourthHalfBlockOverlap.lean",
+    "module": "TomographyOracleCore.Revision.FourthHalfBlockOverlap",
+    "exit_code": 0,
+    "seconds": 2.44,
+    "source_sha256": "beb6c658524983c794781070c6620ce4d6e6bbf1c5b4332198a7c10a0769fc68",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.FourthHalfBlockOverlap.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/FourthLocalEmbedding.lean",
+    "module": "TomographyOracleCore.Revision.FourthLocalEmbedding",
+    "exit_code": 0,
+    "seconds": 3.43,
+    "source_sha256": "21ceb3c55986279318b0d0d239594f2e1d754a01478179ace839a11d1332d961",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.FourthLocalEmbedding.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/FourthMeasurementMoment.lean",
+    "module": "TomographyOracleCore.Revision.FourthMeasurementMoment",
+    "exit_code": 0,
+    "seconds": 3.29,
+    "source_sha256": "ce7de0ad858893baeb50665720e39fdd6699a39dceb2980b602d1ec5bf7406e1",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.FourthMeasurementMoment.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/FourthPhysicalSectorCoordinates.lean",
+    "module": "TomographyOracleCore.Revision.FourthPhysicalSectorCoordinates",
+    "exit_code": 0,
+    "seconds": 2.69,
+    "source_sha256": "6463a2986728d4df170680e21b8f3661fa9d3b706ee2c3c6d0b1e15069c8d52b",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.FourthPhysicalSectorCoordinates.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/FourthReplicaPermutations.lean",
+    "module": "TomographyOracleCore.Revision.FourthReplicaPermutations",
+    "exit_code": 0,
+    "seconds": 2.27,
+    "source_sha256": "18fe853459ebef359070e0ba96e50027de531c30b7341442d3320d3c3b0a1341",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.FourthReplicaPermutations.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/FourthSectorBlocks.lean",
+    "module": "TomographyOracleCore.Revision.FourthSectorBlocks",
+    "exit_code": 0,
+    "seconds": 2.48,
+    "source_sha256": "b2cedd4d849a91f89edc16267e63c2b49d27fa958d728e98f5084e4e83748aea",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.FourthSectorBlocks.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/FourthSectorDecomposition.lean",
+    "module": "TomographyOracleCore.Revision.FourthSectorDecomposition",
+    "exit_code": 0,
+    "seconds": 34.38,
+    "source_sha256": "16ede0654c99b5632888cb471a1c6167dd73494e51846104586e4a844c4aea65",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.FourthSectorDecomposition.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/FourthSectorExpansionBound.lean",
+    "module": "TomographyOracleCore.Revision.FourthSectorExpansionBound",
+    "exit_code": 0,
+    "seconds": 1.71,
+    "source_sha256": "12fbbad0516bfa46d563bbf799c39680807333b63210041de06b6c3e8fd94891",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.FourthSectorExpansionBound.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/FourthSynthesisAdjoint.lean",
+    "module": "TomographyOracleCore.Revision.FourthSynthesisAdjoint",
+    "exit_code": 0,
+    "seconds": 2.5,
+    "source_sha256": "f94313e39668fff7bc2af61bf4babf8a5c4aa6ef90226ecf42a3bab05cde54fa",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.FourthSynthesisAdjoint.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/FourthSynthesisTransport.lean",
+    "module": "TomographyOracleCore.Revision.FourthSynthesisTransport",
+    "exit_code": 0,
+    "seconds": 2.41,
+    "source_sha256": "357b515b99140267b226ea8f8cad41a04b1d637fbac33ea4bee80b319f2c3a97",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.FourthSynthesisTransport.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/FourthTwirlTensorization.lean",
+    "module": "TomographyOracleCore.Revision.FourthTwirlTensorization",
+    "exit_code": 0,
+    "seconds": 2.43,
+    "source_sha256": "5e790e6a4ae50d931073c2a468f507b6da6f856f204efccff71de03960098dee",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.FourthTwirlTensorization.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/FourthTwirlTransport.lean",
+    "module": "TomographyOracleCore.Revision.FourthTwirlTransport",
+    "exit_code": 0,
+    "seconds": 2.69,
+    "source_sha256": "88d35c726760a7a259da81b986d594d21384669264e7de77fc2f0ecd09743f72",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.FourthTwirlTransport.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/FourthVectorBoundary.lean",
+    "module": "TomographyOracleCore.Revision.FourthVectorBoundary",
+    "exit_code": 0,
+    "seconds": 2.66,
+    "source_sha256": "8b96e036e5fc89b9ec94c23b32a24adb3b9e06d4ec65aec4f8d92d7259fe487f",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.FourthVectorBoundary.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/GaussianChangeOfMeasure.lean",
+    "module": "TomographyOracleCore.Revision.GaussianChangeOfMeasure",
+    "exit_code": 0,
+    "seconds": 2.54,
+    "source_sha256": "a452a60a346b9c7cd6aaea7fbc571618aa0e3c72f3c31397521d78128cd7df2d",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.GaussianChangeOfMeasure.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/GaussianClippingSmoothing.lean",
+    "module": "TomographyOracleCore.Revision.GaussianClippingSmoothing",
+    "exit_code": 0,
+    "seconds": 2.73,
+    "source_sha256": "4dcbcb71275eecd041658ff9c2bcb9cbcebee7d8b8f4761c8641154a2f2f8555",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.GaussianClippingSmoothing.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/GaussianMarginalMoments.lean",
+    "module": "TomographyOracleCore.Revision.GaussianMarginalMoments",
+    "exit_code": 0,
+    "seconds": 2.58,
+    "source_sha256": "292a6852371bf28f61bb4d58a4f89bed0d7203348e49b4337f3a696dbe8ff5c4",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.GaussianMarginalMoments.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/GaussianPairPosterior.lean",
+    "module": "TomographyOracleCore.Revision.GaussianPairPosterior",
+    "exit_code": 0,
+    "seconds": 2.46,
+    "source_sha256": "f5a8a1f417928bd751338b7d0195f76546ad7206bca774a37b6e989fe2211036",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.GaussianPairPosterior.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/GaussianPolynomialWeights.lean",
+    "module": "TomographyOracleCore.Revision.GaussianPolynomialWeights",
+    "exit_code": 0,
+    "seconds": 2.88,
+    "source_sha256": "512fa87affdcddbe01218a0b186760737b821e532ef663e1235552b1e9d502e8",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.GaussianPolynomialWeights.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/GaussianReflection.lean",
+    "module": "TomographyOracleCore.Revision.GaussianReflection",
+    "exit_code": 0,
+    "seconds": 2.54,
+    "source_sha256": "661b707783d0deb729d1cc40feb2977a5dbe76ece7e1676ad7f2ff21ade8da0a",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.GaussianReflection.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/GaussianSpreadEnvelope.lean",
+    "module": "TomographyOracleCore.Revision.GaussianSpreadEnvelope",
+    "exit_code": 0,
+    "seconds": 2.92,
+    "source_sha256": "37be2fd6904a1cdd8b6cd486c88e0309cdeddaee30edbafe8945d2ee88b92011",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.GaussianSpreadEnvelope.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/GaussianUniformSpread.lean",
+    "module": "TomographyOracleCore.Revision.GaussianUniformSpread",
+    "exit_code": 0,
+    "seconds": 3.86,
+    "source_sha256": "fadf57733e02a422a8a23f27b1509bcdbd5b53c785318052a7e83b69fb984395",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.GaussianUniformSpread.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/IntegralCauchySchwarz.lean",
+    "module": "TomographyOracleCore.Revision.IntegralCauchySchwarz",
+    "exit_code": 0,
+    "seconds": 2.2,
+    "source_sha256": "8c7df773bab820d4fc9c485aec0f0da50935877878122f628f52b2a5c3cbf954",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.IntegralCauchySchwarz.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/IntegralSixthJensen.lean",
+    "module": "TomographyOracleCore.Revision.IntegralSixthJensen",
+    "exit_code": 0,
+    "seconds": 2.09,
+    "source_sha256": "0c32a2d1d93da75444045a002ab2f98a1f4fc28886c48f8e0650c219f45d873a",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.IntegralSixthJensen.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/JointFixedNormGaussianMoments.lean",
+    "module": "TomographyOracleCore.Revision.JointFixedNormGaussianMoments",
+    "exit_code": 0,
+    "seconds": 2.78,
+    "source_sha256": "e8767fb2b742b134b4a704d8aa472fe9dd751bd2090328ef2dda8042e5628812",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.JointFixedNormGaussianMoments.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/LogDensityRelativeEntropy.lean",
+    "module": "TomographyOracleCore.Revision.LogDensityRelativeEntropy",
+    "exit_code": 0,
+    "seconds": 2.34,
+    "source_sha256": "722ffc2e7ba4216d90c70526fc4dc7040202915e1f7743e3699b12bc35862135",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.LogDensityRelativeEntropy.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/MWPLSEndpoints.lean",
+    "module": "TomographyOracleCore.Revision.MWPLSEndpoints",
+    "exit_code": 0,
+    "seconds": 3.01,
+    "source_sha256": "dfb09bc7061011f0acbcb7e0501099c2b6b0f0b47ce55e47176f48527626adca",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.MWPLSEndpoints.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/MWPLSObjective.lean",
+    "module": "TomographyOracleCore.Revision.MWPLSObjective",
+    "exit_code": 0,
+    "seconds": 3.12,
+    "source_sha256": "2fc2dc6d05b6faea70b1a6cc8b27e867296e47a526ac9fc1530309081c4bc1bf",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.MWPLSObjective.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/MWPLSOracle.lean",
+    "module": "TomographyOracleCore.Revision.MWPLSOracle",
+    "exit_code": 0,
+    "seconds": 3.37,
+    "source_sha256": "bf6ae0d766cacbc5451155587bda012d5d2bea6114c086b6268bd1f5b034a411",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.MWPLSOracle.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/MWPLSRisk.lean",
+    "module": "TomographyOracleCore.Revision.MWPLSRisk",
+    "exit_code": 0,
+    "seconds": 3.41,
+    "source_sha256": "9c9235fb4f670b43e79b5090fee068c7393cfdca17a978e9c1e52f6b5e62d90d",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.MWPLSRisk.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/MatrixProjectionBoundary.lean",
+    "module": "TomographyOracleCore.Revision.MatrixProjectionBoundary",
+    "exit_code": 0,
+    "seconds": 3.38,
+    "source_sha256": "e19a973ab58a5277cb6c57dfd734849977c5248fd1f2b9a4410d73cacdabf2b5",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.MatrixProjectionBoundary.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/MatrixSolverAverage.lean",
+    "module": "TomographyOracleCore.Revision.MatrixSolverAverage",
+    "exit_code": 0,
+    "seconds": 2.58,
+    "source_sha256": "a4be0c0ae2ad4ab55f800d07fb4820325237f052ad73584bfd6339a97769ce07",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.MatrixSolverAverage.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/MatrixSolverChannel.lean",
+    "module": "TomographyOracleCore.Revision.MatrixSolverChannel",
+    "exit_code": 0,
+    "seconds": 3.13,
+    "source_sha256": "61e11e393dbbbd04ae2d1d56d5682e60af0cc1709cbf7316ace3536968b3e7fa",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.MatrixSolverChannel.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/MatrixSolverConvergence.lean",
+    "module": "TomographyOracleCore.Revision.MatrixSolverConvergence",
+    "exit_code": 0,
+    "seconds": 3.04,
+    "source_sha256": "b77c758e38d2faf43d993b220a97db0670fea08ae9be33f57c2af0c467ebf44b",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.MatrixSolverConvergence.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/MatrixSolverGeometry.lean",
+    "module": "TomographyOracleCore.Revision.MatrixSolverGeometry",
+    "exit_code": 0,
+    "seconds": 32.71,
+    "source_sha256": "80f30369d34a6038247f4997d5759b9ff491d6da8e609c5f219b0de2dc655da6",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.MatrixSolverGeometry.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/MatrixSolverInexactConvergence.lean",
+    "module": "TomographyOracleCore.Revision.MatrixSolverInexactConvergence",
+    "exit_code": 0,
+    "seconds": 2.82,
+    "source_sha256": "18d308fd71216e0f64e4b3e68c6df6528198afa3ff2976e18c4b1378b48963f4",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.MatrixSolverInexactConvergence.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/MatrixSolverInexactGradient.lean",
+    "module": "TomographyOracleCore.Revision.MatrixSolverInexactGradient",
+    "exit_code": 0,
+    "seconds": 2.89,
+    "source_sha256": "34305ff691329a4637c6c331c226ad1417933e2932e71584b243bf89767afd71",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.MatrixSolverInexactGradient.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/MatrixSolverInexactImplementations.lean",
+    "module": "TomographyOracleCore.Revision.MatrixSolverInexactImplementations",
+    "exit_code": 0,
+    "seconds": 2.37,
+    "source_sha256": "a8d00bcf7befaa442b6a8ece3612a950bd3498b1735b8623bbc7be40dd3583b8",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.MatrixSolverInexactImplementations.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/MatrixSolverInexactPeriodic.lean",
+    "module": "TomographyOracleCore.Revision.MatrixSolverInexactPeriodic",
+    "exit_code": 0,
+    "seconds": 2.6,
+    "source_sha256": "19fc5f2a533c925aca83d8cc9c0ea0fa7fc87ea2510eae5bd407df27a32aea49",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.MatrixSolverInexactPeriodic.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/MatrixSolverInexactPhysical.lean",
+    "module": "TomographyOracleCore.Revision.MatrixSolverInexactPhysical",
+    "exit_code": 0,
+    "seconds": 2.44,
+    "source_sha256": "12209973ea17a027d51dfd4c48106b85baea5d4d6e7b6540084819a1ad554cdc",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.MatrixSolverInexactPhysical.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/MatrixSolverInexactRisk.lean",
+    "module": "TomographyOracleCore.Revision.MatrixSolverInexactRisk",
+    "exit_code": 0,
+    "seconds": 2.55,
+    "source_sha256": "452bf3cca06e8548092e4e29c342872203fdc5eb8e743db7b8b2259615aa628b",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.MatrixSolverInexactRisk.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/MatrixSolverInexactSampleSchedule.lean",
+    "module": "TomographyOracleCore.Revision.MatrixSolverInexactSampleSchedule",
+    "exit_code": 0,
+    "seconds": 2.39,
+    "source_sha256": "74074ab8cc2e86d0b91f96445c6e44afa4ad32e9db3f8376b25b2eae71703045",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.MatrixSolverInexactSampleSchedule.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/MatrixSolverInexactSchedule.lean",
+    "module": "TomographyOracleCore.Revision.MatrixSolverInexactSchedule",
+    "exit_code": 0,
+    "seconds": 2.37,
+    "source_sha256": "4157c14c6325f3b1f64e9ad4273108d2bf4996beca824fbcfa9dad7778c88e01",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.MatrixSolverInexactSchedule.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/MatrixSolverInexactStep.lean",
+    "module": "TomographyOracleCore.Revision.MatrixSolverInexactStep",
+    "exit_code": 0,
+    "seconds": 3.39,
+    "source_sha256": "fa27c56113b74630d0576ae4f3c904e4d296e74661dc05713797acb9b9c26ec1",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.MatrixSolverInexactStep.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/MatrixSolverPhysical.lean",
+    "module": "TomographyOracleCore.Revision.MatrixSolverPhysical",
+    "exit_code": 0,
+    "seconds": 2.54,
+    "source_sha256": "834e13a5ff7ca44cfc417c38fe4254ac6ae6f72d22d56b545541d7e9f7205324",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.MatrixSolverPhysical.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/MatrixSolverRationalInput.lean",
+    "module": "TomographyOracleCore.Revision.MatrixSolverRationalInput",
+    "exit_code": 0,
+    "seconds": 2.62,
+    "source_sha256": "057023aadd3a0090cfb1be1385dae5f1481ec3fa9a0e4aa0b4619376c713d961",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.MatrixSolverRationalInput.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/MatrixSolverRationalOperator.lean",
+    "module": "TomographyOracleCore.Revision.MatrixSolverRationalOperator",
+    "exit_code": 0,
+    "seconds": 2.54,
+    "source_sha256": "d8f7e3d6eba25be35ed71f1f35b0c4a39271cff00f6389d6fd05f1a8e02e048e",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.MatrixSolverRationalOperator.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/MatrixSolverRationalPauli.lean",
+    "module": "TomographyOracleCore.Revision.MatrixSolverRationalPauli",
+    "exit_code": 0,
+    "seconds": 2.57,
+    "source_sha256": "394d42b50b022eecae5009aae7917881e71c81cd2e25855914a3fa59ab277cf7",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.MatrixSolverRationalPauli.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/MatrixSolverSpectral.lean",
+    "module": "TomographyOracleCore.Revision.MatrixSolverSpectral",
+    "exit_code": 0,
+    "seconds": 2.69,
+    "source_sha256": "1daaf77b342c98a97c62f139dd48ba15069b4d296db9520029ecb211a80e7455",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.MatrixSolverSpectral.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/MatrixSolverSubgradient.lean",
+    "module": "TomographyOracleCore.Revision.MatrixSolverSubgradient",
+    "exit_code": 0,
+    "seconds": 2.58,
+    "source_sha256": "59b1dd60ad5bf4c1a2d1495a5ceac7ce77457fe88992d6c7cae59226c4b1998f",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.MatrixSolverSubgradient.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/MatrixTensorPi.lean",
+    "module": "TomographyOracleCore.Revision.MatrixTensorPi",
+    "exit_code": 0,
+    "seconds": 2.72,
+    "source_sha256": "05d586de4413507a1e533d5fa9f7f730058f08c37d09f7e8d95fceee77a5466a",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.MatrixTensorPi.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/MatrixTensorPiSpan.lean",
+    "module": "TomographyOracleCore.Revision.MatrixTensorPiSpan",
+    "exit_code": 0,
+    "seconds": 2.44,
+    "source_sha256": "6a410f8ec87e10d426f0970fcc8b098984c019c4485ea772889d0749bea41e8d",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.MatrixTensorPiSpan.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/MaximumPairInner.lean",
+    "module": "TomographyOracleCore.Revision.MaximumPairInner",
+    "exit_code": 0,
+    "seconds": 2.14,
+    "source_sha256": "e99d4a1b2af79ad54f503b09227ab2a47ec7e9d8c938c56a2e829d65622c65d4",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.MaximumPairInner.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/MaximumPairMoments.lean",
+    "module": "TomographyOracleCore.Revision.MaximumPairMoments",
+    "exit_code": 0,
+    "seconds": 2.79,
+    "source_sha256": "9ebd5755c089b56511a46f71c4431b90b86fc62c8aa6072359e00495cf461e45",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.MaximumPairMoments.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/NonadaptiveFanoPhysical.lean",
+    "module": "TomographyOracleCore.Revision.NonadaptiveFanoPhysical",
+    "exit_code": 0,
+    "seconds": 2.99,
+    "source_sha256": "12cb7e006234b4bccc78aad6d472a0c9b7479e2999b757d69293f772803f53bf",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.NonadaptiveFanoPhysical.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/NonadaptiveFanoReduction.lean",
+    "module": "TomographyOracleCore.Revision.NonadaptiveFanoReduction",
+    "exit_code": 0,
+    "seconds": 2.63,
+    "source_sha256": "f55be1f2c797e5b37de428185002bf9db73caeac94dde4fdb27778db3aef7ab8",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.NonadaptiveFanoReduction.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/NoncomputationalInputs.lean",
+    "module": "TomographyOracleCore.Revision.NoncomputationalInputs",
+    "exit_code": 0,
+    "seconds": 2.41,
+    "source_sha256": "386a1d11429498e9c1029e528d65d02e219ad3a5ae9f50628d70f2bb113366be",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.NoncomputationalInputs.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/NormalizedPositiveWeights.lean",
+    "module": "TomographyOracleCore.Revision.NormalizedPositiveWeights",
+    "exit_code": 0,
+    "seconds": 2.71,
+    "source_sha256": "3b0bef9c727fcc2eff2874726f0e27546c8930936be8ee10d39b303c20119e87",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.NormalizedPositiveWeights.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/PairMomentIntegration.lean",
+    "module": "TomographyOracleCore.Revision.PairMomentIntegration",
+    "exit_code": 0,
+    "seconds": 2.38,
+    "source_sha256": "2c6812b8100ab3ba6e995a256c9bd530cf1891cb92263098db7d0c7a8ea91e60",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.PairMomentIntegration.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/PaperTheorems.lean",
+    "module": "TomographyOracleCore.Revision.PaperTheorems",
+    "exit_code": 0,
+    "seconds": 2.95,
+    "source_sha256": "abca7ef737fa708ede56e70be366645e614b8cfc76675e10ef4b459943df3ecc",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.PaperTheorems.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/PauliOmegaBlocks.lean",
+    "module": "TomographyOracleCore.Revision.PauliOmegaBlocks",
+    "exit_code": 0,
+    "seconds": 3.12,
+    "source_sha256": "933ec079b7c3a70a458434c8030213d066bcc09652524ce8351a289964d3617f",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.PauliOmegaBlocks.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/PauliOmegaProjection.lean",
+    "module": "TomographyOracleCore.Revision.PauliOmegaProjection",
+    "exit_code": 0,
+    "seconds": 3.86,
+    "source_sha256": "55ed953a6d4e9723d243a3f8a802c54c9089e324404e483986dedf044e26baac",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.PauliOmegaProjection.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/PeakyEnvelopeMoments.lean",
+    "module": "TomographyOracleCore.Revision.PeakyEnvelopeMoments",
+    "exit_code": 0,
+    "seconds": 2.73,
+    "source_sha256": "a549d1bbb02d54bf44ca1fe0cf2f7b088070e6e9d07df77907fe93230e57f458",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.PeakyEnvelopeMoments.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/PeakySelfConsistency.lean",
+    "module": "TomographyOracleCore.Revision.PeakySelfConsistency",
+    "exit_code": 0,
+    "seconds": 4.16,
+    "source_sha256": "43242a076436d982fa62568d29e2f503fe0dc9c6b93c7ffdb22ca22085b86c30",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.PeakySelfConsistency.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/PeakyUniformEnvelope.lean",
+    "module": "TomographyOracleCore.Revision.PeakyUniformEnvelope",
+    "exit_code": 0,
+    "seconds": 3.01,
+    "source_sha256": "1cfa4200395a9a935f1aa6728b10dd1dd1e69b676276a842e477198198e8a0c7",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.PeakyUniformEnvelope.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/PeriodicBornCovarianceNorms.lean",
+    "module": "TomographyOracleCore.Revision.PeriodicBornCovarianceNorms",
+    "exit_code": 0,
+    "seconds": 3.14,
+    "source_sha256": "1270a6ca12df109f8a53ec69fa2dd9cda80a64e3d64685016ae391727de9d91b",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.PeriodicBornCovarianceNorms.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/PeriodicBornMoments.lean",
+    "module": "TomographyOracleCore.Revision.PeriodicBornMoments",
+    "exit_code": 0,
+    "seconds": 2.46,
+    "source_sha256": "aa17bd423c80b8fff3985cea196c8c9a9872ef7f5d51612f406806b8f050fa0c",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.PeriodicBornMoments.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/PeriodicBornRealConcentration.lean",
+    "module": "TomographyOracleCore.Revision.PeriodicBornRealConcentration",
+    "exit_code": 0,
+    "seconds": 3.57,
+    "source_sha256": "82956362343bdb5bdbbe363e1701dcc089b4a30de34d3f808747944eb38b042d",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.PeriodicBornRealConcentration.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/PeriodicForwardConcentration.lean",
+    "module": "TomographyOracleCore.Revision.PeriodicForwardConcentration",
+    "exit_code": 0,
+    "seconds": 2.96,
+    "source_sha256": "30c4d0fad74130ae066d4a4cde35db16672fdb8fc62330fa57a75a7f2e88bfee",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.PeriodicForwardConcentration.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/PeriodicUniformFourthMoment.lean",
+    "module": "TomographyOracleCore.Revision.PeriodicUniformFourthMoment",
+    "exit_code": 0,
+    "seconds": 2.8,
+    "source_sha256": "402ce52aa90f4e7c550f157ff228429d09effe56c23a37c7f538ed722fa1562b",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.PeriodicUniformFourthMoment.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/PhysicalCliffordFourthTwirl.lean",
+    "module": "TomographyOracleCore.Revision.PhysicalCliffordFourthTwirl",
+    "exit_code": 0,
+    "seconds": 2.71,
+    "source_sha256": "86fcadedfb6e965362b61ef247b08d39ec0b157975f76a02b746f74ea62a5d2b",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.PhysicalCliffordFourthTwirl.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/PhysicalFourthBoundary.lean",
+    "module": "TomographyOracleCore.Revision.PhysicalFourthBoundary",
+    "exit_code": 0,
+    "seconds": 2.55,
+    "source_sha256": "ab966cc48296e78b23c98a1cdc5a86d3e7ef25c1b5e2a54c1bcbbe881ed4d6d1",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.PhysicalFourthBoundary.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/PhysicalFourthExpansion.lean",
+    "module": "TomographyOracleCore.Revision.PhysicalFourthExpansion",
+    "exit_code": 0,
+    "seconds": 2.56,
+    "source_sha256": "1b3e6e12de8ce051c163a776b05d5b14137c97c42daba32c482fc4ba448ade56",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.PhysicalFourthExpansion.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/PhysicalFourthProjection.lean",
+    "module": "TomographyOracleCore.Revision.PhysicalFourthProjection",
+    "exit_code": 0,
+    "seconds": 3.02,
+    "source_sha256": "f9009e13f58141abc6e47d59059517634d2521c44bc5bb513c6696e4a898f873",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.PhysicalFourthProjection.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/PhysicalMinimaxAlgorithm.lean",
+    "module": "TomographyOracleCore.Revision.PhysicalMinimaxAlgorithm",
+    "exit_code": 0,
+    "seconds": 2.69,
+    "source_sha256": "8e77cd7b53eb32520a2c93d434685b008eea14d0935fd1eb2321b93b22f9cc2b",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.PhysicalMinimaxAlgorithm.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/PhysicalMinimaxAlgorithmRates.lean",
+    "module": "TomographyOracleCore.Revision.PhysicalMinimaxAlgorithmRates",
+    "exit_code": 0,
+    "seconds": 3.36,
+    "source_sha256": "824fb3625c8a2e9227a19cf1334de43ce7b0a6963e08059023c34ae73db99a3e",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.PhysicalMinimaxAlgorithmRates.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/PhysicalMinimaxClosure.lean",
+    "module": "TomographyOracleCore.Revision.PhysicalMinimaxClosure",
+    "exit_code": 0,
+    "seconds": 2.81,
+    "source_sha256": "ab3f93255c0d46554c9197e4b71e6c48d121f5d9cdf341ca178eee2ec57cec7e",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.PhysicalMinimaxClosure.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/PhysicalMinimaxEstimator.lean",
+    "module": "TomographyOracleCore.Revision.PhysicalMinimaxEstimator",
+    "exit_code": 0,
+    "seconds": 2.67,
+    "source_sha256": "f63ca7bac25957f9b4f227a26d5a8e89da98e7babd28b9414911b594375950d9",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.PhysicalMinimaxEstimator.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/PhysicalMinimaxHermitian.lean",
+    "module": "TomographyOracleCore.Revision.PhysicalMinimaxHermitian",
+    "exit_code": 0,
+    "seconds": 2.47,
+    "source_sha256": "04ac2b2ac741028d6f45eeb3a8fcda526d129cf738a9e010a52a73324cded0c9",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.PhysicalMinimaxHermitian.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/PhysicalMinimaxProjectedClosure.lean",
+    "module": "TomographyOracleCore.Revision.PhysicalMinimaxProjectedClosure",
+    "exit_code": 0,
+    "seconds": 2.42,
+    "source_sha256": "58692846f4039151db3aabfa0487a7f3ce5dcc7e1919169a62740925477cb59e",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.PhysicalMinimaxProjectedClosure.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/PhysicalMinimaxRates.lean",
+    "module": "TomographyOracleCore.Revision.PhysicalMinimaxRates",
+    "exit_code": 0,
+    "seconds": 3.26,
+    "source_sha256": "feed2029c1c4f8f9ff8a36df62992c4e1785ec08b5055de98380a4816e83f1d5",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.PhysicalMinimaxRates.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/ProductPriorWeights.lean",
+    "module": "TomographyOracleCore.Revision.ProductPriorWeights",
+    "exit_code": 0,
+    "seconds": 2.82,
+    "source_sha256": "b41e8b4bb822a907e286d86a24ff692c13a7b9b2f7c9c3c7ecbf90dc12f6a83c",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.ProductPriorWeights.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/PublishedBaiYin.lean",
+    "module": "TomographyOracleCore.Revision.PublishedBaiYin",
+    "exit_code": 0,
+    "seconds": 2.63,
+    "source_sha256": "8d8982659199010042b5f4e57263cb0d3e3bd3f51e3654f91cc7e9c43186175c",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.PublishedBaiYin.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/QuadraticLogIntegrability.lean",
+    "module": "TomographyOracleCore.Revision.QuadraticLogIntegrability",
+    "exit_code": 0,
+    "seconds": 2.33,
+    "source_sha256": "815b2e69511d5ee16505d1b49e01d4388c4c810eabf997a65906151d5cdfbf23",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.QuadraticLogIntegrability.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/RiskFromFano.lean",
+    "module": "TomographyOracleCore.Revision.RiskFromFano",
+    "exit_code": 0,
+    "seconds": 2.98,
+    "source_sha256": "8da4c9ebfa02e9dec3da29c7ea2f8c053870469e342a4a7dda4b386abb34d4e1",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.RiskFromFano.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/SolverPotential.lean",
+    "module": "TomographyOracleCore.Revision.SolverPotential",
+    "exit_code": 0,
+    "seconds": 2.62,
+    "source_sha256": "e0c2acb3a350ee956906f3f311ad0877af3a9592171cc250a8150f48a70d4109",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.SolverPotential.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/SparseBadPartitionFraction.lean",
+    "module": "TomographyOracleCore.Revision.SparseBadPartitionFraction",
+    "exit_code": 0,
+    "seconds": 2.63,
+    "source_sha256": "ad48a457aeb6bea7b8820c2a4b0b16add68bd1603d48f16c679b82f6103d02a9",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.SparseBadPartitionFraction.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/SparseCoefficientGeometry.lean",
+    "module": "TomographyOracleCore.Revision.SparseCoefficientGeometry",
+    "exit_code": 0,
+    "seconds": 2.35,
+    "source_sha256": "f738ef90a8259e672b792788fb9fdf4cdab55e11851eb4996f3e4a662b32d5bd",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.SparseCoefficientGeometry.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/SparseCoefficientNets.lean",
+    "module": "TomographyOracleCore.Revision.SparseCoefficientNets",
+    "exit_code": 0,
+    "seconds": 2.41,
+    "source_sha256": "092183e0e1d9f9bf9ce0f756fd3f8d2ae030498d5307b8596abeea4f3f49c78d",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.SparseCoefficientNets.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/SparseConditionalRows.lean",
+    "module": "TomographyOracleCore.Revision.SparseConditionalRows",
+    "exit_code": 0,
+    "seconds": 2.3,
+    "source_sha256": "10eca135f1d7c879812f0a94fbcb84246abd94117bcb9dbb1ea83223d6d4ab65",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.SparseConditionalRows.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/SparseCorrelationSparsification.lean",
+    "module": "TomographyOracleCore.Revision.SparseCorrelationSparsification",
+    "exit_code": 0,
+    "seconds": 2.45,
+    "source_sha256": "7385a702a63092b6e4a78adb4cef893ae4a8ae90a89a518e94aca333a74d3a9b",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.SparseCorrelationSparsification.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/SparseCrossGeometry.lean",
+    "module": "TomographyOracleCore.Revision.SparseCrossGeometry",
+    "exit_code": 0,
+    "seconds": 2.27,
+    "source_sha256": "706d582f5680a1db491559515bdc6377569a65f689763c3c790850c0055bded0",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.SparseCrossGeometry.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/SparseDeterministicRecurrence.lean",
+    "module": "TomographyOracleCore.Revision.SparseDeterministicRecurrence",
+    "exit_code": 0,
+    "seconds": 2.36,
+    "source_sha256": "ad81c49e2aaad90709af5dd8c9ae69b358459b70fc2e3cf8d3d17f6aafbc3dd8",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.SparseDeterministicRecurrence.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/SparseDirectionalEnergy.lean",
+    "module": "TomographyOracleCore.Revision.SparseDirectionalEnergy",
+    "exit_code": 0,
+    "seconds": 3.0,
+    "source_sha256": "49886e81459f367fb67d57b6bd0eb5be9040f5dedb0ad3eb26ceec99ff0bef74",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.SparseDirectionalEnergy.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/SparseDyadicEnergy.lean",
+    "module": "TomographyOracleCore.Revision.SparseDyadicEnergy",
+    "exit_code": 0,
+    "seconds": 4.02,
+    "source_sha256": "cf37b6b950d41e8babe22b8cae4ed453efa792426d89ccd309ee606d948528ca",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.SparseDyadicEnergy.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/SparseDyadicScales.lean",
+    "module": "TomographyOracleCore.Revision.SparseDyadicScales",
+    "exit_code": 0,
+    "seconds": 2.38,
+    "source_sha256": "51f1a28378287ad2bd2a83b09aafeaa89f96ab531c01ce01857816c1df62cab5",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.SparseDyadicScales.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/SparseEntropyRate.lean",
+    "module": "TomographyOracleCore.Revision.SparseEntropyRate",
+    "exit_code": 0,
+    "seconds": 2.62,
+    "source_sha256": "7c678c5631cb4a18bbd9e56c6432f6f46b2eb1f814a023ec245d0da59489fedb",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.SparseEntropyRate.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/SparseGoodPartitionBound.lean",
+    "module": "TomographyOracleCore.Revision.SparseGoodPartitionBound",
+    "exit_code": 0,
+    "seconds": 3.52,
+    "source_sha256": "b7f5b70042c745439271ec3c60da917d4fb4dc8e465f78d2c2852aac3be86c9e",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.SparseGoodPartitionBound.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/SparseLevelProbability.lean",
+    "module": "TomographyOracleCore.Revision.SparseLevelProbability",
+    "exit_code": 0,
+    "seconds": 2.36,
+    "source_sha256": "5d2adb0cabd836f4bddd1d55795ac6063ef036b8fcebc3c9ae05a8127b0f42bb",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.SparseLevelProbability.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/SparseNetConstants.lean",
+    "module": "TomographyOracleCore.Revision.SparseNetConstants",
+    "exit_code": 0,
+    "seconds": 2.42,
+    "source_sha256": "6370000e975d3948cc46c8066fa3e77a4a9ac1903974ae664efba0661c607bf3",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.SparseNetConstants.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/SparseNetFailure.lean",
+    "module": "TomographyOracleCore.Revision.SparseNetFailure",
+    "exit_code": 0,
+    "seconds": 2.31,
+    "source_sha256": "b7ac38b01a9814ad7a630a727395532d53d9b7e700292ef5efd714ae0566ae61",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.SparseNetFailure.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/SparseNetQuantileTransfer.lean",
+    "module": "TomographyOracleCore.Revision.SparseNetQuantileTransfer",
+    "exit_code": 0,
+    "seconds": 2.87,
+    "source_sha256": "e68891a0ca9ef4da29bb4407dc6cd484dc52392b67cd6330ba26b69c08a816a3",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.SparseNetQuantileTransfer.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/SparseNetStep.lean",
+    "module": "TomographyOracleCore.Revision.SparseNetStep",
+    "exit_code": 0,
+    "seconds": 2.65,
+    "source_sha256": "b4ad6192e2be238e18135cdc0e7100422568594f152232e76feb172e7d8b310f",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.SparseNetStep.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/SparseNormSplitting.lean",
+    "module": "TomographyOracleCore.Revision.SparseNormSplitting",
+    "exit_code": 0,
+    "seconds": 2.23,
+    "source_sha256": "0255dee0947855db900a278405bdba6a831614f692d16baeac2ac47eb5e65fd5",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.SparseNormSplitting.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/SparsePartitionDecoupling.lean",
+    "module": "TomographyOracleCore.Revision.SparsePartitionDecoupling",
+    "exit_code": 0,
+    "seconds": 2.49,
+    "source_sha256": "ceb235ec626f93f31a22507ebd1887c747b88ba6db071beb5445b19299bae310",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.SparsePartitionDecoupling.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/SparsePartitionFailure.lean",
+    "module": "TomographyOracleCore.Revision.SparsePartitionFailure",
+    "exit_code": 0,
+    "seconds": 2.46,
+    "source_sha256": "4e83c4578ed838fb6f8fbac33cb6b14ab9dc001fa275d3dfdff07acf44ed4679",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.SparsePartitionFailure.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/SparseRecursionWeights.lean",
+    "module": "TomographyOracleCore.Revision.SparseRecursionWeights",
+    "exit_code": 0,
+    "seconds": 2.86,
+    "source_sha256": "fff2b6cde5a8040583cd7f1d177a988e9657be694bd893ad8de5649965ab2607",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.SparseRecursionWeights.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/SparseSampleSuprema.lean",
+    "module": "TomographyOracleCore.Revision.SparseSampleSuprema",
+    "exit_code": 0,
+    "seconds": 2.23,
+    "source_sha256": "88efe267d15c02ffc444f83e1f4b128e6e7a148df7b991e34b8340cda6338b34",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.SparseSampleSuprema.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/SparseUniformEnergy.lean",
+    "module": "TomographyOracleCore.Revision.SparseUniformEnergy",
+    "exit_code": 0,
+    "seconds": 3.04,
+    "source_sha256": "a67e3ff0058f57af9c5ab6138a4ef3f278f05bcdd6807e590bb0116743fbc917",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.SparseUniformEnergy.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/SparsifyingFiniteTypes.lean",
+    "module": "TomographyOracleCore.Revision.SparsifyingFiniteTypes",
+    "exit_code": 0,
+    "seconds": 2.1,
+    "source_sha256": "cd9741e30ce55ae3098c392b288e3f08a54e64eb4c47cabbc487e70a7b94b3b7",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.SparsifyingFiniteTypes.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/StatisticalMinimaxCertificate.lean",
+    "module": "TomographyOracleCore.Revision.StatisticalMinimaxCertificate",
+    "exit_code": 0,
+    "seconds": 2.5,
+    "source_sha256": "3022fb253c8296c2108aee7a898c4040d1edf64648ec08b5ed41a0e467fe9ac2",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.StatisticalMinimaxCertificate.log"
+  },
+  {
+    "path": "TomographyOracleCore/Revision/SupportedCoefficientNets.lean",
+    "module": "TomographyOracleCore.Revision.SupportedCoefficientNets",
+    "exit_code": 0,
+    "seconds": 2.42,
+    "source_sha256": "3b8f7774784b2f0c9fc407cba8867db2a0b4b02193666d66dfdd4c1788cc6c89",
+    "log": "verification/lean/modules/TomographyOracleCore.Revision.SupportedCoefficientNets.log"
+  },
+  {
+    "path": "TomographyOracleCore/RobustNoise.lean",
+    "module": "TomographyOracleCore.RobustNoise",
+    "exit_code": 0,
+    "seconds": 2.89,
+    "source_sha256": "5d127945b43f61325dc59f8e0ecc99d50afb57177fcd6d43b0f68f523d73feea",
+    "log": "verification/lean/modules/TomographyOracleCore.RobustNoise.log"
+  },
+  {
+    "path": "TomographyOracleCore/SemanticUpper.lean",
+    "module": "TomographyOracleCore.SemanticUpper",
+    "exit_code": 0,
+    "seconds": 2.56,
+    "source_sha256": "c2db290b1741a794f1b659a7679c7a4357f2df829dcee97758af5e40c5150a7a",
+    "log": "verification/lean/modules/TomographyOracleCore.SemanticUpper.log"
+  },
+  {
+    "path": "TomographyOracleCore/SharedHaarFanoAssembly.lean",
+    "module": "TomographyOracleCore.SharedHaarFanoAssembly",
+    "exit_code": 0,
+    "seconds": 3.09,
+    "source_sha256": "111b2160f33b9f960544ae8450d1e7bb6f9ea4c5cf4df3e3d1ff9ad601f37284",
+    "log": "verification/lean/modules/TomographyOracleCore.SharedHaarFanoAssembly.log"
+  },
+  {
+    "path": "TomographyOracleCore/SharedHaarLowerEndpoint.lean",
+    "module": "TomographyOracleCore.SharedHaarLowerEndpoint",
+    "exit_code": 0,
+    "seconds": 2.32,
+    "source_sha256": "34992ed519689112ae713229cc9f49ee429455e708e143e773f88b4ca8fea1cb",
+    "log": "verification/lean/modules/TomographyOracleCore.SharedHaarLowerEndpoint.log"
+  },
+  {
+    "path": "TomographyOracleCore/SharedHaarTensorization.lean",
+    "module": "TomographyOracleCore.SharedHaarTensorization",
+    "exit_code": 0,
+    "seconds": 2.73,
+    "source_sha256": "642d25be3c9a341b07294b79c572c8eb4511f3783e7ebd6e51b5f69284b55e10",
+    "log": "verification/lean/modules/TomographyOracleCore.SharedHaarTensorization.log"
+  },
+  {
+    "path": "TomographyOracleCore/SingleBlockThirdTwirlReindex.lean",
+    "module": "TomographyOracleCore.SingleBlockThirdTwirlReindex",
+    "exit_code": 0,
+    "seconds": 2.96,
+    "source_sha256": "4ee8fe94f1916cdedcead720308b6f1cca8023d9136e270f995c18e0fbbe88d3",
+    "log": "verification/lean/modules/TomographyOracleCore.SingleBlockThirdTwirlReindex.log"
+  },
+  {
+    "path": "TomographyOracleCore/SpectralTailEndpoint.lean",
+    "module": "TomographyOracleCore.SpectralTailEndpoint",
+    "exit_code": 0,
+    "seconds": 2.35,
+    "source_sha256": "4975e670e4a1f322b69c09b594edfb3ed77dbefd31e0783e0b907da3e6e9ea9b",
+    "log": "verification/lean/modules/TomographyOracleCore.SpectralTailEndpoint.log"
+  },
+  {
+    "path": "TomographyOracleCore/StatisticalScaleArithmetic.lean",
+    "module": "TomographyOracleCore.StatisticalScaleArithmetic",
+    "exit_code": 0,
+    "seconds": 2.47,
+    "source_sha256": "6f5a79d0f1ded96cb9df01f6de629601fac043d5c7752b28e4e7a19b7b6ae8aa",
+    "log": "verification/lean/modules/TomographyOracleCore.StatisticalScaleArithmetic.log"
+  },
+  {
+    "path": "TomographyOracleCore/Structural.lean",
+    "module": "TomographyOracleCore.Structural",
+    "exit_code": 0,
+    "seconds": 2.34,
+    "source_sha256": "f1bede4833db154029e727e9aafb77dadaf3971c3b38d8e0ce4c78ef8a0a441b",
+    "log": "verification/lean/modules/TomographyOracleCore.Structural.log"
+  },
+  {
+    "path": "TomographyOracleCore/TraceNormBridge.lean",
+    "module": "TomographyOracleCore.TraceNormBridge",
+    "exit_code": 0,
+    "seconds": 3.23,
+    "source_sha256": "fae9fc80d3197b76f7dc33538a5d8ad157d9b7b6889221803fe9ea13211b2203",
+    "log": "verification/lean/modules/TomographyOracleCore.TraceNormBridge.log"
+  },
+  {
+    "path": "TomographyOracleCore/UnitaryConjugation.lean",
+    "module": "TomographyOracleCore.UnitaryConjugation",
+    "exit_code": 0,
+    "seconds": 2.49,
+    "source_sha256": "a11e0ff02bcb378d4a0606aab4803de0ab05c2b41588451fe03e324cb045e769",
+    "log": "verification/lean/modules/TomographyOracleCore.UnitaryConjugation.log"
+  },
+  {
+    "path": "TomographyOracleCore/UnitaryHaarOrientation.lean",
+    "module": "TomographyOracleCore.UnitaryHaarOrientation",
+    "exit_code": 0,
+    "seconds": 2.78,
+    "source_sha256": "f4b5832ccb1ec80d60fe10e47c63d40a4bb9adde89016e85136749dce2ce68f6",
+    "log": "verification/lean/modules/TomographyOracleCore.UnitaryHaarOrientation.log"
+  },
+  {
+    "path": "TomographyOracleCore/UnitaryHaarSphereOrbit.lean",
+    "module": "TomographyOracleCore.UnitaryHaarSphereOrbit",
+    "exit_code": 0,
+    "seconds": 5.88,
+    "source_sha256": "f48cbefce3b05057a5ce4c44daff75632c7a577bc58f5106744a82ee368fa592",
+    "log": "verification/lean/modules/TomographyOracleCore.UnitaryHaarSphereOrbit.log"
+  },
+  {
+    "path": "TomographyOracleCore/UnitaryStandardBorel.lean",
+    "module": "TomographyOracleCore.UnitaryStandardBorel",
+    "exit_code": 0,
+    "seconds": 2.33,
+    "source_sha256": "86467fe8c0ea1db2cbc4bb8a4cc81de2357b8ee40e6141b8a93d8f0c0c4db332",
+    "log": "verification/lean/modules/TomographyOracleCore.UnitaryStandardBorel.log"
+  },
+  {
+    "path": "TomographyOracleCore/UpperRateScaling.lean",
+    "module": "TomographyOracleCore.UpperRateScaling",
+    "exit_code": 0,
+    "seconds": 2.5,
+    "source_sha256": "716ed3499810cee4dcde8dc47466694c7a2b6c31c74b8c6d5e71c7e0bb25859b",
+    "log": "verification/lean/modules/TomographyOracleCore.UpperRateScaling.log"
+  },
+  {
+    "path": "TomographyOracleCore/UpperSmallSample.lean",
+    "module": "TomographyOracleCore.UpperSmallSample",
+    "exit_code": 0,
+    "seconds": 2.68,
+    "source_sha256": "a84dae1d877d5dbaf582d484ac15d26844b899564ec6cb87d53e36f46be714f8",
+    "log": "verification/lean/modules/TomographyOracleCore.UpperSmallSample.log"
+  },
+  {
+    "path": "TomographyOracleCore/WithDensityPearson.lean",
+    "module": "TomographyOracleCore.WithDensityPearson",
+    "exit_code": 0,
+    "seconds": 2.0,
+    "source_sha256": "400c5ff79b5c4c2c77ef4c621f01a33753f7739062d6e8de12e3106c4e7bac8a",
+    "log": "verification/lean/modules/TomographyOracleCore.WithDensityPearson.log"
+  }
+]

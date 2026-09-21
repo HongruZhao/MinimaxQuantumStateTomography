@@ -1,0 +1,116 @@
+{
+  "n": 8,
+  "d": 256,
+  "T": 16384,
+  "rows": [
+    {
+      "k": 2,
+      "method": "PLS",
+      "repetitions": 100,
+      "trace_norm_error": 1.5895232923141251,
+      "error_ci_low": 1.5870809046810672,
+      "error_ci_high": 1.5919221812784716,
+      "median_seconds": 0.02978156848985236,
+      "seconds_q25": 0.027410691509430762,
+      "seconds_q75": 0.03317028176388703,
+      "source": "Original 2026-09-11 paired benchmark; k<n unchanged"
+    },
+    {
+      "k": 2,
+      "method": "OMD",
+      "repetitions": 100,
+      "trace_norm_error": 0.6476838095544786,
+      "error_ci_low": 0.6442030475872353,
+      "error_ci_high": 0.6511071948930456,
+      "median_seconds": 2.07459536800161,
+      "seconds_q25": 1.8716445669997483,
+      "seconds_q75": 2.2227218392436043,
+      "source": "Original 2026-09-11 paired benchmark; k<n unchanged"
+    },
+    {
+      "k": 2,
+      "method": "MW-PLS",
+      "repetitions": 100,
+      "trace_norm_error": 0.9171573209353687,
+      "error_ci_low": 0.9145140126875131,
+      "error_ci_high": 0.9198336612144417,
+      "median_seconds": 1.54859082949406,
+      "seconds_q25": 1.4201701594793121,
+      "seconds_q75": 1.7312518987600924,
+      "source": "Original 2026-09-11 paired benchmark; k<n unchanged"
+    },
+    {
+      "k": 4,
+      "method": "PLS",
+      "repetitions": 100,
+      "trace_norm_error": 1.692412803304059,
+      "error_ci_low": 1.6900279903269126,
+      "error_ci_high": 1.6948766985011368,
+      "median_seconds": 0.02914694949868135,
+      "seconds_q25": 0.026045314742077608,
+      "seconds_q75": 0.03166561974649085,
+      "source": "Original 2026-09-11 paired benchmark; k<n unchanged"
+    },
+    {
+      "k": 4,
+      "method": "OMD",
+      "repetitions": 100,
+      "trace_norm_error": 1.4239494703735354,
+      "error_ci_low": 1.4186218941306277,
+      "error_ci_high": 1.4292937406990447,
+      "median_seconds": 1.3555193085048813,
+      "seconds_q25": 1.258386186484131,
+      "seconds_q75": 1.4466376472410047,
+      "source": "Original 2026-09-11 paired benchmark; k<n unchanged"
+    },
+    {
+      "k": 4,
+      "method": "MW-PLS",
+      "repetitions": 100,
+      "trace_norm_error": 1.5315478819929638,
+      "error_ci_low": 1.52844859630545,
+      "error_ci_high": 1.5346595420209104,
+      "median_seconds": 0.9495539685012773,
+      "seconds_q25": 0.8317006222569034,
+      "seconds_q75": 1.0438199312557117,
+      "source": "Original 2026-09-11 paired benchmark; k<n unchanged"
+    },
+    {
+      "method": "PLS",
+      "repetitions": 100,
+      "trace_norm_error": 1.7045212682873228,
+      "error_ci_low": 1.701764728698249,
+      "error_ci_high": 1.7073491126256537,
+      "median_seconds": 0.02240453055128455,
+      "seconds_q25": 0.02086121792672202,
+      "seconds_q75": 0.02547724251053296,
+      "k": 8,
+      "source": "Fresh 2026-09-20 common spectral rerun on original input hashes"
+    },
+    {
+      "method": "OMD",
+      "repetitions": 100,
+      "trace_norm_error": 1.7045212682873228,
+      "error_ci_low": 1.701764728698249,
+      "error_ci_high": 1.7073491126256537,
+      "median_seconds": 0.022565448482055217,
+      "seconds_q25": 0.020825268467888236,
+      "seconds_q75": 0.025683666026452556,
+      "k": 8,
+      "source": "Fresh 2026-09-20 common spectral rerun on original input hashes"
+    },
+    {
+      "method": "MW-PLS",
+      "repetitions": 100,
+      "trace_norm_error": 1.7045212682873228,
+      "error_ci_low": 1.701764728698249,
+      "error_ci_high": 1.7073491126256537,
+      "median_seconds": 0.02204999257810414,
+      "seconds_q25": 0.02076939880498685,
+      "seconds_q75": 0.02537759841652587,
+      "k": 8,
+      "source": "Fresh 2026-09-20 common spectral rerun on original input hashes"
+    }
+  ],
+  "global_output_max_difference": 0.0
+}

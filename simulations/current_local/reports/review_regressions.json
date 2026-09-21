@@ -1,0 +1,183 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "name": "Default PLS accepted by new validator",
+      "passed": true
+    },
+    {
+      "name": "Default OMD accepted by new validator",
+      "passed": true
+    },
+    {
+      "name": "Default MW-PLS accepted by new validator",
+      "passed": true
+    },
+    {
+      "name": "Tight OMD has scaled eta and meets original request",
+      "passed": true,
+      "iterations": 200,
+      "eta": 1.25e-09,
+      "original_gap": 1.5773282879827377e-07,
+      "requested_tolerance": 2.5e-07
+    },
+    {
+      "name": "Feasible new competitor proves old tight fit missed requested accuracy",
+      "passed": true,
+      "old_original_objective": 0.26958271619622276,
+      "corrected_original_objective": 0.26958230311496933,
+      "improvement": 4.130812534253181e-07
+    },
+    {
+      "name": "Default OMD numerical output preserved",
+      "passed": true,
+      "difference": 0.0
+    },
+    {
+      "name": "Wrong T rejected mathematically and by identity: OMD",
+      "passed": true
+    },
+    {
+      "name": "Invalid reported budget rejected: OMD nan",
+      "passed": true
+    },
+    {
+      "name": "Invalid reported budget rejected: OMD inf",
+      "passed": true
+    },
+    {
+      "name": "Invalid reported budget rejected: OMD -1.0",
+      "passed": true
+    },
+    {
+      "name": "Invalid reported budget rejected: OMD 10.0",
+      "passed": true
+    },
+    {
+      "name": "Wrong T rejected mathematically and by identity: MW-PLS",
+      "passed": true
+    },
+    {
+      "name": "Invalid reported budget rejected: MW-PLS nan",
+      "passed": true
+    },
+    {
+      "name": "Invalid reported budget rejected: MW-PLS inf",
+      "passed": true
+    },
+    {
+      "name": "Invalid reported budget rejected: MW-PLS -1.0",
+      "passed": true
+    },
+    {
+      "name": "Invalid reported budget rejected: MW-PLS 10.0",
+      "passed": true
+    },
+    {
+      "name": "Mismatched actual eta rejected",
+      "passed": true
+    },
+    {
+      "name": "Mismatched provenance rejected: source_sha256",
+      "passed": true
+    },
+    {
+      "name": "Mismatched provenance rejected: problem",
+      "passed": true
+    },
+    {
+      "name": "Mismatched provenance rejected: estimate_sha256",
+      "passed": true
+    },
+    {
+      "name": "Mismatched provenance rejected: dual_witness_sha256",
+      "passed": true
+    },
+    {
+      "name": "Mismatched provenance rejected: solver_configuration_sha256",
+      "passed": true
+    },
+    {
+      "name": "Different input statistic rejected",
+      "passed": true
+    },
+    {
+      "name": "Invalid T rejected: 0",
+      "passed": true
+    },
+    {
+      "name": "Invalid T rejected: -1",
+      "passed": true
+    },
+    {
+      "name": "Invalid T rejected: True",
+      "passed": true
+    },
+    {
+      "name": "Invalid T rejected: nan",
+      "passed": true
+    },
+    {
+      "name": "Invalid T rejected: 1.5",
+      "passed": true
+    },
+    {
+      "name": "Matching complete cache can be reused",
+      "passed": true
+    },
+    {
+      "name": "Cache rejects changed source_sha256",
+      "passed": true
+    },
+    {
+      "name": "Cache rejects changed configuration",
+      "passed": true
+    },
+    {
+      "name": "Cache rejects changed inputs",
+      "passed": true
+    },
+    {
+      "name": "Cache rejects modified saved output",
+      "passed": true
+    },
+    {
+      "name": "Convergence driver rejects stale-source completion",
+      "passed": true
+    },
+    {
+      "name": "Global driver rejects stale-source completion",
+      "passed": true
+    },
+    {
+      "name": "Fresh public driver result reused only when identity matches",
+      "passed": true
+    }
+  ],
+  "source_sha256": {
+    "accelerated.py": "b4d1fb2a44464b389e487de6dc62eed4b2cfc6b7d443bdf1669afbf194fd8c3d",
+    "audit_solvers.py": "38a9bc11a75a72b2825e7b32e0e139942690f72708833595ec4670ed73aa2827",
+    "baseline.py": "c45d10efe23ae2dbf9afaa2768be85399143fd8c52f8e559d1c3241aafdab597",
+    "channel.py": "9b0347264a1b9b8480b7db34acf9bd265809a7010a68f2176b9931a48daf7981",
+    "estimators.py": "5a3cf374360c630917c8b88a342cbacfc353e330f985de2c4824dbd80bca33e0",
+    "existing.py": "74bd98c2e9202570773328b97d72af0194764e67bb203937ba14ae1b36b761ab",
+    "global_solution.py": "c6db0f316d771d88af78a777d131a76304ca42ce23a99734e98d181847203e00",
+    "large_simulation.py": "3f047fd703fda3fc14e92afa728023f1edcc6637cb1bf68112ded56d299f67e0",
+    "omd_tolerance.py": "8ba920d56dc5be17a5ff13c2a86f38fca662c45c5e6d719f3c8400e88fb0982c",
+    "projections.py": "7b4b855890455ab66747c8b277c6b57fb3d933901c771868e1196c4416b3a222",
+    "run_convergence.py": "0a737b5bc765704693030cfb8086a6c6d52125b8c661f378bc902cf45173c50f",
+    "run_global_benchmark.py": "6b321aaba47e37d2f92d2749f43f5a04f8a04c686f4cb66660e9763d26a4f40d",
+    "run_identity.py": "f4dceb32eba5aa91d821194cc6b715b4065c380197c973467ee8dd9ec8316d12",
+    "runtime_io.py": "02834f4e72ab45d6e4c19541fbccd6b2e579787e705dca553e45ccf31b4aad2a",
+    "sampling.py": "755edf09731e44bb4553db57ba2773ba7e3ac3baa17e12a4b942d0b6bb07520c",
+    "solvers.py": "05076a16fee5a3fdfa75d809dee9e847a92f38bc5fb8cb56ba9cdfb56afc2a3e",
+    "clifford_representatives.npz": "a10f9e2a396924b9582be6ce1e72d5868f5368cb0b272593c9fe7637b6675631"
+  },
+  "tight_omd": {
+    "eta": 1.25e-09,
+    "iterations": 200,
+    "gap": 1.5773282879827377e-07,
+    "original_objective": 0.26958230311496933,
+    "old_original_objective": 0.26958271619622276
+  }
+}

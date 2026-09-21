@@ -1,0 +1,14 @@
+Main paper figures written to /Users/avatar/.codex/.chatgpt-projects/g-p-6a6939ca50c08191a6c67115e86a15f6/output/minimax_release_2026-09-20/github/MinimaxQuantumStateTomography/simulations/publication_plotting/generated
+mkdir -p failed for path /Users/avatar/.matplotlib: [Errno 1] Operation not permitted: '/Users/avatar/.matplotlib'
+Matplotlib created a temporary cache directory at /var/folders/xb/bnrjmy8501s_3py03xn0n3d80000gn/T/matplotlib-9qqp7qkd because there was an issue with the default path (/Users/avatar/.matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Matplotlib is building the font cache; this may take a moment.
+Block comparison written to /Users/avatar/.codex/.chatgpt-projects/g-p-6a6939ca50c08191a6c67115e86a15f6/output/minimax_release_2026-09-20/github/MinimaxQuantumStateTomography/simulations/publication_plotting/generated
+mkdir -p failed for path /Users/avatar/.matplotlib: [Errno 1] Operation not permitted: '/Users/avatar/.matplotlib'
+Matplotlib created a temporary cache directory at /var/folders/xb/bnrjmy8501s_3py03xn0n3d80000gn/T/matplotlib-ammuwxun because there was an issue with the default path (/Users/avatar/.matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Matplotlib is building the font cache; this may take a moment.
+{
+  "default_fits": 180,
+  "plotted_settings": 36,
+  "source_sha256": "7a5dc6e5826d457058c6be258518fbf4bd9868ba5fe4427b639f56fc320c82ba",
+  "output": "/Users/avatar/.codex/.chatgpt-projects/g-p-6a6939ca50c08191a6c67115e86a15f6/output/minimax_release_2026-09-20/github/MinimaxQuantumStateTomography/simulations/publication_plotting/generated/fresh_reconstruction_comparison.pdf"
+}

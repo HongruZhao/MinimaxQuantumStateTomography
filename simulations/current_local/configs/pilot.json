@@ -1,0 +1,48 @@
+{
+  "name": "pilot",
+  "repetitions": 1,
+  "cases": [
+    {
+      "n": 4,
+      "k": 2,
+      "family": "rank8_diagonal",
+      "sizes": [
+        256,
+        65536,
+        1048576,
+        4194304
+      ]
+    },
+    {
+      "n": 4,
+      "k": 2,
+      "family": "polynomial_rotated",
+      "sizes": [
+        256,
+        65536,
+        1048576,
+        4194304
+      ]
+    },
+    {
+      "n": 4,
+      "k": 4,
+      "family": "rank8_rotated",
+      "sizes": [
+        256,
+        65536,
+        1048576,
+        4194304
+      ]
+    },
+    {
+      "n": 8,
+      "k": 2,
+      "family": "rank8_diagonal",
+      "sizes": [
+        65536,
+        262144
+      ]
+    }
+  ]
+}
