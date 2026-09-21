@@ -1,7 +1,7 @@
 Minimax Quantum State Tomography
 Copyright 2026 Hongru Zhao
 
-Project contributions are licensed under the GNU General Public License, version 3.
+Project contributions are licensed under the GNU General Public License, version 3 only (GPL-3.0-only).
 This project depends on Lean and Mathlib; their respective licenses and
 third-party notices remain applicable. The focused GitHub source distribution
 contains no vendored SLT modules. The full Zenodo distribution includes an
