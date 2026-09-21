@@ -7,7 +7,7 @@ This repository contains the Lean 4 proofs of **Theorem 3** and **Corollary 4** 
 An unknown state belongs to
 
 ```math
-\mathcal D_d=\{\rho\in\mathbb C^{d\times d}:\rho\succeq0,\ \operatorname{tr}\rho=1\},\qquad d=2^n.
+\mathcal D_d=\{\rho\in\mathbb C^{d\times d}:\rho\succeq0,\ \mathrm{tr}\,\rho=1\},\qquad d=2^n.
 ```
 
 We measure each of $T\ge1$ independent copies separately. On each copy, two layers of independent uniform Clifford gates act on a ring of $n$ qubits, with even block size $k\mid n$ and a shift of $k/2$ between layers. Computational basis measurement returns $b_t$; the recorded projector is $B_t=U_t^*|b_t\rangle\langle b_t|U_t$. Outcomes follow the Born rule. Measurement choices do not depend on earlier outcomes.
@@ -25,8 +25,8 @@ Loss is the **full trace norm** $\|\widehat\rho-\rho\|_{\mathrm{tr}}$. The unres
 Define the measurement channel and calibrated score by
 
 ```math
-\mathcal M(A)=\mathbb E_U\sum_b\operatorname{tr}(AB_{U,b})B_{U,b},\quad
-\mathcal L(A)=(d+1)\mathcal M(A)-\operatorname{tr}(A)I,\quad
+\mathcal M(A)=\mathbb E_U\sum_b\mathrm{tr}(AB_{U,b})B_{U,b},\quad
+\mathcal L(A)=(d+1)\mathcal M(A)-\mathrm{tr}(A)I,\quad
 \overline Y_T=\frac1T\sum_{t=1}^T((d+1)B_t-I).
 ```
 
@@ -62,7 +62,7 @@ c_\alpha r_{\alpha,L}(d,T)
 
 Here $c_\alpha>0$ depends only on $\alpha$ and $C>0$ is universal, possibly different for the two estimators.
 
-**Corollary 4.** For $\mathcal D_{d,r}=\{\rho\in\mathcal D_d:\operatorname{rank}(\rho)\le r\}$ and $1\le r\le d$,
+**Corollary 4.** For $\mathcal D_{d,r}=\{\rho\in\mathcal D_d:\mathrm{rank}(\rho)\le r\}$ and $1\le r\le d$,
 
 ```math
 c\min\{1,r\sqrt{d/T}\}
